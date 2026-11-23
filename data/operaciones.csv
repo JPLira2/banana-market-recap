@@ -1,0 +1,2380 @@
+t,lado,equipo,nombre,bananas,acciones,precio_pct,quien,comision
+2026-11-21T13:56:38Z,compra,team-20,World UI,15,2228,0.688,Decisión en vivo,1
+2026-11-21T13:56:39Z,compra,team-19,Branchpoint,15,2227,0.688,Decisión en vivo,1
+2026-11-21T13:56:39Z,compra,team-32,Bifurca,15,2221,0.69,Decisión en vivo,1
+2026-11-21T13:56:40Z,compra,team-30,Sculptor,15,2213,0.692,Decisión en vivo,1
+2026-11-21T13:56:40Z,compra,team-45,Audem,15,2206,0.694,Decisión en vivo,1
+2026-11-21T13:56:41Z,compra,team-12,Puente,15,2138,0.714,Decisión en vivo,1
+2026-11-21T13:56:41Z,compra,team-22,root,15,2129,0.717,Decisión en vivo,1
+2026-11-21T13:56:42Z,compra,team-28,What If Chile,15,2131,0.717,Decisión en vivo,1
+2026-11-21T13:56:43Z,compra,team-35,Agent Rooms,15,2128,0.717,Decisión en vivo,1
+2026-11-21T13:56:43Z,compra,team-7,Reaper,15,2087,0.73,Decisión en vivo,1
+2026-11-21T13:56:44Z,compra,team-43,Cachai,15,2079,0.733,Decisión en vivo,1
+2026-11-21T13:56:45Z,compra,team-21,Rigo,15,1849,0.816,Decisión en vivo,1
+2026-11-21T13:56:45Z,compra,team-27,Vigente,15,1214,1.211,Decisión en vivo,1
+2026-11-21T13:56:46Z,compra,team-4,VIAZ,15,888,1.634,Decisión en vivo,1
+2026-11-21T13:56:46Z,compra,team-18,ADverse,15,777,1.857,Decisión en vivo,1
+2026-11-21T13:56:47Z,compra,team-15,Caudales,15,729,1.976,Decisión en vivo,1
+2026-11-21T13:56:48Z,compra,team-36,chameleonmode.app,15,677,2.123,Decisión en vivo,1
+2026-11-21T13:56:48Z,compra,team-39,Bicho,15,579,2.473,Decisión en vivo,1
+2026-11-21T13:56:49Z,compra,team-26,Viridis,15,531,2.694,Decisión en vivo,1
+2026-11-21T13:56:50Z,compra,team-5,Krylov,15,482,2.956,Decisión en vivo,1
+2026-11-21T13:56:50Z,compra,team-11,Montu,10,285,3.187,Decisión en vivo,1
+2026-11-21T13:56:51Z,compra,team-33,Aterriza,10,268,3.388,Decisión en vivo,1
+2026-11-21T13:56:52Z,compra,team-24,mosAIc,10,252,3.597,Decisión en vivo,1
+2026-11-21T13:56:52Z,compra,team-31,Sideband,10,195,4.647,Decisión en vivo,1
+2026-11-21T13:56:53Z,compra,team-44,Myo,10,178,5.067,Decisión en vivo,1
+2026-11-21T13:56:53Z,compra,team-37,Kuwü,10,143,6.286,Decisión en vivo,1
+2026-11-21T13:56:54Z,compra,team-17,Vigilia,10,135,6.691,Decisión en vivo,1
+2026-11-21T13:56:55Z,compra,team-25,Immune,10,80,11.276,Decisión en vivo,1
+2026-11-21T13:56:55Z,compra,team-9,Sub50,10,73,12.222,Decisión en vivo,1
+2026-11-21T13:59:31Z,compra,team-42,Dendrita,20,2995,0.716,Motor automático,1
+2026-11-21T13:59:32Z,compra,team-48,Nodomics,20,2986,0.718,Motor automático,1
+2026-11-21T13:59:33Z,compra,team-40,Grifter,20,2971,0.721,Motor automático,1
+2026-11-21T13:59:34Z,compra,team-16,Agora,20,2886,0.74,Motor automático,1
+2026-11-21T13:59:35Z,compra,team-46,Mayday,20,2834,0.752,Motor automático,1
+2026-11-21T13:59:37Z,compra,team-23,TRAZADA,20,2788,0.763,Motor automático,1
+2026-11-21T13:59:38Z,compra,team-29,Bando,20,2777,0.766,Motor automático,1
+2026-11-21T13:59:39Z,compra,team-34,Drena,20,2774,0.767,Motor automático,1
+2026-11-21T13:59:40Z,compra,team-6,SwarmWatch,20,2778,0.766,Motor automático,1
+2026-11-21T13:59:41Z,compra,team-41,Yunta,20,2779,0.765,Motor automático,1
+2026-11-21T13:59:42Z,compra,team-20,World UI,20,2602,0.811,Motor automático,1
+2026-11-21T13:59:43Z,compra,team-19,Branchpoint,20,2603,0.811,Motor automático,1
+2026-11-21T13:59:44Z,compra,team-32,Bifurca,20,2598,0.813,Motor automático,1
+2026-11-21T13:59:46Z,compra,team-30,Sculptor,20,2592,0.814,Motor automático,1
+2026-11-21T13:59:47Z,compra,team-45,Audem,20,2580,0.818,Motor automático,1
+2026-11-21T13:59:48Z,compra,team-12,Puente,20,2515,0.837,Motor automático,1
+2026-11-21T13:59:49Z,compra,team-22,root,20,2507,0.839,Motor automático,1
+2026-11-21T13:59:50Z,compra,team-28,What If Chile,20,2509,0.838,Motor automático,1
+2026-11-21T13:59:51Z,compra,team-35,Agent Rooms,20,2507,0.839,Motor automático,1
+2026-11-21T13:59:52Z,compra,team-7,Reaper,20,2469,0.85,Motor automático,1
+2026-11-21T13:59:54Z,compra,team-48,Nodomics,20,2457,0.854,Motor automático,1
+2026-11-21T13:59:55Z,compra,team-42,Dendrita,20,2447,0.857,Motor automático,1
+2026-11-21T13:59:56Z,compra,team-7,Reaper,20,4597,0.497,Motor automático,1
+2026-11-21T13:59:58Z,compra,team-7,Reaper,20,3320,0.655,Motor automático,1
+2026-11-21T13:59:59Z,compra,team-7,Reaper,20,2601,0.812,Motor automático,1
+2026-11-21T14:00:00Z,compra,team-40,Grifter,20,2449,0.857,Motor automático,1
+2026-11-21T14:00:01Z,compra,team-16,Agora,20,2393,0.875,Motor automático,1
+2026-11-21T14:00:02Z,compra,team-46,Mayday,20,2358,0.887,Motor automático,1
+2026-11-21T14:08:20Z,venta,team-7,Reaper,40,6783,0.472,Decisión en vivo,1
+2026-11-21T14:08:22Z,venta,team-46,Mayday,21,2934,0.713,Decisión en vivo,1
+2026-11-21T14:08:23Z,venta,team-48,Nodomics,18,2567,0.706,Decisión en vivo,1
+2026-11-21T14:08:25Z,venta,team-42,Dendrita,18,2567,0.707,Decisión en vivo,1
+2026-11-21T14:12:49Z,compra,team-7,Reaper,20,3689,0.598,Motor automático,1
+2026-11-21T14:12:50Z,compra,team-7,Reaper,20,2821,0.755,Motor automático,1
+2026-11-21T14:12:51Z,compra,team-42,Dendrita,20,2427,0.864,Motor automático,1
+2026-11-21T14:15:04Z,compra,team-42,Dendrita,20,3360,0.648,Motor automático,1
+2026-11-21T14:15:05Z,compra,team-42,Dendrita,20,2625,0.805,Motor automático,1
+2026-11-21T14:15:06Z,compra,team-48,Nodomics,20,2429,0.863,Motor automático,1
+2026-11-21T14:15:07Z,compra,team-46,Mayday,20,2405,0.871,Motor automático,1
+2026-11-21T14:15:08Z,compra,team-7,Reaper,20,2295,0.909,Motor automático,1
+2026-11-21T14:15:09Z,compra,team-23,TRAZADA,20,2276,0.915,Motor automático,1
+2026-11-21T14:16:36Z,venta,team-42,Dendrita,32,5272,0.517,Decisión en vivo,1
+2026-11-21T14:16:36Z,venta,team-7,Reaper,25,3522,0.681,Decisión en vivo,1
+2026-11-21T14:16:37Z,venta,team-46,Mayday,22,3141,0.673,Decisión en vivo,1
+2026-11-21T14:16:38Z,venta,team-16,Agora,20,2842,0.712,Decisión en vivo,1
+2026-11-21T14:16:38Z,venta,team-48,Nodomics,20,2879,0.684,Decisión en vivo,1
+2026-11-21T14:16:39Z,venta,team-23,TRAZADA,19,2512,0.752,Decisión en vivo,1
+2026-11-21T14:16:40Z,venta,team-40,Grifter,18,2628,0.713,Decisión en vivo,1
+2026-11-21T14:16:40Z,venta,team-45,Audem,12,1914,0.714,Decisión en vivo,1
+2026-11-21T14:16:41Z,venta,team-35,Agent Rooms,12,1854,0.742,Decisión en vivo,1
+2026-11-21T14:16:42Z,venta,team-28,What If Chile,12,1856,0.741,Decisión en vivo,1
+2026-11-21T14:16:42Z,venta,team-30,Sculptor,12,1922,0.712,Decisión en vivo,1
+2026-11-21T14:16:43Z,venta,team-32,Bifurca,12,1927,0.71,Decisión en vivo,1
+2026-11-21T14:16:44Z,venta,team-22,root,12,1854,0.743,Decisión en vivo,1
+2026-11-21T14:16:44Z,venta,team-19,Branchpoint,12,1932,0.709,Decisión en vivo,1
+2026-11-21T14:16:45Z,venta,team-12,Puente,12,1861,0.741,Decisión en vivo,1
+2026-11-21T14:16:46Z,venta,team-20,World UI,12,1932,0.71,Decisión en vivo,1
+2026-11-21T14:16:46Z,venta,team-41,Yunta,11,1869,0.673,Decisión en vivo,1
+2026-11-21T14:16:59Z,venta,team-7,Reaper,17,3169,0.535,Motor automático,1
+2026-11-21T14:18:59Z,compra,team-46,Mayday,20,2530,0.832,Motor automático,1
+2026-11-21T14:19:00Z,compra,team-42,Dendrita,20,2515,0.837,Motor automático,1
+2026-11-21T14:19:02Z,compra,team-48,Nodomics,20,2511,0.838,Motor automático,1
+2026-11-21T14:19:03Z,compra,team-20,World UI,20,2463,0.852,Motor automático,1
+2026-11-21T14:19:03Z,compra,team-19,Branchpoint,20,2463,0.852,Motor automático,1
+2026-11-21T14:19:05Z,compra,team-32,Bifurca,20,2458,0.854,Motor automático,1
+2026-11-21T14:19:06Z,compra,team-30,Sculptor,20,2453,0.856,Motor automático,1
+2026-11-21T14:19:51Z,compra,team-40,Grifter,20,2443,0.859,Motor automático,1
+2026-11-21T14:19:52Z,compra,team-45,Audem,20,2446,0.858,Motor automático,1
+2026-11-21T14:19:53Z,compra,team-16,Agora,20,2440,0.86,Motor automático,1
+2026-11-21T14:19:54Z,compra,team-12,Puente,20,2389,0.876,Motor automático,1
+2026-11-21T14:19:55Z,compra,team-22,root,20,2383,0.878,Motor automático,1
+2026-11-21T14:19:56Z,compra,team-28,What If Chile,20,2384,0.878,Motor automático,1
+2026-11-21T14:19:57Z,compra,team-35,Agent Rooms,20,2383,0.878,Motor automático,1
+2026-11-21T14:19:59Z,compra,team-41,Yunta,20,2377,0.88,Motor automático,1
+2026-11-21T14:19:59Z,compra,team-23,TRAZADA,20,2349,0.89,Motor automático,1
+2026-11-21T14:20:01Z,compra,team-29,Bando,20,2300,0.907,Motor automático,1
+2026-11-21T14:20:02Z,compra,team-34,Drena,20,2298,0.908,Motor automático,1
+2026-11-21T14:20:03Z,compra,team-6,SwarmWatch,20,2299,0.907,Motor automático,1
+2026-11-21T14:20:04Z,compra,team-1,Cortafuego,20,2267,0.919,Motor automático,1
+2026-11-21T14:20:05Z,compra,team-7,Reaper,20,2265,0.919,Motor automático,1
+2026-11-21T14:20:07Z,compra,team-43,Cachai,20,2264,0.92,Motor automático,1
+2026-11-21T14:20:08Z,compra,team-8,Prompt Arena,20,2251,0.925,Motor automático,1
+2026-11-21T14:33:52Z,venta,team-30,Sculptor,66,3201,1.925,Motor automático,2
+2026-11-21T14:33:54Z,compra,team-21,Rigo,20,2388,0.877,Motor automático,1
+2026-11-21T14:33:55Z,compra,team-46,Mayday,20,2293,0.909,Motor automático,1
+2026-11-21T14:33:56Z,compra,team-42,Dendrita,20,2291,0.91,Motor automático,1
+2026-11-21T15:13:26Z,venta,team-30,Sculptor,26,1067,2.591,Motor automático,1
+2026-11-21T15:13:28Z,compra,team-12,Puente,20,2343,0.892,Motor automático,1
+2026-11-21T15:13:29Z,compra,team-41,Yunta,20,2341,0.893,Motor automático,1
+2026-11-21T15:17:28Z,venta,team-30,Sculptor,24,1068,2.381,Motor automático,1
+2026-11-21T15:17:29Z,compra,team-22,root,20,2309,0.904,Motor automático,1
+2026-11-21T15:24:54Z,venta,team-34,Drena,85,3389,2.301,Motor automático,2
+2026-11-21T15:24:55Z,compra,team-48,Nodomics,20,2364,0.884,Motor automático,1
+2026-11-21T15:24:56Z,compra,team-19,Branchpoint,20,2348,0.89,Motor automático,1
+2026-11-21T15:24:58Z,compra,team-20,World UI,20,2347,0.891,Motor automático,1
+2026-11-21T15:24:59Z,compra,team-1,Cortafuego,20,2204,0.942,Motor automático,1
+2026-11-21T15:25:00Z,compra,team-32,Bifurca,20,2207,0.942,Motor automático,1
+2026-11-21T15:25:07Z,venta,team-34,Drena,63,3389,1.731,Motor automático,2
+2026-11-21T15:25:09Z,compra,team-7,Reaper,20,2195,0.946,Motor automático,1
+2026-11-21T15:25:10Z,compra,team-43,Cachai,20,2194,0.946,Motor automático,1
+2026-11-21T15:25:12Z,compra,team-40,Grifter,20,2188,0.949,Motor automático,1
+2026-11-21T15:28:39Z,venta,team-46,Mayday,216,4768,3.875,Motor automático,4
+2026-11-21T15:28:40Z,compra,team-45,Audem,20,2322,0.899,Motor automático,1
+2026-11-21T15:28:41Z,compra,team-8,Prompt Arena,20,2308,0.904,Motor automático,1
+2026-11-21T15:28:42Z,compra,team-16,Agora,20,2394,0.874,Motor automático,1
+2026-11-21T15:28:43Z,compra,team-21,Rigo,20,2374,0.881,Motor automático,1
+2026-11-21T15:28:44Z,compra,team-14,santiaguito.cl,20,2222,0.936,Motor automático,1
+2026-11-21T15:28:45Z,compra,team-28,What If Chile,20,2233,0.932,Motor automático,1
+2026-11-21T15:28:46Z,compra,team-35,Agent Rooms,20,2232,0.932,Motor automático,1
+2026-11-21T15:28:47Z,compra,team-23,TRAZADA,20,2231,0.932,Motor automático,1
+2026-11-21T15:28:48Z,compra,team-2,MESH,20,2210,0.94,Motor automático,1
+2026-11-21T15:28:49Z,compra,team-3,Hoodini,20,2209,0.941,Motor automático,1
+2026-11-21T15:28:50Z,compra,team-29,Bando,20,2205,0.942,Motor automático,1
+2026-11-21T15:28:51Z,compra,team-13,AIgis,20,2363,0.885,Motor automático,1
+2026-11-21T15:28:57Z,venta,team-46,Mayday,101,4768,1.814,Motor automático,2
+2026-11-21T15:28:59Z,compra,team-1,Cortafuego,20,2308,0.904,Motor automático,1
+2026-11-21T15:29:00Z,compra,team-7,Reaper,20,2308,0.904,Motor automático,1
+2026-11-21T15:29:01Z,compra,team-43,Cachai,20,2307,0.904,Motor automático,1
+2026-11-21T15:29:03Z,compra,team-8,Prompt Arena,20,2277,0.915,Motor automático,1
+2026-11-21T15:29:04Z,compra,team-38,Minga,20,2272,0.917,Motor automático,1
+2026-11-21T15:31:54Z,venta,team-39,Bicho,23,289,8.707,Motor automático,1
+2026-11-21T15:31:55Z,venta,team-14,santiaguito.cl,117,1704,6.671,Motor automático,2
+2026-11-21T15:31:58Z,compra,team-21,Rigo,20,2756,0.771,Motor automático,1
+2026-11-21T15:31:59Z,compra,team-27,Vigente,20,2756,0.771,Motor automático,1
+2026-11-21T15:32:01Z,compra,team-6,SwarmWatch,20,2638,0.801,Motor automático,1
+2026-11-21T15:32:02Z,compra,team-2,MESH,20,2503,0.84,Motor automático,1
+2026-11-21T15:32:03Z,compra,team-3,Hoodini,20,2501,0.841,Motor automático,1
+2026-11-21T15:32:05Z,compra,team-13,AIgis,20,2451,0.856,Motor automático,1
+2026-11-21T15:32:06Z,compra,team-38,Minga,20,2379,0.88,Motor automático,1
+2026-11-21T15:32:08Z,compra,team-27,Vigente,20,2263,0.92,Motor automático,1
+2026-11-21T15:35:00Z,venta,team-10,Factum,39,1272,3.098,Motor automático,1
+2026-11-21T15:35:01Z,compra,team-4,VIAZ,20,2177,0.953,Motor automático,1
+2026-11-21T15:35:02Z,compra,team-2,MESH,20,2123,0.975,Motor automático,1
+2026-11-21T15:35:54Z,venta,team-39,Bicho,21,290,8.15,Motor automático,1
+2026-11-21T15:35:55Z,venta,team-14,santiaguito.cl,98,1705,5.609,Motor automático,2
+2026-11-21T15:35:56Z,compra,team-3,Hoodini,20,2113,0.979,Motor automático,1
+2026-11-21T15:35:57Z,compra,team-38,Minga,20,2024,1.019,Motor automático,1
+2026-11-21T15:35:58Z,compra,team-15,Caudales,20,1961,1.049,Motor automático,1
+2026-11-21T15:35:59Z,compra,team-4,VIAZ,20,1848,1.108,Motor automático,1
+2026-11-21T15:36:00Z,compra,team-36,chameleonmode.app,20,1698,1.199,Motor automático,1
+2026-11-21T15:36:01Z,compra,team-15,Caudales,20,1693,1.202,Motor automático,1
+2026-11-21T15:36:42Z,venta,team-10,Factum,5,1272,0.582,Motor automático,1
+2026-11-21T15:42:32Z,venta,team-2,MESH,132,4017,2.928,Motor automático,3
+2026-11-21T15:42:33Z,compra,team-4,VIAZ,20,1940,1.059,Motor automático,1
+2026-11-21T15:42:34Z,compra,team-36,chameleonmode.app,20,1804,1.133,Motor automático,1
+2026-11-21T15:42:36Z,compra,team-15,Caudales,20,1784,1.145,Motor automático,1
+2026-11-21T15:42:37Z,compra,team-18,ADverse,20,1686,1.207,Motor automático,1
+2026-11-21T15:42:38Z,compra,team-4,VIAZ,20,1665,1.221,Motor automático,1
+2026-11-21T15:42:40Z,compra,team-5,Krylov,20,1662,1.223,Motor automático,1
+2026-11-21T15:42:41Z,compra,team-26,Viridis,20,1597,1.269,Motor automático,1
+2026-11-21T15:42:42Z,compra,team-36,chameleonmode.app,20,1568,1.291,Motor automático,1
+2026-11-21T15:43:06Z,venta,team-2,MESH,42,4017,0.928,Motor automático,1
+2026-11-21T15:43:07Z,compra,team-15,Caudales,20,1519,1.33,Motor automático,1
+2026-11-21T15:43:09Z,compra,team-18,ADverse,20,1446,1.393,Motor automático,1
+2026-11-21T15:45:49Z,venta,team-17,Vigilia,13,67,22.862,Motor automático,1
+2026-11-21T15:45:51Z,compra,team-27,Vigente,20,1805,1.132,Motor automático,1
+2026-11-21T15:46:55Z,venta,team-17,Vigilia,11,68,20.016,Motor automático,1
+2026-11-21T16:10:02Z,venta,team-18,ADverse,85,1954,4.232,Motor automático,2
+2026-11-21T16:10:07Z,compra,team-46,Mayday,20,1963,1.048,Motor automático,1
+2026-11-21T16:10:08Z,compra,team-5,Krylov,20,1821,1.123,Motor automático,1
+2026-11-21T16:10:10Z,compra,team-10,Factum,20,1806,1.132,Motor automático,1
+2026-11-21T16:10:11Z,compra,team-30,Sculptor,20,1769,1.154,Motor automático,1
+2026-11-21T16:10:13Z,compra,team-36,chameleonmode.app,20,1734,1.176,Motor automático,1
+2026-11-21T16:14:32Z,venta,team-18,ADverse,80,1955,3.987,Motor automático,2
+2026-11-21T16:14:35Z,compra,team-11,Montu,20,1771,1.153,Motor automático,1
+2026-11-21T16:14:36Z,compra,team-46,Mayday,20,1755,1.162,Motor automático,1
+2026-11-21T16:14:38Z,compra,team-33,Aterriza,20,1714,1.188,Motor automático,1
+2026-11-21T16:14:40Z,compra,team-11,Montu,20,1549,1.306,Motor automático,1
+2026-11-21T16:27:30Z,venta,team-30,Sculptor,21,884,2.579,Motor automático,1
+2026-11-21T16:27:32Z,compra,team-5,Krylov,20,1585,1.278,Motor automático,1
+2026-11-21T16:30:24Z,venta,team-30,Sculptor,64,885,7.235,Motor automático,1
+2026-11-21T16:30:25Z,compra,team-46,Mayday,20,1867,1.098,Motor automático,1
+2026-11-21T16:30:26Z,compra,team-33,Aterriza,20,1829,1.119,Motor automático,1
+2026-11-21T16:30:27Z,compra,team-2,MESH,20,1811,1.129,Motor automático,1
+2026-11-21T16:30:28Z,compra,team-11,Montu,20,1678,1.212,Motor automático,1
+2026-11-21T16:37:51Z,venta,team-32,Bifurca,137,3778,3.247,Motor automático,3
+2026-11-21T16:37:53Z,compra,team-5,Krylov,20,1557,1.299,Motor automático,1
+2026-11-21T16:37:54Z,compra,team-31,Sideband,20,1552,1.304,Motor automático,1
+2026-11-21T16:37:55Z,compra,team-46,Mayday,20,1518,1.331,Motor automático,1
+2026-11-21T16:37:56Z,compra,team-33,Aterriza,20,1491,1.354,Motor automático,1
+2026-11-21T16:37:58Z,compra,team-2,MESH,20,1486,1.358,Motor automático,1
+2026-11-21T16:38:00Z,compra,team-10,Factum,20,1425,1.412,Motor automático,1
+2026-11-21T16:38:01Z,compra,team-11,Montu,20,1392,1.444,Motor automático,1
+2026-11-21T16:42:10Z,venta,team-32,Bifurca,111,3779,2.618,Motor automático,2
+2026-11-21T16:42:11Z,compra,team-31,Sideband,20,1446,1.393,Motor automático,1
+2026-11-21T16:42:12Z,compra,team-26,Viridis,20,1415,1.422,Motor automático,1
+2026-11-21T16:42:13Z,compra,team-33,Aterriza,20,1399,1.437,Motor automático,1
+2026-11-21T16:42:14Z,compra,team-2,MESH,20,1388,1.448,Motor automático,1
+2026-11-21T16:42:15Z,compra,team-24,mosAIc,20,1373,1.463,Motor automático,1
+2026-11-21T16:42:16Z,compra,team-44,Myo,20,1365,1.471,Motor automático,1
+2026-11-21T16:48:14Z,venta,team-23,TRAZADA,111,4174,2.319,Motor automático,2
+2026-11-21T16:48:16Z,compra,team-10,Factum,20,1338,1.499,Motor automático,1
+2026-11-21T16:48:17Z,compra,team-26,Viridis,20,1277,1.567,Motor automático,1
+2026-11-21T16:48:19Z,compra,team-33,Aterriza,20,1261,1.585,Motor automático,1
+2026-11-21T16:48:21Z,compra,team-2,MESH,20,1271,1.573,Motor automático,1
+2026-11-21T16:48:22Z,compra,team-24,mosAIc,20,1259,1.587,Motor automático,1
+2026-11-21T16:48:24Z,compra,team-44,Myo,20,1252,1.596,Motor automático,1
+2026-11-21T16:50:33Z,venta,team-23,TRAZADA,31,4175,0.678,Motor automático,1
+2026-11-21T16:50:34Z,compra,team-10,Factum,20,1199,1.662,Motor automático,1
+2026-11-21T16:50:36Z,compra,team-26,Viridis,20,1150,1.731,Motor automático,1
+2026-11-21T17:12:02Z,venta,team-24,mosAIc,114,1442,7.771,Motor automático,2
+2026-11-21T17:12:04Z,compra,team-37,Kuwü,20,2024,1.019,Motor automático,1
+2026-11-21T17:12:05Z,compra,team-10,Factum,20,1834,1.116,Motor automático,1
+2026-11-21T17:12:07Z,compra,team-37,Kuwü,20,1737,1.174,Motor automático,1
+2026-11-21T17:12:08Z,compra,team-26,Viridis,20,1657,1.226,Motor automático,1
+2026-11-21T17:12:10Z,compra,team-30,Sculptor,20,1526,1.324,Motor automático,1
+2026-11-21T17:12:11Z,compra,team-37,Kuwü,20,1524,1.326,Motor automático,1
+2026-11-21T17:16:03Z,venta,team-24,mosAIc,99,1442,6.768,Motor automático,2
+2026-11-21T17:16:05Z,compra,team-30,Sculptor,20,1369,1.467,Motor automático,1
+2026-11-21T17:16:07Z,compra,team-37,Kuwü,20,1367,1.469,Motor automático,1
+2026-11-21T17:16:08Z,compra,team-30,Sculptor,20,1232,1.621,Motor automático,1
+2026-11-21T17:16:10Z,compra,team-37,Kuwü,20,1231,1.623,Motor automático,1
+2026-11-21T17:16:12Z,compra,team-2,MESH,20,1212,1.647,Motor automático,1
+2026-11-21T17:20:01Z,venta,team-30,Sculptor,46,2063,2.176,Motor automático,1
+2026-11-21T17:20:03Z,compra,team-44,Myo,20,1201,1.661,Motor automático,1
+2026-11-21T17:20:05Z,compra,team-31,Sideband,20,1188,1.678,Motor automático,1
+2026-11-21T17:20:14Z,venta,team-30,Sculptor,59,1032,5.734,Motor automático,1
+2026-11-21T17:20:16Z,compra,team-44,Myo,20,1134,1.754,Motor automático,1
+2026-11-21T17:20:18Z,compra,team-31,Sideband,20,1122,1.771,Motor automático,1
+2026-11-21T17:20:19Z,compra,team-11,Montu,20,1072,1.85,Motor automático,1
+2026-11-21T17:20:21Z,compra,team-44,Myo,20,1040,1.904,Motor automático,1
+2026-11-21T17:24:57Z,venta,team-30,Sculptor,61,1032,5.899,Motor automático,1
+2026-11-21T17:24:58Z,compra,team-23,TRAZADA,20,2407,0.87,Motor automático,1
+2026-11-21T17:25:00Z,compra,team-23,TRAZADA,20,2007,1.027,Motor automático,1
+2026-11-21T17:25:01Z,compra,team-23,TRAZADA,20,1722,1.183,Motor automático,1
+2026-11-21T18:24:56Z,venta,team-33,Aterriza,296,3981,6.585,Motor automático,5
+2026-11-21T18:24:58Z,compra,team-23,TRAZADA,20,2122,0.976,Motor automático,1
+2026-11-21T18:24:59Z,compra,team-25,Immune,20,1238,1.613,Motor automático,1
+2026-11-21T18:25:00Z,compra,team-44,Myo,20,1151,1.729,Motor automático,1
+2026-11-21T18:25:01Z,compra,team-31,Sideband,20,1129,1.76,Motor automático,1
+2026-11-21T18:25:03Z,compra,team-25,Immune,20,1127,1.764,Motor automático,1
+2026-11-21T18:25:04Z,compra,team-31,Sideband,20,1035,1.913,Motor automático,1
+2026-11-21T18:25:05Z,compra,team-25,Immune,20,1034,1.916,Motor automático,1
+2026-11-21T18:25:07Z,compra,team-17,Vigilia,20,973,2.031,Motor automático,1
+2026-11-21T18:25:08Z,compra,team-25,Immune,20,954,2.068,Motor automático,1
+2026-11-21T18:25:09Z,compra,team-17,Vigilia,20,903,2.182,Motor automático,1
+2026-11-21T18:25:10Z,compra,team-25,Immune,20,887,2.22,Motor automático,1
+2026-11-21T18:25:11Z,compra,team-17,Vigilia,20,842,2.334,Motor automático,1
+2026-11-21T18:25:12Z,compra,team-25,Immune,20,828,2.371,Motor automático,1
+2026-11-21T18:25:14Z,compra,team-18,ADverse,20,810,2.422,Motor automático,1
+2026-11-21T18:25:15Z,compra,team-17,Vigilia,20,790,2.481,Motor automático,1
+2026-11-21T18:25:17Z,compra,team-25,Immune,20,778,2.518,Motor automático,1
+2026-11-21T18:26:00Z,venta,team-38,Minga,295,4211,6.143,Motor automático,5
+2026-11-21T18:26:02Z,compra,team-18,ADverse,20,795,2.466,Motor automático,1
+2026-11-21T18:26:03Z,compra,team-17,Vigilia,20,766,2.558,Motor automático,1
+2026-11-21T18:26:05Z,compra,team-14,santiaguito.cl,20,758,2.584,Motor automático,1
+2026-11-21T18:26:06Z,compra,team-25,Immune,20,750,2.608,Motor automático,1
+2026-11-21T18:26:08Z,compra,team-18,ADverse,20,734,2.665,Motor automático,1
+2026-11-21T18:26:09Z,compra,team-17,Vigilia,20,716,2.73,Motor automático,1
+2026-11-21T18:26:10Z,compra,team-14,santiaguito.cl,20,715,2.733,Motor automático,1
+2026-11-21T18:26:12Z,compra,team-18,ADverse,20,692,2.821,Motor automático,1
+2026-11-21T18:26:13Z,compra,team-17,Vigilia,20,679,2.875,Motor automático,1
+2026-11-21T18:26:14Z,compra,team-14,santiaguito.cl,20,678,2.878,Motor automático,1
+2026-11-21T18:26:16Z,compra,team-18,ADverse,20,712,2.745,Motor automático,1
+2026-11-21T18:26:18Z,compra,team-17,Vigilia,20,699,2.794,Motor automático,1
+2026-11-21T18:26:19Z,compra,team-14,santiaguito.cl,20,698,2.797,Motor automático,1
+2026-11-21T18:26:21Z,compra,team-18,ADverse,20,675,2.89,Motor automático,1
+2026-11-21T18:26:27Z,venta,team-33,Aterriza,188,3981,4.153,Motor automático,3
+2026-11-21T18:26:28Z,venta,team-38,Minga,16,4212,0.372,Motor automático,1
+2026-11-21T18:26:29Z,compra,team-17,Vigilia,20,650,2.999,Motor automático,1
+2026-11-21T18:26:31Z,compra,team-14,santiaguito.cl,20,649,3.002,Motor automático,1
+2026-11-21T18:26:32Z,compra,team-18,ADverse,20,629,3.097,Motor automático,1
+2026-11-21T18:26:33Z,compra,team-14,santiaguito.cl,20,618,3.15,Motor automático,1
+2026-11-21T18:26:34Z,compra,team-18,ADverse,20,599,3.245,Motor automático,1
+2026-11-21T18:26:36Z,compra,team-14,santiaguito.cl,20,589,3.298,Motor automático,1
+2026-11-21T18:26:37Z,compra,team-18,ADverse,20,573,3.393,Motor automático,1
+2026-11-21T18:26:38Z,compra,team-14,santiaguito.cl,20,563,3.446,Motor automático,1
+2026-11-21T18:26:39Z,compra,team-18,ADverse,20,548,3.54,Motor automático,1
+2026-11-21T18:26:41Z,compra,team-14,santiaguito.cl,20,540,3.593,Motor automático,1
+2026-11-21T18:26:42Z,compra,team-18,ADverse,20,526,3.687,Motor automático,1
+2026-11-21T18:26:43Z,compra,team-14,santiaguito.cl,20,518,3.74,Motor automático,1
+2026-11-21T18:26:49Z,venta,team-14,santiaguito.cl,100,3163,2.898,Motor automático,2
+2026-11-21T18:26:51Z,compra,team-24,mosAIc,20,405,4.763,Motor automático,1
+2026-11-21T18:26:53Z,compra,team-24,mosAIc,20,392,4.913,Motor automático,1
+2026-11-21T18:26:54Z,compra,team-24,mosAIc,20,380,5.063,Motor automático,1
+2026-11-21T18:26:56Z,compra,team-24,mosAIc,20,369,5.213,Motor automático,1
+2026-11-21T18:26:57Z,compra,team-24,mosAIc,20,359,5.363,Motor automático,1
+2026-11-21T18:26:59Z,compra,team-24,mosAIc,20,349,5.512,Motor automático,1
+2026-11-21T18:27:03Z,venta,team-24,mosAIc,57,1127,5.043,Motor automático,1
+2026-11-21T18:27:05Z,compra,team-30,Sculptor,20,326,5.902,Motor automático,1
+2026-11-21T18:27:07Z,compra,team-30,Sculptor,20,317,6.051,Motor automático,1
+2026-11-21T18:27:09Z,compra,team-30,Sculptor,20,310,6.199,Motor automático,1
+2026-11-21T18:27:14Z,venta,team-30,Sculptor,28,476,6.362,Motor automático,1
+2026-11-21T18:27:16Z,compra,team-32,Bifurca,20,248,7.72,Motor automático,1
+2026-11-21T18:28:16Z,venta,team-14,santiaguito.cl,56,3163,1.619,Motor automático,1
+2026-11-21T18:28:18Z,compra,team-32,Bifurca,20,244,7.831,Motor automático,1
+2026-11-21T18:28:19Z,compra,team-32,Bifurca,20,240,7.976,Motor automático,1
+2026-11-21T18:28:20Z,compra,team-32,Bifurca,20,236,8.122,Motor automático,1
+2026-11-21T18:28:24Z,venta,team-32,Bifurca,36,484,7.826,Motor automático,1
+2026-11-21T18:28:26Z,compra,team-39,Bicho,20,168,11.371,Motor automático,1
+2026-11-21T18:28:27Z,compra,team-39,Bicho,20,166,11.512,Motor automático,1
+2026-11-21T18:28:32Z,venta,team-39,Bicho,17,167,11.371,Motor automático,1
+2026-11-21T18:28:34Z,compra,team-9,Sub50,20,160,11.944,Motor automático,1
+2026-11-21T18:30:10Z,venta,team-18,ADverse,83,2552,3.074,Decisión en vivo,2
+2026-11-21T18:30:11Z,venta,team-17,Vigilia,63,2456,2.495,Decisión en vivo,2
+2026-11-21T18:30:12Z,venta,team-25,Immune,57,2686,1.987,Decisión en vivo,1
+2026-11-21T18:30:13Z,venta,team-31,Sideband,40,2683,1.401,Decisión en vivo,1
+2026-11-21T18:30:14Z,venta,team-11,Montu,38,2711,1.331,Decisión en vivo,1
+2026-11-21T18:30:15Z,compra,team-47,Alicanto,309,6019,6.341,Decisión en vivo,5
+2026-11-21T18:31:14Z,venta,team-30,Sculptor,27,477,6.039,Motor automático,1
+2026-11-21T18:31:15Z,venta,team-24,mosAIc,55,1127,4.842,Motor automático,1
+2026-11-21T18:31:16Z,compra,team-11,Montu,20,1340,1.497,Motor automático,1
+2026-11-21T18:31:17Z,compra,team-31,Sideband,20,1274,1.57,Motor automático,1
+2026-11-21T18:31:18Z,compra,team-11,Montu,20,1209,1.65,Motor automático,1
+2026-11-21T18:31:19Z,compra,team-31,Sideband,20,1155,1.723,Motor automático,1
+2026-11-21T18:32:27Z,venta,team-32,Bifurca,34,484,7.407,Motor automático,1
+2026-11-21T18:32:28Z,compra,team-25,Immune,20,921,2.141,Motor automático,1
+2026-11-21T18:32:29Z,compra,team-25,Immune,20,856,2.296,Motor automático,1
+2026-11-21T18:32:33Z,venta,team-39,Bicho,16,167,11.05,Motor automático,1
+2026-11-21T18:33:15Z,venta,team-25,Immune,42,2030,1.997,Decisión en vivo,1
+2026-11-21T18:33:16Z,venta,team-18,ADverse,39,1422,2.785,Decisión en vivo,1
+2026-11-21T18:33:17Z,venta,team-31,Sideband,33,2223,1.438,Decisión en vivo,1
+2026-11-21T18:33:17Z,venta,team-11,Montu,32,2275,1.373,Decisión en vivo,1
+2026-11-21T18:33:18Z,venta,team-44,Myo,30,2196,1.331,Decisión en vivo,1
+2026-11-21T18:33:19Z,venta,team-17,Vigilia,31,1368,2.284,Decisión en vivo,1
+2026-11-21T18:33:28Z,compra,team-44,Myo,20,1334,1.503,Motor automático,1
+2026-11-21T18:37:38Z,compra,team-47,Alicanto,100,3469,3.239,Decisión en vivo,2
+2026-11-21T18:37:59Z,venta,team-43,Cachai,100,4422,1.961,Motor automático,2
+2026-11-21T18:38:01Z,compra,team-11,Montu,20,1362,1.474,Motor automático,1
+2026-11-21T18:39:02Z,venta,team-43,Cachai,40,4422,0.801,Motor automático,1
+2026-11-21T18:39:04Z,compra,team-31,Sideband,20,1288,1.554,Motor automático,1
+2026-11-21T18:39:05Z,compra,team-44,Myo,20,1255,1.592,Motor automático,1
+2026-11-21T18:43:54Z,compra,team-34,Drena,100,1289,7.982,Decisión en vivo,2
+2026-11-21T18:43:59Z,venta,team-34,Drena,48,644,7.597,Motor automático,1
+2026-11-21T18:48:35Z,venta,team-6,SwarmWatch,69,4711,1.276,Motor automático,2
+2026-11-21T18:48:37Z,compra,team-11,Montu,20,1152,1.727,Motor automático,1
+2026-11-21T18:49:59Z,venta,team-6,SwarmWatch,31,4712,0.579,Motor automático,1
+2026-11-21T18:50:02Z,compra,team-31,Sideband,20,1087,1.827,Motor automático,1
+2026-11-21T18:53:08Z,compra,team-43,Cachai,210,7272,3.745,Decisión en vivo,4
+2026-11-21T18:58:38Z,venta,team-43,Cachai,52,7272,0.549,Decisión en vivo,1
+2026-11-21T19:05:12Z,venta,team-29,Bando,223,4244,4.593,Motor automático,4
+2026-11-21T19:05:14Z,compra,team-38,Minga,20,3387,0.643,Motor automático,1
+2026-11-21T19:05:15Z,compra,team-38,Minga,20,2642,0.8,Motor automático,1
+2026-11-21T19:05:17Z,compra,team-38,Minga,20,2167,0.957,Motor automático,1
+2026-11-21T19:05:18Z,compra,team-25,Immune,20,1509,1.338,Motor automático,1
+2026-11-21T19:07:44Z,venta,team-29,Bando,128,4245,2.66,Motor automático,3
+2026-11-21T19:07:46Z,compra,team-25,Immune,20,1322,1.515,Motor automático,1
+2026-11-21T19:07:47Z,compra,team-18,ADverse,20,1070,1.853,Motor automático,1
+2026-11-21T19:07:48Z,compra,team-14,santiaguito.cl,20,1052,1.884,Motor automático,1
+2026-11-21T19:07:49Z,compra,team-17,Vigilia,20,1012,1.954,Motor automático,1
+2026-11-21T19:07:51Z,compra,team-18,ADverse,20,982,2.013,Motor automático,1
+2026-11-21T19:07:52Z,compra,team-14,santiaguito.cl,20,971,2.033,Motor automático,1
+2026-11-21T19:07:53Z,compra,team-17,Vigilia,20,938,2.103,Motor automático,1
+2026-11-21T19:09:39Z,venta,team-9,Sub50,65,233,29.663,Decisión en vivo,2
+2026-11-21T19:09:59Z,compra,team-18,ADverse,20,962,2.053,Motor automático,1
+2026-11-21T19:10:00Z,compra,team-17,Vigilia,20,921,2.141,Motor automático,1
+2026-11-21T19:10:01Z,compra,team-14,santiaguito.cl,20,920,2.141,Motor automático,1
+2026-11-21T19:10:02Z,compra,team-18,ADverse,20,895,2.201,Motor automático,1
+2026-11-21T19:16:00Z,venta,team-38,Minga,76,4098,1.649,Motor automático,2
+2026-11-21T19:16:03Z,compra,team-17,Vigilia,20,940,2.099,Motor automático,1
+2026-11-21T19:16:04Z,compra,team-14,santiaguito.cl,20,941,2.096,Motor automático,1
+2026-11-21T19:16:06Z,compra,team-14,santiaguito.cl,20,875,2.248,Motor automático,1
+2026-11-21T19:16:07Z,compra,team-33,Aterriza,20,824,2.382,Motor automático,1
+2026-11-21T19:16:23Z,venta,team-38,Minga,116,2049,5.413,Motor automático,2
+2026-11-21T19:16:25Z,compra,team-14,santiaguito.cl,20,852,2.308,Motor automático,1
+2026-11-21T19:16:26Z,compra,team-33,Aterriza,20,809,2.426,Motor automático,1
+2026-11-21T19:16:27Z,compra,team-14,santiaguito.cl,20,791,2.48,Motor automático,1
+2026-11-21T19:16:28Z,compra,team-24,mosAIc,20,770,2.544,Motor automático,1
+2026-11-21T19:16:30Z,compra,team-33,Aterriza,20,754,2.595,Motor automático,1
+2026-11-21T19:16:31Z,compra,team-14,santiaguito.cl,20,745,2.626,Motor automático,1
+2026-11-21T19:16:36Z,venta,team-38,Minga,81,2049,3.818,Motor automático,2
+2026-11-21T19:16:38Z,compra,team-24,mosAIc,20,720,2.713,Motor automático,1
+2026-11-21T19:16:40Z,compra,team-33,Aterriza,20,707,2.764,Motor automático,1
+2026-11-21T19:16:41Z,compra,team-24,mosAIc,20,682,2.863,Motor automático,1
+2026-11-21T19:16:42Z,compra,team-33,Aterriza,20,669,2.914,Motor automático,1
+2026-11-21T19:20:44Z,venta,team-14,santiaguito.cl,92,3573,2.316,Motor automático,2
+2026-11-21T19:20:46Z,compra,team-24,mosAIc,20,647,3.012,Motor automático,1
+2026-11-21T19:20:47Z,compra,team-33,Aterriza,20,636,3.062,Motor automático,1
+2026-11-21T19:20:48Z,compra,team-24,mosAIc,20,616,3.16,Motor automático,1
+2026-11-21T19:20:50Z,compra,team-33,Aterriza,20,606,3.211,Motor automático,1
+2026-11-21T19:20:51Z,compra,team-24,mosAIc,20,587,3.308,Motor automático,1
+2026-11-21T19:28:01Z,venta,team-14,santiaguito.cl,65,3574,1.667,Motor automático,2
+2026-11-21T19:28:04Z,compra,team-33,Aterriza,20,592,3.286,Motor automático,1
+2026-11-21T19:28:06Z,compra,team-24,mosAIc,20,574,3.381,Motor automático,1
+2026-11-21T19:28:07Z,compra,team-33,Aterriza,20,565,3.434,Motor automático,1
+2026-11-21T19:28:08Z,compra,team-24,mosAIc,20,550,3.529,Motor automático,1
+2026-11-21T19:48:57Z,venta,team-24,mosAIc,267,2573,9.777,Motor automático,5
+2026-11-21T19:49:00Z,venta,team-34,Drena,49,645,7.86,Motor automático,1
+2026-11-21T19:49:02Z,compra,team-38,Minga,20,640,3.043,Motor automático,1
+2026-11-21T19:49:03Z,compra,team-38,Minga,20,609,3.197,Motor automático,1
+2026-11-21T19:49:05Z,compra,team-29,Bando,20,601,3.236,Motor automático,1
+2026-11-21T20:12:39Z,venta,team-20,World UI,160,3854,3.689,Motor automático,3
+2026-11-21T20:12:40Z,venta,team-8,Prompt Arena,161,4027,3.528,Motor automático,3
+2026-11-21T20:23:15Z,venta,team-20,World UI,105,3854,2.42,Motor automático,2
+2026-11-21T20:23:16Z,venta,team-8,Prompt Arena,106,4028,2.314,Motor automático,2
+2026-11-21T20:23:17Z,venta,team-38,Minga,24,915,2.765,Motor automático,1
+2026-11-21T20:25:05Z,compra,team-14,santiaguito.cl,20,1172,1.7,Motor automático,1
+2026-11-21T20:25:06Z,compra,team-14,santiaguito.cl,20,1069,1.856,Motor automático,1
+2026-11-21T20:25:07Z,compra,team-14,santiaguito.cl,20,983,2.011,Motor automático,1
+2026-11-21T20:25:08Z,compra,team-14,santiaguito.cl,20,910,2.166,Motor automático,1
+2026-11-21T20:25:09Z,compra,team-14,santiaguito.cl,20,847,2.321,Motor automático,1
+2026-11-21T20:25:10Z,compra,team-14,santiaguito.cl,20,792,2.475,Motor automático,1
+2026-11-21T20:25:12Z,compra,team-14,santiaguito.cl,20,744,2.629,Motor automático,1
+2026-11-21T20:25:13Z,compra,team-14,santiaguito.cl,20,702,2.783,Motor automático,1
+2026-11-21T20:25:14Z,compra,team-33,Aterriza,20,587,3.308,Motor automático,1
+2026-11-21T20:25:15Z,compra,team-33,Aterriza,20,561,3.461,Motor automático,1
+2026-11-21T20:25:16Z,compra,team-32,Bifurca,20,465,4.156,Motor automático,1
+2026-11-21T20:25:17Z,compra,team-32,Bifurca,20,448,4.308,Motor automático,1
+2026-11-21T20:25:18Z,compra,team-32,Bifurca,20,433,4.459,Motor automático,1
+2026-11-21T20:25:19Z,compra,team-32,Bifurca,20,419,4.61,Motor automático,1
+2026-11-21T20:25:20Z,compra,team-32,Bifurca,20,405,4.761,Motor automático,1
+2026-11-21T20:25:22Z,compra,team-6,SwarmWatch,20,396,4.866,Motor automático,1
+2026-11-21T20:25:23Z,compra,team-32,Bifurca,20,393,4.904,Motor automático,1
+2026-11-21T20:25:24Z,compra,team-29,Bando,20,394,4.897,Motor automático,1
+2026-11-21T20:25:26Z,compra,team-6,SwarmWatch,20,385,5.001,Motor automático,1
+2026-11-21T20:25:27Z,compra,team-32,Bifurca,20,382,5.038,Motor automático,1
+2026-11-21T20:25:28Z,compra,team-29,Bando,20,383,5.032,Motor automático,1
+2026-11-21T20:25:29Z,compra,team-6,SwarmWatch,20,375,5.135,Motor automático,1
+2026-11-21T20:25:35Z,venta,team-32,Bifurca,65,1472,4.469,Motor automático,2
+2026-11-21T20:25:36Z,venta,team-29,Bando,31,689,4.785,Motor automático,1
+2026-11-21T20:25:38Z,compra,team-6,SwarmWatch,20,361,5.33,Motor automático,1
+2026-11-21T20:25:39Z,compra,team-6,SwarmWatch,20,351,5.479,Motor automático,1
+2026-11-21T20:25:40Z,compra,team-39,Bicho,20,348,5.521,Motor automático,1
+2026-11-21T20:25:42Z,compra,team-6,SwarmWatch,20,342,5.62,Motor automático,1
+2026-11-21T20:25:43Z,compra,team-30,Sculptor,20,342,5.619,Motor automático,1
+2026-11-21T20:25:44Z,compra,team-39,Bicho,20,340,5.658,Motor automático,1
+2026-11-21T20:25:46Z,compra,team-6,SwarmWatch,20,334,5.756,Motor automático,1
+2026-11-21T20:25:47Z,compra,team-30,Sculptor,20,334,5.755,Motor automático,1
+2026-11-21T20:25:49Z,compra,team-39,Bicho,20,332,5.789,Motor automático,1
+2026-11-21T20:25:50Z,compra,team-6,SwarmWatch,20,326,5.886,Motor automático,1
+2026-11-21T20:25:51Z,compra,team-30,Sculptor,20,326,5.885,Motor automático,1
+2026-11-21T20:25:52Z,compra,team-39,Bicho,20,325,5.92,Motor automático,1
+2026-11-21T20:25:54Z,compra,team-6,SwarmWatch,20,319,6.016,Motor automático,1
+2026-11-21T20:25:55Z,compra,team-30,Sculptor,20,319,6.015,Motor automático,1
+2026-11-21T20:25:56Z,compra,team-39,Bicho,20,317,6.049,Motor automático,1
+2026-11-21T20:25:57Z,compra,team-6,SwarmWatch,20,312,6.145,Motor automático,1
+2026-11-21T20:25:58Z,compra,team-30,Sculptor,20,313,6.145,Motor automático,1
+2026-11-21T20:25:59Z,compra,team-39,Bicho,20,311,6.179,Motor automático,1
+2026-11-21T20:26:01Z,compra,team-6,SwarmWatch,20,306,6.274,Motor automático,1
+2026-11-21T20:26:02Z,compra,team-30,Sculptor,20,306,6.274,Motor automático,1
+2026-11-21T20:26:03Z,compra,team-39,Bicho,20,304,6.307,Motor automático,1
+2026-11-21T20:26:04Z,compra,team-6,SwarmWatch,20,300,6.403,Motor automático,1
+2026-11-21T20:26:05Z,compra,team-30,Sculptor,20,300,6.402,Motor automático,1
+2026-11-21T20:26:06Z,compra,team-39,Bicho,20,298,6.435,Motor automático,1
+2026-11-21T20:26:07Z,compra,team-6,SwarmWatch,20,294,6.53,Motor automático,1
+2026-11-21T20:26:09Z,compra,team-30,Sculptor,20,294,6.53,Motor automático,1
+2026-11-21T20:26:13Z,venta,team-30,Sculptor,74,1267,5.914,Motor automático,2
+2026-11-21T20:26:14Z,compra,team-39,Bicho,20,290,6.605,Motor automático,1
+2026-11-21T20:26:16Z,compra,team-6,SwarmWatch,20,286,6.7,Motor automático,1
+2026-11-21T20:26:17Z,compra,team-34,Drena,20,287,6.691,Motor automático,1
+2026-11-21T20:26:18Z,compra,team-39,Bicho,20,285,6.732,Motor automático,1
+2026-11-21T20:27:17Z,venta,team-38,Minga,20,915,2.403,Motor automático,1
+2026-11-21T20:27:17Z,venta,team-24,mosAIc,220,2573,8.025,Motor automático,4
+2026-11-21T20:27:19Z,compra,team-6,SwarmWatch,20,275,6.967,Motor automático,1
+2026-11-21T20:27:21Z,compra,team-34,Drena,20,276,6.958,Motor automático,1
+2026-11-21T20:27:22Z,compra,team-39,Bicho,20,274,6.999,Motor automático,1
+2026-11-21T20:27:23Z,compra,team-6,SwarmWatch,20,270,7.092,Motor automático,1
+2026-11-21T20:27:25Z,compra,team-34,Drena,20,271,7.083,Motor automático,1
+2026-11-21T20:27:26Z,compra,team-39,Bicho,20,269,7.124,Motor automático,1
+2026-11-21T20:27:27Z,compra,team-6,SwarmWatch,20,265,7.216,Motor automático,1
+2026-11-21T20:27:28Z,compra,team-34,Drena,20,266,7.208,Motor automático,1
+2026-11-21T20:27:29Z,compra,team-39,Bicho,20,264,7.248,Motor automático,1
+2026-11-21T20:27:30Z,compra,team-6,SwarmWatch,20,261,7.34,Motor automático,1
+2026-11-21T20:27:32Z,compra,team-34,Drena,20,261,7.331,Motor automático,1
+2026-11-21T20:27:33Z,compra,team-39,Bicho,20,260,7.372,Motor automático,1
+2026-11-21T20:27:34Z,compra,team-6,SwarmWatch,20,257,7.463,Motor automático,1
+2026-11-21T20:29:36Z,venta,team-32,Bifurca,57,1473,3.811,Motor automático,1
+2026-11-21T20:29:37Z,venta,team-29,Bando,28,689,4.355,Motor automático,1
+2026-11-21T20:29:39Z,compra,team-34,Drena,20,256,7.477,Motor automático,1
+2026-11-21T20:29:40Z,compra,team-39,Bicho,20,255,7.517,Motor automático,1
+2026-11-21T20:29:42Z,compra,team-6,SwarmWatch,20,252,7.609,Motor automático,1
+2026-11-21T20:29:43Z,compra,team-34,Drena,20,252,7.599,Motor automático,1
+2026-11-21T20:30:14Z,venta,team-30,Sculptor,66,1267,5.304,Motor automático,2
+2026-11-21T20:30:19Z,compra,team-39,Bicho,20,249,7.684,Motor automático,1
+2026-11-21T20:30:22Z,compra,team-6,SwarmWatch,20,246,7.775,Motor automático,1
+2026-11-21T20:30:24Z,compra,team-34,Drena,20,246,7.766,Motor automático,1
+2026-11-21T20:30:25Z,compra,team-39,Bicho,20,245,7.805,Motor automático,1
+2026-11-21T20:47:57Z,compra,team-30,Sculptor,100,8050,1.664,Decisión en vivo,2
+2026-11-21T20:49:05Z,venta,team-30,Sculptor,115,4025,2.513,Motor automático,2
+2026-11-21T20:49:07Z,compra,team-1,Cortafuego,20,2949,0.726,Motor automático,1
+2026-11-21T20:49:27Z,venta,team-30,Sculptor,180,4025,3.932,Motor automático,3
+2026-11-21T20:49:28Z,compra,team-41,Yunta,20,2985,0.718,Motor automático,1
+2026-11-21T20:49:30Z,compra,team-16,Agora,20,2969,0.722,Motor automático,1
+2026-11-21T20:49:31Z,compra,team-10,Factum,20,2953,0.725,Motor automático,1
+2026-11-21T20:49:33Z,compra,team-2,MESH,20,2953,0.725,Motor automático,1
+2026-11-21T20:49:34Z,compra,team-15,Caudales,20,2941,0.728,Motor automático,1
+2026-11-21T20:49:35Z,compra,team-48,Nodomics,20,2942,0.727,Motor automático,1
+2026-11-21T20:49:37Z,compra,team-4,VIAZ,20,2944,0.727,Motor automático,1
+2026-11-21T20:49:38Z,compra,team-35,Agent Rooms,20,2905,0.736,Motor automático,1
+2026-11-21T20:49:39Z,compra,team-36,chameleonmode.app,20,2795,0.761,Motor automático,1
+2026-11-21T20:50:33Z,venta,team-27,Vigente,162,4019,3.558,Motor automático,3
+2026-11-21T20:50:35Z,compra,team-21,Rigo,20,2842,0.75,Motor automático,1
+2026-11-21T20:50:36Z,compra,team-42,Dendrita,20,2832,0.753,Motor automático,1
+2026-11-21T20:50:37Z,compra,team-45,Audem,20,2833,0.752,Motor automático,1
+2026-11-21T20:50:39Z,compra,team-40,Grifter,20,2837,0.751,Motor automático,1
+2026-11-21T20:50:40Z,compra,team-3,Hoodini,20,2817,0.756,Motor automático,1
+2026-11-21T20:50:42Z,compra,team-46,Mayday,20,2684,0.789,Motor automático,1
+2026-11-21T20:50:43Z,compra,team-26,Viridis,20,2613,0.808,Motor automático,1
+2026-11-21T20:50:44Z,compra,team-28,What If Chile,20,2591,0.815,Motor automático,1
+2026-11-21T20:50:46Z,compra,team-7,Reaper,20,2575,0.819,Motor automático,1
+2026-11-21T20:50:51Z,venta,team-27,Vigente,86,4019,1.896,Motor automático,2
+2026-11-21T20:50:53Z,compra,team-1,Cortafuego,20,2484,0.846,Motor automático,1
+2026-11-21T20:50:54Z,compra,team-23,TRAZADA,20,2478,0.848,Motor automático,1
+2026-11-21T20:50:55Z,compra,team-22,root,20,2479,0.848,Motor automático,1
+2026-11-21T20:50:57Z,compra,team-41,Yunta,20,2482,0.847,Motor automático,1
+2026-11-21T20:50:58Z,compra,team-16,Agora,20,2472,0.85,Motor automático,1
+2026-11-21T20:58:44Z,venta,team-21,Rigo,184,6104,2.419,Motor automático,3
+2026-11-21T20:58:45Z,venta,team-14,santiaguito.cl,97,3609,2.414,Motor automático,2
+2026-11-21T20:58:47Z,compra,team-5,Krylov,20,2552,0.826,Motor automático,1
+2026-11-21T20:58:48Z,compra,team-10,Factum,20,2544,0.828,Motor automático,1
+2026-11-21T20:58:49Z,compra,team-2,MESH,20,2544,0.828,Motor automático,1
+2026-11-21T20:58:50Z,compra,team-15,Caudales,20,2536,0.83,Motor automático,1
+2026-11-21T20:58:51Z,compra,team-8,Prompt Arena,20,915,2.153,Motor automático,1
+2026-11-21T20:58:53Z,compra,team-48,Nodomics,20,2540,0.829,Motor automático,1
+2026-11-21T20:58:53Z,compra,team-4,VIAZ,20,2541,0.829,Motor automático,1
+2026-11-21T21:01:29Z,venta,team-21,Rigo,97,6105,1.282,Motor automático,2
+2026-11-21T21:01:31Z,compra,team-35,Agent Rooms,20,2503,0.84,Motor automático,1
+2026-11-21T21:01:32Z,compra,team-36,chameleonmode.app,20,2427,0.864,Motor automático,1
+2026-11-21T21:01:34Z,compra,team-42,Dendrita,20,2406,0.871,Motor automático,1
+2026-11-21T21:01:35Z,compra,team-45,Audem,20,2407,0.87,Motor automático,1
+2026-11-21T21:01:36Z,compra,team-40,Grifter,20,2410,0.869,Motor automático,1
+2026-11-21T21:01:38Z,compra,team-13,AIgis,20,2399,0.873,Motor automático,1
+2026-11-21T21:24:29Z,venta,team-42,Dendrita,452,8976,3.563,Motor automático,7
+2026-11-21T21:24:29Z,venta,team-8,Prompt Arena,42,457,9.606,Motor automático,1
+2026-11-21T21:24:31Z,compra,team-27,Vigente,20,2155,0.962,Motor automático,1
+2026-11-21T21:24:33Z,compra,team-27,Vigente,20,1829,1.119,Motor automático,1
+2026-11-21T21:24:35Z,compra,team-27,Vigente,20,1589,1.275,Motor automático,1
+2026-11-21T21:24:36Z,compra,team-27,Vigente,20,1405,1.432,Motor automático,1
+2026-11-21T21:24:38Z,compra,team-27,Vigente,20,1259,1.587,Motor automático,1
+2026-11-21T21:24:39Z,compra,team-20,World UI,20,1003,1.972,Motor automático,1
+2026-11-21T21:24:41Z,compra,team-38,Minga,20,961,2.054,Motor automático,1
+2026-11-21T21:24:43Z,compra,team-20,World UI,20,928,2.124,Motor automático,1
+2026-11-21T21:24:45Z,compra,team-3,Hoodini,20,2733,0.777,Motor automático,1
+2026-11-21T21:24:49Z,compra,team-46,Mayday,20,2630,0.804,Motor automático,1
+2026-11-21T21:24:52Z,compra,team-44,Myo,20,2589,0.815,Motor automático,1
+2026-11-21T21:24:53Z,compra,team-26,Viridis,20,2577,0.819,Motor automático,1
+2026-11-21T21:24:55Z,compra,team-28,What If Chile,20,2559,0.824,Motor automático,1
+2026-11-21T21:24:56Z,compra,team-1,Cortafuego,20,2492,0.843,Motor automático,1
+2026-11-21T21:24:57Z,compra,team-41,Yunta,20,2483,0.846,Motor automático,1
+2026-11-21T21:24:59Z,compra,team-16,Agora,20,2475,0.849,Motor automático,1
+2026-11-21T21:25:00Z,compra,team-5,Krylov,20,2461,0.853,Motor automático,1
+2026-11-21T21:25:02Z,compra,team-10,Factum,20,2455,0.855,Motor automático,1
+2026-11-21T21:25:03Z,compra,team-2,MESH,20,2455,0.855,Motor automático,1
+2026-11-21T21:25:04Z,compra,team-15,Caudales,20,2448,0.857,Motor automático,1
+2026-11-21T21:25:05Z,compra,team-48,Nodomics,20,2448,0.857,Motor automático,1
+2026-11-21T21:25:07Z,compra,team-4,VIAZ,20,2449,0.857,Motor automático,1
+2026-11-21T21:25:08Z,compra,team-35,Agent Rooms,20,2430,0.863,Motor automático,1
+2026-11-21T21:25:09Z,compra,team-36,chameleonmode.app,20,2370,0.883,Motor automático,1
+2026-11-21T21:25:16Z,venta,team-20,World UI,17,965,1.914,Motor automático,1
+2026-11-21T21:25:20Z,compra,team-45,Audem,20,2347,0.89,Motor automático,1
+2026-11-21T21:25:23Z,compra,team-38,Minga,20,915,2.155,Motor automático,1
+2026-11-21T21:25:26Z,compra,team-40,Grifter,20,2353,0.888,Motor automático,1
+2026-11-21T21:25:29Z,compra,team-37,Kuwü,20,2284,0.912,Motor automático,1
+2026-11-21T21:25:31Z,compra,team-3,Hoodini,20,2286,0.912,Motor automático,1
+2026-11-21T21:25:32Z,compra,team-46,Mayday,20,2216,0.938,Motor automático,1
+2026-11-21T21:25:33Z,compra,team-25,Immune,20,2193,0.947,Motor automático,1
+2026-11-21T21:25:35Z,compra,team-44,Myo,20,2190,0.948,Motor automático,1
+2026-11-21T21:25:36Z,compra,team-26,Viridis,20,2182,0.951,Motor automático,1
+2026-11-21T21:25:37Z,compra,team-28,What If Chile,20,2169,0.956,Motor automático,1
+2026-11-21T21:36:05Z,venta,team-42,Dendrita,203,8977,1.594,Motor automático,4
+2026-11-21T21:36:06Z,venta,team-8,Prompt Arena,38,458,8.739,Motor automático,1
+2026-11-21T21:36:06Z,venta,team-38,Minga,17,938,1.957,Motor automático,1
+2026-11-21T21:36:08Z,compra,team-21,Rigo,20,1210,1.649,Motor automático,1
+2026-11-21T21:36:10Z,compra,team-21,Rigo,20,1100,1.805,Motor automático,1
+2026-11-21T21:36:11Z,compra,team-21,Rigo,20,1009,1.96,Motor automático,1
+2026-11-21T21:36:12Z,compra,team-21,Rigo,20,932,2.115,Motor automático,1
+2026-11-21T21:36:14Z,compra,team-23,TRAZADA,20,2195,0.946,Motor automático,1
+2026-11-21T21:36:15Z,compra,team-22,root,20,2195,0.946,Motor automático,1
+2026-11-21T21:36:17Z,compra,team-1,Cortafuego,20,2153,0.963,Motor automático,1
+2026-11-21T21:36:18Z,compra,team-41,Yunta,20,2147,0.966,Motor automático,1
+2026-11-21T21:36:21Z,compra,team-16,Agora,20,2141,0.968,Motor automático,1
+2026-11-21T21:36:23Z,compra,team-5,Krylov,20,2131,0.972,Motor automático,1
+2026-11-21T21:36:25Z,compra,team-16,Agora,20,2424,0.865,Motor automático,1
+2026-11-21T21:36:28Z,compra,team-10,Factum,20,2124,0.975,Motor automático,1
+2026-11-21T21:36:32Z,compra,team-2,MESH,20,2124,0.975,Motor automático,1
+2026-11-21T21:36:35Z,compra,team-15,Caudales,20,2120,0.977,Motor automático,1
+2026-11-21T21:36:41Z,venta,team-21,Rigo,38,2125,1.754,Motor automático,1
+2026-11-21T21:36:43Z,compra,team-48,Nodomics,20,2113,0.98,Motor automático,1
+2026-11-21T21:36:45Z,compra,team-4,VIAZ,20,2114,0.979,Motor automático,1
+2026-11-21T21:40:05Z,venta,team-38,Minga,15,938,1.777,Motor automático,1
+2026-11-21T21:40:07Z,compra,team-35,Agent Rooms,20,2097,0.986,Motor automático,1
+2026-11-21T21:40:45Z,venta,team-21,Rigo,32,2126,1.469,Motor automático,1
+2026-11-21T21:40:49Z,compra,team-31,Sideband,20,2086,0.991,Motor automático,1
+2026-11-21T21:40:50Z,compra,team-36,chameleonmode.app,20,2052,1.006,Motor automático,1
+2026-11-21T21:40:54Z,venta,team-20,World UI,27,966,2.889,Motor automático,1
+2026-11-21T21:40:55Z,venta,team-14,santiaguito.cl,83,3610,2.079,Motor automático,2
+2026-11-21T21:40:57Z,compra,team-45,Audem,20,2021,1.021,Motor automático,1
+2026-11-21T21:40:58Z,compra,team-40,Grifter,20,2021,1.02,Motor automático,1
+2026-11-21T21:41:00Z,compra,team-45,Audem,20,2339,0.893,Motor automático,1
+2026-11-21T21:41:01Z,compra,team-40,Grifter,20,2152,0.963,Motor automático,1
+2026-11-21T21:41:02Z,compra,team-16,Agora,20,2015,1.023,Motor automático,1
+2026-11-21T21:41:04Z,compra,team-13,AIgis,20,2010,1.025,Motor automático,1
+2026-11-21T22:38:12Z,venta,team-10,Factum,189,8839,1.509,Motor automático,3
+2026-11-21T22:38:16Z,compra,team-21,Rigo,20,1359,1.477,Motor automático,1
+2026-11-21T22:38:18Z,compra,team-42,Dendrita,20,1345,1.492,Motor automático,1
+2026-11-21T22:38:21Z,compra,team-21,Rigo,20,1225,1.63,Motor automático,1
+2026-11-21T22:38:22Z,compra,team-42,Dendrita,20,1213,1.645,Motor automático,1
+2026-11-21T22:38:24Z,compra,team-38,Minga,20,1203,1.657,Motor automático,1
+2026-11-21T22:38:26Z,compra,team-21,Rigo,20,1116,1.78,Motor automático,1
+2026-11-21T22:38:27Z,compra,team-42,Dendrita,20,1106,1.796,Motor automático,1
+2026-11-21T22:38:29Z,compra,team-38,Minga,20,1099,1.808,Motor automático,1
+2026-11-21T22:38:31Z,compra,team-14,santiaguito.cl,20,1050,1.887,Motor automático,1
+2026-11-21T22:38:32Z,compra,team-30,Sculptor,20,1034,1.916,Motor automático,1
+2026-11-21T22:38:37Z,venta,team-42,Dendrita,28,1832,1.538,Motor automático,1
+2026-11-21T22:38:38Z,venta,team-10,Factum,78,8839,0.633,Motor automático,2
+2026-11-21T22:38:39Z,venta,team-21,Rigo,28,1850,1.535,Motor automático,1
+2026-11-21T22:38:41Z,compra,team-38,Minga,20,999,1.979,Motor automático,1
+2026-11-21T22:38:43Z,compra,team-14,santiaguito.cl,20,959,2.059,Motor automático,1
+2026-11-21T22:38:45Z,compra,team-30,Sculptor,20,945,2.088,Motor automático,1
+2026-11-21T22:38:47Z,compra,team-38,Minga,20,927,2.127,Motor automático,1
+2026-11-21T22:38:49Z,compra,team-3,Hoodini,20,2318,0.9,Motor automático,1
+2026-11-21T22:38:50Z,compra,team-26,Viridis,20,2305,0.905,Motor automático,1
+2026-11-21T22:38:52Z,compra,team-46,Mayday,20,2262,0.921,Motor automático,1
+2026-11-21T22:38:56Z,venta,team-38,Minga,39,2114,1.781,Motor automático,1
+2026-11-21T22:38:59Z,compra,team-44,Myo,20,2230,0.933,Motor automático,1
+2026-11-21T22:39:00Z,compra,team-28,What If Chile,20,2210,0.94,Motor automático,1
+2026-11-21T22:42:37Z,venta,team-42,Dendrita,23,1832,1.3,Motor automático,1
+2026-11-21T22:42:38Z,venta,team-21,Rigo,23,1850,1.286,Motor automático,1
+2026-11-21T22:42:40Z,compra,team-23,TRAZADA,20,2231,0.932,Motor automático,1
+2026-11-21T22:42:42Z,compra,team-22,root,20,2231,0.932,Motor automático,1
+2026-11-21T22:42:43Z,compra,team-1,Cortafuego,20,2195,0.946,Motor automático,1
+2026-11-21T22:42:59Z,venta,team-38,Minga,31,2114,1.468,Motor automático,1
+2026-11-21T22:43:03Z,compra,team-41,Yunta,20,2184,0.95,Motor automático,1
+2026-11-21T22:43:06Z,compra,team-27,Vigente,20,2174,0.954,Motor automático,1
+2026-11-21T22:50:34Z,compra,team-31,Sideband,150,11042,2.024,Decisión en vivo,3
+2026-11-21T23:53:07Z,venta,team-15,Caudales,201,8865,1.612,Motor automático,4
+2026-11-21T23:53:13Z,compra,team-21,Rigo,20,1677,1.212,Motor automático,1
+2026-11-21T23:53:15Z,compra,team-10,Factum,20,1618,1.253,Motor automático,1
+2026-11-21T23:53:41Z,compra,team-8,Prompt Arena,100,8236,1.638,Decisión en vivo,2
+2026-11-21T23:54:04Z,venta,team-13,AIgis,375,5817,5.267,Motor automático,6
+2026-11-21T23:54:07Z,compra,team-21,Rigo,20,1484,1.36,Motor automático,1
+2026-11-21T23:54:08Z,compra,team-42,Dendrita,20,1479,1.364,Motor automático,1
+2026-11-21T23:54:10Z,compra,team-21,Rigo,20,1326,1.512,Motor automático,1
+2026-11-21T23:54:12Z,compra,team-21,Rigo,20,1386,1.45,Motor automático,1
+2026-11-21T23:54:13Z,compra,team-38,Minga,20,1324,1.514,Motor automático,1
+2026-11-21T23:54:15Z,compra,team-42,Dendrita,20,1324,1.514,Motor automático,1
+2026-11-21T23:54:17Z,compra,team-21,Rigo,20,1250,1.599,Motor automático,1
+2026-11-21T23:54:19Z,compra,team-38,Minga,20,1198,1.665,Motor automático,1
+2026-11-21T23:54:20Z,compra,team-42,Dendrita,20,1198,1.665,Motor automático,1
+2026-11-21T23:54:22Z,compra,team-38,Minga,20,1092,1.818,Motor automático,1
+2026-11-21T23:54:23Z,compra,team-42,Dendrita,20,1092,1.818,Motor automático,1
+2026-11-21T23:54:25Z,compra,team-38,Minga,20,994,1.99,Motor automático,1
+2026-11-21T23:54:26Z,compra,team-42,Dendrita,20,996,1.985,Motor automático,1
+2026-11-21T23:54:28Z,compra,team-14,santiaguito.cl,20,951,2.076,Motor automático,1
+2026-11-21T23:54:29Z,compra,team-30,Sculptor,20,937,2.105,Motor automático,1
+2026-11-21T23:54:35Z,venta,team-42,Dendrita,53,3044,1.599,Motor automático,1
+2026-11-21T23:54:36Z,venta,team-10,Factum,13,809,1.904,Motor automático,1
+2026-11-21T23:54:39Z,compra,team-38,Minga,20,921,2.14,Motor automático,1
+2026-11-21T23:54:40Z,compra,team-21,Rigo,20,2168,0.957,Motor automático,1
+2026-11-21T23:54:42Z,compra,team-5,Krylov,20,2156,0.962,Motor automático,1
+2026-11-21T23:54:44Z,compra,team-25,Immune,20,2130,0.973,Motor automático,1
+2026-11-21T23:54:48Z,venta,team-38,Minga,50,2764,1.699,Motor automático,1
+2026-11-21T23:54:50Z,compra,team-46,Mayday,20,2085,0.992,Motor automático,1
+2026-11-21T23:54:52Z,compra,team-44,Myo,20,2066,1.0,Motor automático,1
+2026-11-21T23:54:53Z,compra,team-46,Mayday,20,2203,0.943,Motor automático,1
+2026-11-21T23:56:01Z,venta,team-13,AIgis,211,5817,2.961,Motor automático,4
+2026-11-21T23:56:02Z,venta,team-15,Caudales,466,4433,9.183,Motor automático,8
+2026-11-21T23:56:04Z,compra,team-40,Grifter,20,2110,0.981,Motor automático,1
+2026-11-21T23:56:12Z,compra,team-14,santiaguito.cl,20,943,2.093,Motor automático,1
+2026-11-21T23:56:14Z,compra,team-30,Sculptor,20,930,2.12,Motor automático,1
+2026-11-21T23:56:15Z,compra,team-28,What If Chile,20,2190,0.948,Motor automático,1
+2026-11-21T23:56:17Z,compra,team-23,TRAZADA,20,2183,0.951,Motor automático,1
+2026-11-21T23:56:18Z,compra,team-22,root,20,2183,0.951,Motor automático,1
+2026-11-21T23:56:19Z,compra,team-45,Audem,20,2158,0.961,Motor automático,1
+2026-11-21T23:56:21Z,compra,team-1,Cortafuego,20,2157,0.961,Motor automático,1
+2026-11-21T23:56:22Z,compra,team-41,Yunta,20,2154,0.963,Motor automático,1
+2026-11-21T23:56:24Z,compra,team-12,Puente,20,2107,0.982,Motor automático,1
+2026-11-21T23:56:25Z,compra,team-27,Vigente,20,2050,1.007,Motor automático,1
+2026-11-21T23:56:26Z,compra,team-46,Mayday,20,2021,1.021,Motor automático,1
+2026-11-21T23:56:28Z,compra,team-21,Rigo,20,2003,1.029,Motor automático,1
+2026-11-21T23:56:29Z,compra,team-5,Krylov,20,1993,1.033,Motor automático,1
+2026-11-21T23:56:31Z,compra,team-7,Reaper,20,1991,1.035,Motor automático,1
+2026-11-21T23:56:32Z,compra,team-5,Krylov,20,2094,0.988,Motor automático,1
+2026-11-21T23:56:34Z,compra,team-19,Branchpoint,20,1990,1.035,Motor automático,1
+2026-11-21T23:56:35Z,compra,team-25,Immune,20,1982,1.039,Motor automático,1
+2026-11-21T23:56:36Z,compra,team-44,Myo,20,1938,1.06,Motor automático,1
+2026-11-21T23:56:38Z,compra,team-17,Vigilia,20,1941,1.059,Motor automático,1
+2026-11-21T23:56:39Z,compra,team-2,MESH,20,1943,1.058,Motor automático,1
+2026-11-21T23:56:40Z,compra,team-40,Grifter,20,1932,1.064,Motor automático,1
+2026-11-21T23:56:42Z,compra,team-20,World UI,20,915,2.155,Motor automático,1
+2026-11-21T23:56:43Z,compra,team-16,Agora,20,1929,1.065,Motor automático,1
+2026-11-21T23:56:45Z,compra,team-28,What If Chile,20,1921,1.069,Motor automático,1
+2026-11-21T23:56:47Z,compra,team-23,TRAZADA,20,1914,1.073,Motor automático,1
+2026-11-21T23:56:48Z,compra,team-28,What If Chile,20,2018,1.022,Motor automático,1
+2026-11-21T23:56:49Z,compra,team-22,root,20,1918,1.071,Motor automático,1
+2026-11-21T23:56:50Z,compra,team-35,Agent Rooms,20,1918,1.071,Motor automático,1
+2026-11-21T23:56:52Z,compra,team-45,Audem,20,1902,1.079,Motor automático,1
+2026-11-21T23:56:53Z,compra,team-1,Cortafuego,20,1901,1.08,Motor automático,1
+2026-11-21T23:56:57Z,venta,team-42,Dendrita,36,3045,1.098,Motor automático,1
+2026-11-21T23:56:58Z,venta,team-10,Factum,11,809,1.575,Motor automático,1
+2026-11-21T23:56:59Z,venta,team-38,Minga,35,2765,1.2,Motor automático,1
+2026-11-21T23:57:01Z,compra,team-41,Yunta,20,1883,1.089,Motor automático,1
+2026-11-21T23:57:03Z,compra,team-44,Myo,20,1915,1.072,Motor automático,1
+2026-11-21T23:57:04Z,compra,team-41,Yunta,20,1999,1.031,Motor automático,1
+2026-11-21T23:57:06Z,compra,team-3,Hoodini,20,1886,1.087,Motor automático,1
+2026-11-21T23:57:07Z,compra,team-26,Viridis,20,1892,1.085,Motor automático,1
+2026-11-21T23:57:09Z,compra,team-18,ADverse,20,1884,1.088,Motor automático,1
+2026-11-21T23:57:10Z,compra,team-36,chameleonmode.app,20,1882,1.09,Motor automático,1
+2026-11-21T23:57:11Z,compra,team-48,Nodomics,20,1844,1.111,Motor automático,1
+2026-11-21T23:57:13Z,compra,team-5,Krylov,20,1833,1.116,Motor automático,1
+2026-11-21T23:59:04Z,venta,team-14,santiaguito.cl,50,1951,2.486,Motor automático,1
+2026-11-21T23:59:06Z,compra,team-22,root,20,1959,1.05,Motor automático,1
+2026-11-21T23:59:08Z,compra,team-27,Vigente,20,1804,1.133,Motor automático,1
+2026-11-21T23:59:09Z,compra,team-46,Mayday,20,1782,1.146,Motor automático,1
+2026-11-22T00:00:03Z,venta,team-15,Caudales,302,4433,5.905,Motor automático,5
+2026-11-22T00:00:06Z,compra,team-7,Reaper,20,1713,1.189,Motor automático,1
+2026-11-22T00:00:08Z,compra,team-28,What If Chile,20,1712,1.19,Motor automático,1
+2026-11-22T00:00:10Z,compra,team-25,Immune,20,1715,1.188,Motor automático,1
+2026-11-22T00:00:12Z,compra,team-12,Puente,20,1700,1.197,Motor automático,1
+2026-11-22T00:00:14Z,compra,team-41,Yunta,20,1697,1.199,Motor automático,1
+2026-11-22T00:00:15Z,compra,team-17,Vigilia,20,1678,1.212,Motor automático,1
+2026-11-22T00:00:17Z,compra,team-40,Grifter,20,1676,1.213,Motor automático,1
+2026-11-22T00:00:19Z,compra,team-22,root,20,1678,1.212,Motor automático,1
+2026-11-22T00:00:21Z,compra,team-4,VIAZ,20,1675,1.214,Motor automático,1
+2026-11-22T00:00:24Z,compra,team-16,Agora,20,1678,1.212,Motor automático,1
+2026-11-22T00:00:32Z,compra,team-30,Sculptor,20,975,2.025,Motor automático,1
+2026-11-22T00:00:33Z,compra,team-20,World UI,20,922,2.137,Motor automático,1
+2026-11-22T00:00:37Z,compra,team-7,Reaper,20,3940,0.565,Motor automático,1
+2026-11-22T00:00:40Z,compra,team-7,Reaper,20,2972,0.721,Motor automático,1
+2026-11-22T00:00:44Z,compra,team-7,Reaper,20,2383,0.878,Motor automático,1
+2026-11-22T00:00:47Z,compra,team-7,Reaper,20,1990,1.035,Motor automático,1
+2026-11-22T00:00:54Z,venta,team-20,World UI,16,918,1.948,Motor automático,1
+2026-11-22T00:00:57Z,compra,team-23,TRAZADA,20,1808,1.131,Motor automático,1
+2026-11-22T00:03:36Z,venta,team-14,santiaguito.cl,42,1952,2.09,Motor automático,1
+2026-11-22T00:03:39Z,compra,team-7,Reaper,20,1796,1.138,Motor automático,1
+2026-11-22T00:03:40Z,compra,team-23,TRAZADA,20,1699,1.198,Motor automático,1
+2026-11-22T00:03:44Z,venta,team-8,Prompt Arena,35,4118,0.762,Motor automático,1
+2026-11-22T00:03:46Z,compra,team-8,Prompt Arena,20,2267,0.919,Motor automático,1
+2026-11-22T00:03:47Z,compra,team-8,Prompt Arena,20,1909,1.076,Motor automático,1
+2026-11-22T00:07:44Z,venta,team-20,World UI,16,919,1.925,Motor automático,1
+2026-11-22T00:07:46Z,compra,team-35,Agent Rooms,20,1697,1.199,Motor automático,1
+2026-11-22T00:36:13Z,venta,team-21,Rigo,111,5647,1.615,Motor automático,2
+2026-11-22T00:36:16Z,compra,team-42,Dendrita,20,1830,1.118,Motor automático,1
+2026-11-22T00:36:18Z,compra,team-38,Minga,20,1710,1.191,Motor automático,1
+2026-11-22T00:36:19Z,compra,team-42,Dendrita,20,1592,1.273,Motor automático,1
+2026-11-22T00:36:21Z,compra,team-38,Minga,20,1501,1.345,Motor automático,1
+2026-11-22T00:36:23Z,compra,team-42,Dendrita,20,1410,1.427,Motor automático,1
+2026-11-22T00:36:24Z,compra,team-38,Minga,20,1338,1.499,Motor automático,1
+2026-11-22T00:36:30Z,venta,team-42,Dendrita,29,2416,1.168,Motor automático,1
+2026-11-22T00:36:32Z,compra,team-10,Factum,20,1330,1.508,Motor automático,1
+2026-11-22T00:36:34Z,compra,team-38,Minga,20,1204,1.657,Motor automático,1
+2026-11-22T00:39:46Z,venta,team-2,MESH,86,9593,0.621,Motor automático,2
+2026-11-22T00:39:49Z,compra,team-38,Minga,20,1180,1.689,Motor automático,1
+2026-11-22T00:39:50Z,compra,team-10,Factum,20,1150,1.731,Motor automático,1
+2026-11-22T00:39:52Z,compra,team-38,Minga,20,1077,1.841,Motor automático,1
+2026-11-22T00:39:53Z,compra,team-10,Factum,20,1052,1.883,Motor automático,1
+2026-11-22T00:43:49Z,venta,team-6,SwarmWatch,69,1628,4.241,Decisión en vivo,2
+2026-11-22T00:43:50Z,venta,team-5,Krylov,59,5581,0.868,Decisión en vivo,1
+2026-11-22T00:43:51Z,compra,team-43,Cachai,300,13226,3.636,Decisión en vivo,5
+2026-11-22T00:43:58Z,venta,team-42,Dendrita,24,2416,0.983,Motor automático,1
+2026-11-22T00:43:59Z,venta,team-21,Rigo,70,5647,1.038,Motor automático,2
+2026-11-22T00:44:52Z,venta,team-10,Factum,26,1766,1.483,Motor automático,1
+2026-11-22T00:46:28Z,venta,team-7,Reaper,395,14121,1.549,Motor automático,7
+2026-11-22T00:46:30Z,compra,team-30,Sculptor,20,1053,1.882,Motor automático,1
+2026-11-22T00:46:31Z,compra,team-30,Sculptor,20,969,2.038,Motor automático,1
+2026-11-22T00:46:32Z,compra,team-20,World UI,20,942,2.095,Motor automático,1
+2026-11-22T00:46:34Z,compra,team-48,Nodomics,20,2226,0.934,Motor automático,1
+2026-11-22T00:46:35Z,compra,team-12,Puente,20,2110,0.981,Motor automático,1
+2026-11-22T00:46:37Z,compra,team-45,Audem,20,2063,1.001,Motor automático,1
+2026-11-22T00:46:38Z,compra,team-1,Cortafuego,20,2063,1.002,Motor automático,1
+2026-11-22T00:46:39Z,compra,team-3,Hoodini,20,2058,1.004,Motor automático,1
+2026-11-22T00:46:41Z,compra,team-5,Krylov,20,2051,1.007,Motor automático,1
+2026-11-22T00:46:42Z,compra,team-18,ADverse,20,2053,1.006,Motor automático,1
+2026-11-22T00:46:43Z,compra,team-40,Grifter,20,2006,1.027,Motor automático,1
+2026-11-22T00:46:45Z,compra,team-27,Vigente,20,1987,1.036,Motor automático,1
+2026-11-22T00:46:46Z,compra,team-29,Bando,20,915,2.154,Motor automático,1
+2026-11-22T00:46:47Z,compra,team-25,Immune,20,1929,1.065,Motor automático,1
+2026-11-22T00:46:49Z,compra,team-30,Sculptor,20,915,2.154,Motor automático,1
+2026-11-22T00:46:50Z,compra,team-48,Nodomics,20,1910,1.075,Motor automático,1
+2026-11-22T00:46:52Z,compra,team-17,Vigilia,20,1903,1.078,Motor automático,1
+2026-11-22T00:46:53Z,compra,team-4,VIAZ,20,1887,1.087,Motor automático,1
+2026-11-22T00:46:54Z,compra,team-16,Agora,20,1888,1.087,Motor automático,1
+2026-11-22T00:47:17Z,venta,team-2,MESH,182,4797,3.228,Motor automático,3
+2026-11-22T00:47:21Z,compra,team-19,Branchpoint,20,1920,1.07,Motor automático,1
+2026-11-22T00:47:22Z,compra,team-20,World UI,20,915,2.153,Motor automático,1
+2026-11-22T00:47:24Z,compra,team-35,Agent Rooms,20,1905,1.077,Motor automático,1
+2026-11-22T00:47:26Z,compra,team-23,TRAZADA,20,1901,1.079,Motor automático,1
+2026-11-22T00:47:28Z,compra,team-44,Myo,20,1903,1.079,Motor automático,1
+2026-11-22T00:47:31Z,compra,team-12,Puente,20,1883,1.089,Motor automático,1
+2026-11-22T00:47:35Z,compra,team-45,Audem,20,1846,1.109,Motor automático,1
+2026-11-22T00:47:38Z,compra,team-12,Puente,20,1984,1.038,Motor automático,1
+2026-11-22T00:47:38Z,compra,team-1,Cortafuego,20,1849,1.108,Motor automático,1
+2026-11-22T00:47:40Z,compra,team-3,Hoodini,20,1845,1.11,Motor automático,1
+2026-11-22T00:47:45Z,venta,team-20,World UI,17,928,1.972,Motor automático,1
+2026-11-22T00:47:48Z,compra,team-5,Krylov,20,1837,1.114,Motor automático,1
+2026-11-22T00:48:54Z,venta,team-10,Factum,20,1766,1.162,Motor automático,1
+2026-11-22T00:48:56Z,compra,team-18,ADverse,20,1835,1.115,Motor automático,1
+2026-11-22T00:49:19Z,venta,team-7,Reaper,108,14121,0.419,Motor automático,2
+2026-11-22T00:49:20Z,venta,team-2,MESH,232,2398,9.135,Motor automático,4
+2026-11-22T00:49:22Z,compra,team-29,Bando,20,931,2.119,Motor automático,1
+2026-11-22T00:49:23Z,compra,team-40,Grifter,20,1883,1.089,Motor automático,1
+2026-11-22T00:49:25Z,compra,team-46,Mayday,20,1871,1.096,Motor automático,1
+2026-11-22T00:49:26Z,compra,team-27,Vigente,20,1871,1.096,Motor automático,1
+2026-11-22T00:49:27Z,compra,team-8,Prompt Arena,20,1864,1.099,Motor automático,1
+2026-11-22T00:49:29Z,compra,team-28,What If Chile,20,1861,1.101,Motor automático,1
+2026-11-22T00:49:30Z,compra,team-41,Yunta,20,1862,1.101,Motor automático,1
+2026-11-22T00:49:32Z,compra,team-25,Immune,20,1830,1.118,Motor automático,1
+2026-11-22T00:49:33Z,compra,team-48,Nodomics,20,1811,1.129,Motor automático,1
+2026-11-22T00:49:35Z,compra,team-12,Puente,20,1810,1.129,Motor automático,1
+2026-11-22T00:49:36Z,compra,team-17,Vigilia,20,1809,1.13,Motor automático,1
+2026-11-22T00:49:37Z,compra,team-22,root,20,1807,1.131,Motor automático,1
+2026-11-22T00:49:39Z,compra,team-4,VIAZ,20,1798,1.137,Motor automático,1
+2026-11-22T00:49:41Z,compra,team-16,Agora,20,1798,1.136,Motor automático,1
+2026-11-22T00:49:42Z,compra,team-19,Branchpoint,20,1791,1.141,Motor automático,1
+2026-11-22T00:49:43Z,compra,team-35,Agent Rooms,20,1776,1.15,Motor automático,1
+2026-11-22T00:49:45Z,compra,team-23,TRAZADA,20,1773,1.151,Motor automático,1
+2026-11-22T00:49:46Z,compra,team-44,Myo,20,1774,1.151,Motor automático,1
+2026-11-22T00:49:50Z,venta,team-29,Bando,16,923,1.913,Motor automático,1
+2026-11-22T00:49:53Z,compra,team-26,Viridis,20,1725,1.181,Motor automático,1
+2026-11-22T00:51:26Z,venta,team-2,MESH,105,2399,4.149,Motor automático,2
+2026-11-22T00:51:28Z,compra,team-19,Branchpoint,20,1774,1.151,Motor automático,1
+2026-11-22T00:51:30Z,compra,team-45,Audem,20,1650,1.231,Motor automático,1
+2026-11-22T00:51:31Z,compra,team-45,Audem,20,1723,1.183,Motor automático,1
+2026-11-22T00:51:33Z,compra,team-1,Cortafuego,20,1651,1.231,Motor automático,1
+2026-11-22T00:51:34Z,compra,team-3,Hoodini,20,1648,1.233,Motor automático,1
+2026-11-22T00:51:36Z,compra,team-5,Krylov,20,1644,1.235,Motor automático,1
+2026-11-22T00:53:06Z,venta,team-20,World UI,19,929,2.197,Motor automático,1
+2026-11-22T00:53:09Z,compra,team-18,ADverse,20,1666,1.22,Motor automático,1
+2026-11-22T00:53:44Z,venta,team-8,Prompt Arena,36,4118,0.787,Motor automático,1
+2026-11-22T00:53:46Z,compra,team-8,Prompt Arena,20,2200,0.944,Motor automático,1
+2026-11-22T00:53:48Z,compra,team-8,Prompt Arena,20,1861,1.101,Motor automático,1
+2026-11-22T00:55:41Z,venta,team-29,Bando,14,923,1.773,Motor automático,1
+2026-11-22T01:08:51Z,venta,team-45,Audem,771,15464,2.61,Motor automático,12
+2026-11-22T01:08:53Z,compra,team-40,Grifter,20,1684,1.208,Motor automático,1
+2026-11-22T01:08:54Z,compra,team-46,Mayday,20,1674,1.214,Motor automático,1
+2026-11-22T01:08:56Z,compra,team-27,Vigente,20,1674,1.214,Motor automático,1
+2026-11-22T01:08:57Z,compra,team-8,Prompt Arena,20,1677,1.213,Motor automático,1
+2026-11-22T01:08:58Z,compra,team-28,What If Chile,20,1667,1.22,Motor automático,1
+2026-11-22T01:09:00Z,compra,team-41,Yunta,20,1667,1.219,Motor automático,1
+2026-11-22T01:09:01Z,compra,team-48,Nodomics,20,1626,1.248,Motor automático,1
+2026-11-22T01:09:03Z,compra,team-17,Vigilia,20,1622,1.251,Motor automático,1
+2026-11-22T01:09:04Z,compra,team-22,root,20,1620,1.252,Motor automático,1
+2026-11-22T01:09:06Z,compra,team-4,VIAZ,20,1613,1.257,Motor automático,1
+2026-11-22T01:09:07Z,compra,team-37,Kuwü,20,1615,1.256,Motor automático,1
+2026-11-22T01:09:09Z,compra,team-16,Agora,20,1616,1.255,Motor automático,1
+2026-11-22T01:09:10Z,compra,team-35,Agent Rooms,20,1596,1.27,Motor automático,1
+2026-11-22T01:09:12Z,compra,team-44,Myo,20,1592,1.273,Motor automático,1
+2026-11-22T01:09:13Z,compra,team-1,Cortafuego,20,1561,1.296,Motor automático,1
+2026-11-22T01:09:15Z,compra,team-3,Hoodini,20,1559,1.298,Motor automático,1
+2026-11-22T01:09:19Z,compra,team-26,Viridis,20,1561,1.297,Motor automático,1
+2026-11-22T01:09:23Z,compra,team-5,Krylov,20,1559,1.299,Motor automático,1
+2026-11-22T01:09:25Z,compra,team-18,ADverse,20,1557,1.299,Motor automático,1
+2026-11-22T01:09:27Z,compra,team-40,Grifter,20,1519,1.33,Motor automático,1
+2026-11-22T01:09:28Z,compra,team-23,TRAZADA,20,1518,1.331,Motor automático,1
+2026-11-22T01:09:29Z,compra,team-46,Mayday,20,1513,1.335,Motor automático,1
+2026-11-22T01:09:31Z,compra,team-27,Vigente,20,1513,1.335,Motor automático,1
+2026-11-22T01:09:41Z,compra,team-8,Prompt Arena,20,1476,1.366,Motor automático,1
+2026-11-22T01:09:43Z,compra,team-28,What If Chile,20,1468,1.373,Motor automático,1
+2026-11-22T01:09:44Z,compra,team-41,Yunta,20,1469,1.373,Motor automático,1
+2026-11-22T01:09:45Z,compra,team-28,What If Chile,20,1596,1.27,Motor automático,1
+2026-11-22T01:09:46Z,compra,team-41,Yunta,20,1596,1.27,Motor automático,1
+2026-11-22T01:09:48Z,compra,team-19,Branchpoint,20,1456,1.384,Motor automático,1
+2026-11-22T01:09:49Z,compra,team-33,Aterriza,20,1444,1.395,Motor automático,1
+2026-11-22T01:09:50Z,compra,team-12,Puente,20,1445,1.394,Motor automático,1
+2026-11-22T01:09:53Z,compra,team-48,Nodomics,20,1440,1.398,Motor automático,1
+2026-11-22T01:09:57Z,compra,team-17,Vigilia,20,1416,1.421,Motor automático,1
+2026-11-22T01:10:01Z,compra,team-48,Nodomics,20,1549,1.306,Motor automático,1
+2026-11-22T01:10:02Z,compra,team-19,Branchpoint,20,2161,0.96,Motor automático,1
+2026-11-22T01:10:03Z,compra,team-19,Branchpoint,20,1833,1.116,Motor automático,1
+2026-11-22T01:10:05Z,compra,team-19,Branchpoint,20,1592,1.273,Motor automático,1
+2026-11-22T01:10:06Z,compra,team-23,TRAZADA,20,1577,1.284,Motor automático,1
+2026-11-22T01:10:08Z,compra,team-22,root,20,1414,1.423,Motor automático,1
+2026-11-22T01:10:10Z,compra,team-19,Branchpoint,20,1412,1.425,Motor automático,1
+2026-11-22T01:10:11Z,compra,team-4,VIAZ,20,1410,1.426,Motor automático,1
+2026-11-22T01:10:12Z,compra,team-37,Kuwü,20,1412,1.425,Motor automático,1
+2026-11-22T01:10:17Z,venta,team-45,Audem,128,15465,0.43,Motor automático,3
+2026-11-22T01:10:18Z,compra,team-2,MESH,100,6942,1.851,Decisión en vivo,2
+2026-11-22T01:10:20Z,compra,team-4,VIAZ,20,1518,1.331,Motor automático,1
+2026-11-22T01:10:58Z,venta,team-27,Vigente,94,10655,0.576,Motor automático,2
+2026-11-22T01:10:59Z,compra,team-3,Hoodini,20,2251,0.925,Motor automático,1
+2026-11-22T01:11:01Z,compra,team-3,Hoodini,20,1897,1.081,Motor automático,1
+2026-11-22T01:11:02Z,compra,team-3,Hoodini,20,1640,1.238,Motor automático,1
+2026-11-22T01:11:04Z,compra,team-41,Yunta,20,1574,1.286,Motor automático,1
+2026-11-22T01:11:05Z,compra,team-3,Hoodini,20,1447,1.392,Motor automático,1
+2026-11-22T01:15:00Z,venta,team-27,Vigente,38,10655,0.235,Motor automático,1
+2026-11-22T01:15:03Z,compra,team-21,Rigo,20,1709,1.192,Motor automático,1
+2026-11-22T01:15:04Z,compra,team-21,Rigo,20,1498,1.348,Motor automático,1
+2026-11-22T01:20:21Z,venta,team-2,MESH,53,3471,1.394,Motor automático,1
+2026-11-22T01:20:23Z,compra,team-7,Reaper,20,1626,1.248,Motor automático,1
+2026-11-22T01:20:24Z,compra,team-10,Factum,20,1471,1.371,Motor automático,1
+2026-11-22T01:20:26Z,compra,team-7,Reaper,20,1436,1.402,Motor automático,1
+2026-11-22T01:20:42Z,venta,team-7,Reaper,18,1531,1.236,Motor automático,1
+2026-11-22T01:20:48Z,compra,team-21,Rigo,20,1328,1.51,Motor automático,1
+2026-11-22T01:20:52Z,venta,team-21,Rigo,29,2267,1.253,Motor automático,1
+2026-11-22T01:20:55Z,compra,team-10,Factum,20,1311,1.528,Motor automático,1
+2026-11-22T01:20:57Z,compra,team-42,Dendrita,20,1263,1.583,Motor automático,1
+2026-11-22T01:27:38Z,venta,team-7,Reaper,15,1531,1.071,Motor automático,1
+2026-11-22T01:27:38Z,venta,team-21,Rigo,23,2268,1.022,Motor automático,1
+2026-11-22T01:27:41Z,compra,team-2,MESH,20,1313,1.526,Motor automático,1
+2026-11-22T01:27:43Z,compra,team-10,Factum,20,1201,1.661,Motor automático,1
+2026-11-22T01:33:05Z,venta,team-37,Kuwü,332,6668,3.922,Motor automático,6
+2026-11-22T01:33:09Z,compra,team-2,MESH,20,1210,1.648,Motor automático,1
+2026-11-22T01:33:14Z,compra,team-42,Dendrita,20,1192,1.672,Motor automático,1
+2026-11-22T01:33:17Z,compra,team-10,Factum,20,1124,1.769,Motor automático,1
+2026-11-22T01:33:19Z,compra,team-2,MESH,20,1110,1.79,Motor automático,1
+2026-11-22T01:33:21Z,compra,team-29,Bando,20,1090,1.82,Motor automático,1
+2026-11-22T01:33:22Z,compra,team-42,Dendrita,20,1091,1.82,Motor automático,1
+2026-11-22T01:33:23Z,compra,team-10,Factum,20,1034,1.916,Motor automático,1
+2026-11-22T01:33:25Z,compra,team-29,Bando,20,1004,1.97,Motor automático,1
+2026-11-22T01:33:27Z,compra,team-42,Dendrita,20,1004,1.969,Motor automático,1
+2026-11-22T01:33:28Z,compra,team-10,Factum,20,956,2.065,Motor automático,1
+2026-11-22T01:33:30Z,compra,team-29,Bando,20,931,2.119,Motor automático,1
+2026-11-22T01:33:32Z,compra,team-42,Dendrita,20,931,2.118,Motor automático,1
+2026-11-22T01:33:33Z,compra,team-13,AIgis,20,929,2.122,Motor automático,1
+2026-11-22T01:33:35Z,compra,team-20,World UI,20,923,2.137,Motor automático,1
+2026-11-22T01:33:36Z,compra,team-28,What If Chile,20,1807,1.131,Motor automático,1
+2026-11-22T01:33:38Z,compra,team-23,TRAZADA,20,1787,1.143,Motor automático,1
+2026-11-22T01:33:39Z,compra,team-48,Nodomics,20,1778,1.148,Motor automático,1
+2026-11-22T01:33:42Z,compra,team-4,VIAZ,20,1730,1.178,Motor automático,1
+2026-11-22T01:33:48Z,venta,team-42,Dendrita,49,2740,1.677,Motor automático,1
+2026-11-22T01:33:49Z,venta,team-10,Factum,61,3548,1.532,Motor automático,1
+2026-11-22T01:33:50Z,venta,team-29,Bando,28,1512,1.87,Motor automático,1
+2026-11-22T01:33:53Z,compra,team-41,Yunta,20,1620,1.252,Motor automático,1
+2026-11-22T01:33:54Z,compra,team-28,What If Chile,20,1564,1.294,Motor automático,1
+2026-11-22T01:33:55Z,compra,team-23,TRAZADA,20,1549,1.306,Motor automático,1
+2026-11-22T01:33:57Z,compra,team-48,Nodomics,20,1542,1.311,Motor automático,1
+2026-11-22T01:33:59Z,compra,team-4,VIAZ,20,1506,1.341,Motor automático,1
+2026-11-22T01:34:00Z,compra,team-16,Agora,20,1494,1.351,Motor automático,1
+2026-11-22T01:34:02Z,compra,team-35,Agent Rooms,20,1478,1.364,Motor automático,1
+2026-11-22T01:34:23Z,venta,team-37,Kuwü,190,6669,2.225,Motor automático,3
+2026-11-22T01:34:26Z,compra,team-44,Myo,20,1445,1.394,Motor automático,1
+2026-11-22T01:34:28Z,compra,team-1,Cortafuego,20,1421,1.416,Motor automático,1
+2026-11-22T01:34:30Z,compra,team-41,Yunta,20,1417,1.42,Motor automático,1
+2026-11-22T01:34:31Z,compra,team-5,Krylov,20,1409,1.427,Motor automático,1
+2026-11-22T01:34:32Z,compra,team-41,Yunta,20,1548,1.307,Motor automático,1
+2026-11-22T01:34:34Z,compra,team-1,Cortafuego,20,1533,1.318,Motor automático,1
+2026-11-22T01:34:35Z,compra,team-18,ADverse,20,1412,1.424,Motor automático,1
+2026-11-22T01:34:37Z,compra,team-36,chameleonmode.app,20,1403,1.433,Motor automático,1
+2026-11-22T01:34:39Z,compra,team-40,Grifter,20,1384,1.452,Motor automático,1
+2026-11-22T01:34:40Z,compra,team-41,Yunta,20,1381,1.455,Motor automático,1
+2026-11-22T01:38:46Z,venta,team-10,Factum,44,3549,1.135,Motor automático,1
+2026-11-22T01:38:47Z,venta,team-29,Bando,24,1513,1.641,Motor automático,1
+2026-11-22T01:38:49Z,compra,team-28,What If Chile,20,1387,1.449,Motor automático,1
+2026-11-22T01:38:51Z,compra,team-8,Prompt Arena,20,1389,1.447,Motor automático,1
+2026-11-22T01:38:53Z,compra,team-46,Mayday,20,1389,1.447,Motor automático,1
+2026-11-22T01:38:54Z,compra,team-1,Cortafuego,20,1382,1.454,Motor automático,1
+2026-11-22T01:39:14Z,venta,team-42,Dendrita,40,2741,1.395,Motor automático,1
+2026-11-22T01:39:17Z,compra,team-23,TRAZADA,20,1377,1.459,Motor automático,1
+2026-11-22T01:39:19Z,compra,team-48,Nodomics,20,1372,1.464,Motor automático,1
+2026-11-22T01:52:24Z,venta,team-3,Hoodini,380,17214,1.041,Motor automático,6
+2026-11-22T01:52:27Z,compra,team-45,Audem,20,1900,1.08,Motor automático,1
+2026-11-22T01:52:28Z,compra,team-27,Vigente,20,1856,1.104,Motor automático,1
+2026-11-22T01:52:30Z,compra,team-45,Audem,20,1645,1.235,Motor automático,1
+2026-11-22T01:52:32Z,compra,team-27,Vigente,20,1612,1.258,Motor automático,1
+2026-11-22T01:52:33Z,compra,team-45,Audem,20,1458,1.383,Motor automático,1
+2026-11-22T01:52:35Z,compra,team-27,Vigente,20,1432,1.406,Motor automático,1
+2026-11-22T01:52:37Z,compra,team-45,Audem,20,1303,1.536,Motor automático,1
+2026-11-22T01:52:38Z,compra,team-27,Vigente,20,1283,1.559,Motor automático,1
+2026-11-22T01:52:40Z,compra,team-45,Audem,20,1179,1.69,Motor automático,1
+2026-11-22T01:52:42Z,compra,team-27,Vigente,20,1163,1.713,Motor automático,1
+2026-11-22T01:52:44Z,compra,team-1,Cortafuego,20,2519,0.835,Motor automático,1
+2026-11-22T01:52:46Z,compra,team-1,Cortafuego,20,2084,0.992,Motor automático,1
+2026-11-22T01:52:47Z,compra,team-1,Cortafuego,20,1777,1.149,Motor automático,1
+2026-11-22T01:52:49Z,compra,team-1,Cortafuego,20,1550,1.305,Motor automático,1
+2026-11-22T01:52:50Z,compra,team-41,Yunta,20,1479,1.364,Motor automático,1
+2026-11-22T01:52:52Z,compra,team-33,Aterriza,20,1380,1.456,Motor automático,1
+2026-11-22T01:52:53Z,compra,team-12,Puente,20,1381,1.455,Motor automático,1
+2026-11-22T01:52:55Z,compra,team-1,Cortafuego,20,1381,1.455,Motor automático,1
+2026-11-22T01:52:57Z,compra,team-17,Vigilia,20,1376,1.46,Motor automático,1
+2026-11-22T01:52:58Z,compra,team-22,root,20,1375,1.46,Motor automático,1
+2026-11-22T01:53:03Z,venta,team-27,Vigente,51,3673,1.247,Motor automático,1
+2026-11-22T01:53:03Z,venta,team-45,Audem,51,3742,1.227,Motor automático,1
+2026-11-22T01:53:05Z,compra,team-19,Branchpoint,20,1362,1.474,Motor automático,1
+2026-11-22T01:53:06Z,compra,team-4,VIAZ,20,1361,1.475,Motor automático,1
+2026-11-22T01:53:08Z,compra,team-16,Agora,20,1352,1.484,Motor automático,1
+2026-11-22T01:53:09Z,compra,team-35,Agent Rooms,20,1339,1.498,Motor automático,1
+2026-11-22T01:53:10Z,compra,team-41,Yunta,20,1325,1.512,Motor automático,1
+2026-11-22T01:53:11Z,compra,team-5,Krylov,20,1312,1.527,Motor automático,1
+2026-11-22T01:57:04Z,venta,team-27,Vigente,34,3673,0.839,Motor automático,1
+2026-11-22T01:57:05Z,venta,team-45,Audem,33,3743,0.82,Motor automático,1
+2026-11-22T01:57:07Z,compra,team-20,World UI,20,952,2.072,Motor automático,1
+2026-11-22T01:57:08Z,compra,team-13,AIgis,20,930,2.12,Motor automático,1
+2026-11-22T01:57:10Z,compra,team-18,ADverse,20,1421,1.417,Motor automático,1
+2026-11-22T01:57:12Z,compra,team-40,Grifter,20,1393,1.443,Motor automático,1
+2026-11-22T01:57:17Z,venta,team-20,World UI,16,937,1.91,Motor automático,1
+2026-11-22T01:57:17Z,venta,team-13,AIgis,16,929,1.962,Motor automático,1
+2026-11-22T01:57:19Z,compra,team-28,What If Chile,20,1384,1.452,Motor automático,1
+2026-11-22T02:00:10Z,venta,team-3,Hoodini,322,17214,0.884,Motor automático,6
+2026-11-22T02:00:12Z,compra,team-7,Reaper,20,1841,1.112,Motor automático,1
+2026-11-22T02:00:14Z,compra,team-7,Reaper,20,1598,1.268,Motor automático,1
+2026-11-22T02:00:15Z,compra,team-21,Rigo,20,1439,1.4,Motor automático,1
+2026-11-22T02:00:16Z,compra,team-7,Reaper,20,1414,1.423,Motor automático,1
+2026-11-22T02:00:17Z,compra,team-21,Rigo,20,1288,1.553,Motor automático,1
+2026-11-22T02:00:21Z,compra,team-7,Reaper,20,1269,1.576,Motor automático,1
+2026-11-22T02:00:25Z,compra,team-21,Rigo,20,1167,1.707,Motor automático,1
+2026-11-22T02:00:30Z,compra,team-7,Reaper,20,1151,1.729,Motor automático,1
+2026-11-22T02:00:31Z,compra,team-21,Rigo,20,1067,1.86,Motor automático,1
+2026-11-22T02:00:33Z,compra,team-21,Rigo,20,981,2.015,Motor automático,1
+2026-11-22T02:00:34Z,compra,team-8,Prompt Arena,20,1343,1.494,Motor automático,1
+2026-11-22T02:00:35Z,compra,team-46,Mayday,20,1343,1.493,Motor automático,1
+2026-11-22T02:00:36Z,compra,team-23,TRAZADA,20,1335,1.502,Motor automático,1
+2026-11-22T02:00:37Z,compra,team-48,Nodomics,20,1331,1.507,Motor automático,1
+2026-11-22T02:00:38Z,compra,team-33,Aterriza,20,1331,1.507,Motor automático,1
+2026-11-22T02:00:40Z,compra,team-21,Rigo,20,922,2.138,Motor automático,1
+2026-11-22T02:00:41Z,compra,team-12,Puente,20,1334,1.504,Motor automático,1
+2026-11-22T02:00:45Z,compra,team-1,Cortafuego,20,1333,1.504,Motor automático,1
+2026-11-22T02:00:56Z,venta,team-7,Reaper,51,3636,1.271,Motor automático,1
+2026-11-22T02:00:57Z,venta,team-21,Rigo,39,3432,1.051,Motor automático,1
+2026-11-22T02:00:59Z,compra,team-28,What If Chile,20,2212,0.94,Motor automático,1
+2026-11-22T02:01:00Z,compra,team-28,What If Chile,20,1870,1.096,Motor automático,1
+2026-11-22T02:01:02Z,compra,team-16,Agora,20,1670,1.217,Motor automático,1
+2026-11-22T02:01:03Z,compra,team-28,What If Chile,20,1622,1.251,Motor automático,1
+2026-11-22T02:01:49Z,venta,team-46,Mayday,180,16388,0.536,Motor automático,3
+2026-11-22T02:01:51Z,compra,team-4,VIAZ,20,1437,1.401,Motor automático,1
+2026-11-22T02:01:53Z,compra,team-16,Agora,20,1433,1.405,Motor automático,1
+2026-11-22T02:01:54Z,compra,team-28,What If Chile,20,1396,1.44,Motor automático,1
+2026-11-22T02:01:55Z,compra,team-4,VIAZ,20,1292,1.549,Motor automático,1
+2026-11-22T02:01:56Z,compra,team-16,Agora,20,1285,1.557,Motor automático,1
+2026-11-22T02:01:58Z,compra,team-36,chameleonmode.app,20,1275,1.569,Motor automático,1
+2026-11-22T02:01:59Z,compra,team-17,Vigilia,20,1276,1.568,Motor automático,1
+2026-11-22T02:02:00Z,compra,team-19,Branchpoint,20,1273,1.571,Motor automático,1
+2026-11-22T02:02:01Z,compra,team-28,What If Chile,20,1262,1.584,Motor automático,1
+2026-11-22T02:02:02Z,compra,team-35,Agent Rooms,20,1252,1.597,Motor automático,1
+2026-11-22T02:03:35Z,venta,team-46,Mayday,157,16388,0.47,Motor automático,3
+2026-11-22T02:03:38Z,compra,team-38,Minga,20,1257,1.59,Motor automático,1
+2026-11-22T02:03:40Z,compra,team-41,Yunta,20,1257,1.59,Motor automático,1
+2026-11-22T02:03:41Z,compra,team-18,ADverse,20,1232,1.62,Motor automático,1
+2026-11-22T02:03:42Z,compra,team-40,Grifter,20,1211,1.648,Motor automático,1
+2026-11-22T02:03:44Z,compra,team-8,Prompt Arena,20,1211,1.648,Motor automático,1
+2026-11-22T02:03:45Z,compra,team-23,TRAZADA,20,1202,1.659,Motor automático,1
+2026-11-22T02:03:46Z,compra,team-4,VIAZ,20,1204,1.657,Motor automático,1
+2026-11-22T02:03:47Z,compra,team-48,Nodomics,20,1201,1.661,Motor automático,1
+2026-11-22T02:03:49Z,compra,team-16,Agora,20,1200,1.661,Motor automático,1
+2026-11-22T02:05:51Z,venta,team-7,Reaper,37,3637,0.934,Motor automático,1
+2026-11-22T02:05:52Z,venta,team-20,World UI,15,938,1.815,Motor automático,1
+2026-11-22T02:05:53Z,venta,team-13,AIgis,16,930,1.865,Motor automático,1
+2026-11-22T02:05:54Z,venta,team-21,Rigo,29,3432,0.787,Motor automático,1
+2026-11-22T02:05:56Z,compra,team-33,Aterriza,20,1183,1.684,Motor automático,1
+2026-11-22T02:05:57Z,compra,team-12,Puente,20,1183,1.684,Motor automático,1
+2026-11-22T02:05:59Z,compra,team-36,chameleonmode.app,20,1185,1.682,Motor automático,1
+2026-11-22T02:06:00Z,compra,team-17,Vigilia,20,1185,1.681,Motor automático,1
+2026-11-22T02:06:01Z,compra,team-1,Cortafuego,20,1187,1.679,Motor automático,1
+2026-11-22T02:10:18Z,venta,team-2,MESH,47,3471,1.229,Motor automático,1
+2026-11-22T02:10:19Z,compra,team-10,Factum,20,1673,1.215,Motor automático,1
+2026-11-22T02:10:20Z,compra,team-10,Factum,20,1470,1.371,Motor automático,1
+2026-11-22T02:13:13Z,compra,team-34,Drena,100,5820,2.116,Decisión en vivo,2
+2026-11-22T02:22:28Z,venta,team-10,Factum,24,1571,1.579,Motor automático,1
+2026-11-22T02:23:14Z,venta,team-34,Drena,53,2910,1.684,Motor automático,1
+2026-11-22T02:27:20Z,venta,team-10,Factum,21,1572,1.395,Motor automático,1
+2026-11-22T02:49:57Z,venta,team-38,Minga,210,4633,3.902,Motor automático,4
+2026-11-22T02:50:04Z,compra,team-21,Rigo,20,2213,0.939,Motor automático,1
+2026-11-22T02:50:07Z,compra,team-45,Audem,20,2175,0.954,Motor automático,1
+2026-11-22T02:50:08Z,compra,team-27,Vigente,20,2036,1.013,Motor automático,1
+2026-11-22T02:50:10Z,compra,team-7,Reaper,20,1889,1.086,Motor automático,1
+2026-11-22T02:50:11Z,compra,team-21,Rigo,20,1879,1.091,Motor automático,1
+2026-11-22T02:50:12Z,compra,team-45,Audem,20,1851,1.106,Motor automático,1
+2026-11-22T02:50:13Z,compra,team-27,Vigente,20,1751,1.165,Motor automático,1
+2026-11-22T02:50:15Z,compra,team-7,Reaper,20,1642,1.237,Motor automático,1
+2026-11-22T02:50:16Z,compra,team-21,Rigo,20,1634,1.243,Motor automático,1
+2026-11-22T02:50:18Z,compra,team-45,Audem,20,1613,1.257,Motor automático,1
+2026-11-22T02:50:20Z,compra,team-27,Vigente,20,1536,1.316,Motor automático,1
+2026-11-22T02:50:21Z,compra,team-46,Mayday,20,1518,1.331,Motor automático,1
+2026-11-22T02:50:25Z,venta,team-7,Reaper,18,1765,1.063,Motor automático,1
+2026-11-22T02:50:26Z,venta,team-45,Audem,29,2819,0.995,Motor automático,1
+2026-11-22T02:50:29Z,compra,team-2,MESH,20,1499,1.347,Motor automático,1
+2026-11-22T02:50:30Z,compra,team-21,Rigo,20,1443,1.396,Motor automático,1
+2026-11-22T02:53:58Z,venta,team-38,Minga,142,4634,2.637,Motor automático,3
+2026-11-22T02:54:00Z,compra,team-42,Dendrita,20,1408,1.428,Motor automático,1
+2026-11-22T02:54:02Z,compra,team-27,Vigente,20,1351,1.486,Motor automático,1
+2026-11-22T02:54:03Z,compra,team-46,Mayday,20,1336,1.501,Motor automático,1
+2026-11-22T02:54:05Z,compra,team-2,MESH,20,1327,1.511,Motor automático,1
+2026-11-22T02:54:07Z,compra,team-42,Dendrita,20,1268,1.577,Motor automático,1
+2026-11-22T02:54:08Z,compra,team-27,Vigente,20,1220,1.636,Motor automático,1
+2026-11-22T02:54:10Z,compra,team-29,Bando,20,1220,1.636,Motor automático,1
+2026-11-22T02:54:11Z,compra,team-46,Mayday,20,1210,1.649,Motor automático,1
+2026-11-22T02:54:15Z,venta,team-42,Dendrita,17,1338,1.408,Motor automático,1
+2026-11-22T02:54:16Z,venta,team-27,Vigente,53,3947,1.181,Motor automático,1
+2026-11-22T02:54:17Z,venta,team-46,Mayday,29,2032,1.405,Motor automático,1
+2026-11-22T02:54:19Z,compra,team-2,MESH,20,1192,1.672,Motor automático,1
+2026-11-22T02:54:21Z,compra,team-34,Drena,20,1125,1.768,Motor automático,1
+2026-11-22T02:54:24Z,compra,team-29,Bando,20,1105,1.798,Motor automático,1
+2026-11-22T02:54:28Z,compra,team-3,Hoodini,20,1102,1.802,Motor automático,1
+2026-11-22T02:54:32Z,compra,team-34,Drena,20,1033,1.918,Motor automático,1
+2026-11-22T02:54:37Z,venta,team-45,Audem,23,2820,0.787,Motor automático,1
+2026-11-22T02:54:38Z,venta,team-29,Bando,17,1162,1.633,Motor automático,1
+2026-11-22T02:54:40Z,compra,team-20,World UI,20,1018,1.945,Motor automático,1
+2026-11-22T02:54:42Z,compra,team-3,Hoodini,20,1011,1.957,Motor automático,1
+2026-11-22T02:54:43Z,compra,team-13,AIgis,20,997,1.984,Motor automático,1
+2026-11-22T02:54:47Z,venta,team-3,Hoodini,17,1056,1.792,Motor automático,1
+2026-11-22T02:58:16Z,venta,team-42,Dendrita,14,1338,1.161,Motor automático,1
+2026-11-22T02:58:17Z,venta,team-27,Vigente,34,3947,0.782,Motor automático,1
+2026-11-22T02:58:17Z,venta,team-46,Mayday,22,2032,1.09,Motor automático,1
+2026-11-22T02:58:20Z,compra,team-10,Factum,20,1457,1.383,Motor automático,1
+2026-11-22T02:58:21Z,compra,team-10,Factum,20,1301,1.539,Motor automático,1
+2026-11-22T02:58:22Z,compra,team-10,Factum,20,1175,1.695,Motor automático,1
+2026-11-22T02:58:23Z,compra,team-10,Factum,20,1072,1.851,Motor automático,1
+2026-11-22T02:58:27Z,venta,team-10,Factum,39,2502,1.507,Motor automático,1
+2026-11-22T02:58:30Z,compra,team-20,World UI,20,1015,1.949,Motor automático,1
+2026-11-22T02:58:30Z,compra,team-13,AIgis,20,994,1.99,Motor automático,1
+2026-11-22T02:58:35Z,venta,team-20,World UI,16,1016,1.791,Motor automático,1
+2026-11-22T02:58:36Z,venta,team-13,AIgis,17,995,1.837,Motor automático,1
+2026-11-22T02:58:38Z,compra,team-41,Yunta,20,1869,1.097,Motor automático,1
+2026-11-22T02:58:40Z,compra,team-30,Sculptor,20,1676,1.213,Motor automático,1
+2026-11-22T02:58:44Z,venta,team-7,Reaper,14,1766,0.847,Motor automático,1
+2026-11-22T02:58:44Z,venta,team-29,Bando,14,1163,1.364,Motor automático,1
+2026-11-22T02:58:47Z,compra,team-41,Yunta,20,1617,1.254,Motor automático,1
+2026-11-22T02:58:51Z,compra,team-30,Sculptor,20,1471,1.371,Motor automático,1
+2026-11-22T02:58:59Z,venta,team-3,Hoodini,14,1057,1.514,Motor automático,1
+2026-11-22T02:59:01Z,compra,team-41,Yunta,20,1427,1.41,Motor automático,1
+2026-11-22T03:10:29Z,venta,team-10,Factum,33,2503,1.271,Motor automático,1
+2026-11-22T03:10:30Z,venta,team-20,World UI,16,1017,1.714,Motor automático,1
+2026-11-22T03:10:31Z,venta,team-13,AIgis,16,996,1.762,Motor automático,1
+2026-11-22T03:10:33Z,compra,team-11,Montu,20,1827,1.12,Motor automático,1
+2026-11-22T03:10:35Z,compra,team-11,Montu,20,1587,1.276,Motor automático,1
+2026-11-22T03:10:36Z,compra,team-11,Montu,20,1404,1.432,Motor automático,1
+2026-11-22T03:12:01Z,venta,team-5,Krylov,258,13279,1.109,Motor automático,4
+2026-11-22T03:12:04Z,compra,team-21,Rigo,20,1323,1.515,Motor automático,1
+2026-11-22T03:12:06Z,compra,team-30,Sculptor,20,1249,1.6,Motor automático,1
+2026-11-22T03:12:08Z,compra,team-11,Montu,20,1246,1.604,Motor automático,1
+2026-11-22T03:12:10Z,compra,team-19,Branchpoint,20,1239,1.612,Motor automático,1
+2026-11-22T03:12:12Z,compra,team-28,What If Chile,20,1230,1.624,Motor automático,1
+2026-11-22T03:12:13Z,compra,team-35,Agent Rooms,20,1221,1.635,Motor automático,1
+2026-11-22T03:12:16Z,compra,team-21,Rigo,20,1202,1.659,Motor automático,1
+2026-11-22T03:12:21Z,compra,team-18,ADverse,20,1188,1.678,Motor automático,1
+2026-11-22T03:12:26Z,compra,team-40,Grifter,20,1168,1.704,Motor automático,1
+2026-11-22T03:12:29Z,compra,team-8,Prompt Arena,20,1169,1.704,Motor automático,1
+2026-11-22T03:12:31Z,compra,team-23,TRAZADA,20,1161,1.714,Motor automático,1
+2026-11-22T03:12:32Z,compra,team-4,VIAZ,20,1163,1.713,Motor automático,1
+2026-11-22T03:12:34Z,compra,team-48,Nodomics,20,1160,1.717,Motor automático,1
+2026-11-22T03:12:36Z,compra,team-16,Agora,20,1159,1.717,Motor automático,1
+2026-11-22T03:12:41Z,venta,team-21,Rigo,63,4847,1.102,Motor automático,1
+2026-11-22T03:12:44Z,compra,team-30,Sculptor,20,1147,1.734,Motor automático,1
+2026-11-22T03:12:46Z,compra,team-17,Vigilia,20,1147,1.735,Motor automático,1
+2026-11-22T03:12:48Z,compra,team-1,Cortafuego,20,1148,1.733,Motor automático,1
+2026-11-22T03:13:15Z,venta,team-34,Drena,45,2910,1.437,Motor automático,1
+2026-11-22T03:13:18Z,compra,team-34,Drena,20,1255,1.593,Motor automático,1
+2026-11-22T03:13:19Z,compra,team-34,Drena,20,1138,1.749,Motor automático,1
+2026-11-22T03:13:21Z,compra,team-34,Drena,20,1041,1.904,Motor automático,1
+2026-11-22T03:16:02Z,venta,team-5,Krylov,82,13279,0.358,Motor automático,2
+2026-11-22T03:16:04Z,compra,team-40,Grifter,20,1227,1.627,Motor automático,1
+2026-11-22T03:16:06Z,compra,team-18,ADverse,20,1253,1.596,Motor automático,1
+2026-11-22T03:16:07Z,compra,team-1,Cortafuego,20,1217,1.639,Motor automático,1
+2026-11-22T03:16:09Z,compra,team-16,Agora,20,1212,1.646,Motor automático,1
+2026-11-22T03:16:15Z,venta,team-25,Immune,255,9673,1.791,Motor automático,4
+2026-11-22T03:16:19Z,compra,team-28,What If Chile,20,1224,1.63,Motor automático,1
+2026-11-22T03:16:21Z,compra,team-19,Branchpoint,20,1229,1.625,Motor automático,1
+2026-11-22T03:16:22Z,compra,team-44,Myo,20,1208,1.651,Motor automático,1
+2026-11-22T03:16:24Z,compra,team-12,Puente,20,1182,1.685,Motor automático,1
+2026-11-22T03:16:26Z,compra,team-23,TRAZADA,20,1173,1.698,Motor automático,1
+2026-11-22T03:16:27Z,compra,team-48,Nodomics,20,1168,1.705,Motor automático,1
+2026-11-22T03:16:29Z,compra,team-17,Vigilia,20,1169,1.703,Motor automático,1
+2026-11-22T03:16:30Z,compra,team-8,Prompt Arena,20,1160,1.717,Motor automático,1
+2026-11-22T03:16:32Z,compra,team-4,VIAZ,20,1161,1.715,Motor automático,1
+2026-11-22T03:16:34Z,compra,team-26,Viridis,20,1156,1.722,Motor automático,1
+2026-11-22T03:16:36Z,compra,team-19,Branchpoint,20,1130,1.76,Motor automático,1
+2026-11-22T03:16:37Z,compra,team-22,root,20,1130,1.759,Motor automático,1
+2026-11-22T03:16:39Z,compra,team-28,What If Chile,20,1131,1.758,Motor automático,1
+2026-11-22T03:16:41Z,compra,team-44,Myo,20,1133,1.756,Motor automático,1
+2026-11-22T03:20:15Z,venta,team-25,Immune,110,9674,0.775,Motor automático,2
+2026-11-22T03:20:16Z,venta,team-21,Rigo,42,4847,0.752,Motor automático,1
+2026-11-22T03:20:18Z,compra,team-11,Montu,20,1120,1.775,Motor automático,1
+2026-11-22T03:20:19Z,compra,team-2,MESH,20,1119,1.776,Motor automático,1
+2026-11-22T03:20:21Z,compra,team-18,ADverse,20,1121,1.773,Motor automático,1
+2026-11-22T03:20:22Z,compra,team-12,Puente,20,1110,1.789,Motor automático,1
+2026-11-22T03:20:23Z,compra,team-40,Grifter,20,1105,1.797,Motor automático,1
+2026-11-22T03:20:24Z,compra,team-23,TRAZADA,20,1104,1.799,Motor automático,1
+2026-11-22T03:20:25Z,compra,team-35,Agent Rooms,20,1104,1.799,Motor automático,1
+2026-11-22T03:20:26Z,compra,team-1,Cortafuego,20,1104,1.799,Motor automático,1
+2026-11-22T03:22:20Z,venta,team-36,chameleonmode.app,459,11435,2.538,Motor automático,8
+2026-11-22T03:22:22Z,compra,team-35,Agent Rooms,20,1185,1.681,Motor automático,1
+2026-11-22T03:22:23Z,compra,team-44,Myo,20,1085,1.828,Motor automático,1
+2026-11-22T03:22:24Z,compra,team-35,Agent Rooms,20,1082,1.834,Motor automático,1
+2026-11-22T03:22:26Z,compra,team-30,Sculptor,20,1083,1.833,Motor automático,1
+2026-11-22T03:22:27Z,compra,team-11,Montu,20,1082,1.833,Motor automático,1
+2026-11-22T03:22:28Z,compra,team-2,MESH,20,1082,1.834,Motor automático,1
+2026-11-22T03:22:29Z,compra,team-18,ADverse,20,1084,1.832,Motor automático,1
+2026-11-22T03:22:30Z,compra,team-12,Puente,20,1074,1.846,Motor automático,1
+2026-11-22T03:22:31Z,compra,team-40,Grifter,20,1070,1.854,Motor automático,1
+2026-11-22T03:22:32Z,compra,team-23,TRAZADA,20,1069,1.856,Motor automático,1
+2026-11-22T03:22:33Z,compra,team-1,Cortafuego,20,1067,1.858,Motor automático,1
+2026-11-22T03:22:35Z,compra,team-16,Agora,20,1067,1.858,Motor automático,1
+2026-11-22T03:22:36Z,compra,team-48,Nodomics,20,1067,1.859,Motor automático,1
+2026-11-22T03:22:37Z,compra,team-17,Vigilia,20,1067,1.859,Motor automático,1
+2026-11-22T03:22:38Z,compra,team-8,Prompt Arena,20,1060,1.871,Motor automático,1
+2026-11-22T03:22:39Z,compra,team-4,VIAZ,20,1061,1.87,Motor automático,1
+2026-11-22T03:22:40Z,compra,team-26,Viridis,20,1057,1.875,Motor automático,1
+2026-11-22T03:22:41Z,compra,team-41,Yunta,20,1038,1.908,Motor automático,1
+2026-11-22T03:22:43Z,compra,team-19,Branchpoint,20,1025,1.931,Motor automático,1
+2026-11-22T03:22:44Z,compra,team-22,root,20,1026,1.93,Motor automático,1
+2026-11-22T03:22:45Z,compra,team-28,What If Chile,20,1026,1.929,Motor automático,1
+2026-11-22T03:22:46Z,compra,team-33,Aterriza,20,1016,1.948,Motor automático,1
+2026-11-22T03:22:47Z,compra,team-44,Myo,20,1015,1.95,Motor automático,1
+2026-11-22T03:22:48Z,compra,team-35,Agent Rooms,20,1012,1.956,Motor automático,1
+2026-11-22T03:22:50Z,compra,team-30,Sculptor,20,1012,1.955,Motor automático,1
+2026-11-22T03:22:54Z,venta,team-36,chameleonmode.app,81,11435,0.449,Motor automático,2
+2026-11-22T03:22:56Z,compra,team-11,Montu,20,1005,1.968,Motor automático,1
+2026-11-22T03:22:57Z,compra,team-2,MESH,20,1008,1.963,Motor automático,1
+2026-11-22T03:22:58Z,compra,team-18,ADverse,20,1009,1.962,Motor automático,1
+2026-11-22T03:22:59Z,compra,team-34,Drena,20,1007,1.964,Motor automático,1
+2026-11-22T03:33:20Z,venta,team-11,Montu,585,8547,4.979,Motor automático,10
+2026-11-22T03:33:22Z,compra,team-27,Vigente,20,2172,0.955,Motor automático,1
+2026-11-22T03:33:24Z,compra,team-7,Reaper,20,1889,1.086,Motor automático,1
+2026-11-22T03:33:25Z,compra,team-45,Audem,20,1847,1.109,Motor automático,1
+2026-11-22T03:33:26Z,compra,team-27,Vigente,20,1847,1.109,Motor automático,1
+2026-11-22T03:33:27Z,compra,team-46,Mayday,20,1756,1.162,Motor automático,1
+2026-11-22T03:33:28Z,compra,team-7,Reaper,20,1641,1.237,Motor automático,1
+2026-11-22T03:33:30Z,compra,team-45,Audem,20,1609,1.26,Motor automático,1
+2026-11-22T03:33:31Z,compra,team-27,Vigente,20,1609,1.26,Motor automático,1
+2026-11-22T03:33:32Z,compra,team-46,Mayday,20,1541,1.313,Motor automático,1
+2026-11-22T03:33:33Z,compra,team-42,Dendrita,20,1480,1.363,Motor automático,1
+2026-11-22T03:33:34Z,compra,team-7,Reaper,20,1454,1.386,Motor automático,1
+2026-11-22T03:33:35Z,compra,team-45,Audem,20,1429,1.409,Motor automático,1
+2026-11-22T03:33:36Z,compra,team-7,Reaper,20,1515,1.333,Motor automático,1
+2026-11-22T03:33:37Z,compra,team-45,Audem,20,1487,1.357,Motor automático,1
+2026-11-22T03:33:39Z,compra,team-27,Vigente,20,1430,1.408,Motor automático,1
+2026-11-22T03:33:40Z,compra,team-46,Mayday,20,1376,1.46,Motor automático,1
+2026-11-22T03:33:41Z,compra,team-3,Hoodini,20,1369,1.466,Motor automático,1
+2026-11-22T03:33:42Z,compra,team-7,Reaper,20,1357,1.479,Motor automático,1
+2026-11-22T03:33:43Z,compra,team-45,Audem,20,1335,1.503,Motor automático,1
+2026-11-22T03:33:44Z,compra,team-42,Dendrita,20,1336,1.501,Motor automático,1
+2026-11-22T03:33:46Z,compra,team-29,Bando,20,1314,1.525,Motor automático,1
+2026-11-22T03:33:47Z,compra,team-46,Mayday,20,1247,1.602,Motor automático,1
+2026-11-22T03:33:48Z,compra,team-3,Hoodini,20,1240,1.611,Motor automático,1
+2026-11-22T03:33:49Z,compra,team-42,Dendrita,20,1209,1.649,Motor automático,1
+2026-11-22T03:33:50Z,compra,team-29,Bando,20,1191,1.674,Motor automático,1
+2026-11-22T03:33:51Z,compra,team-46,Mayday,20,1137,1.75,Motor automático,1
+2026-11-22T03:33:53Z,compra,team-3,Hoodini,20,1128,1.762,Motor automático,1
+2026-11-22T03:33:54Z,compra,team-42,Dendrita,20,1105,1.798,Motor automático,1
+2026-11-22T03:33:55Z,compra,team-29,Bando,20,1087,1.826,Motor automático,1
+2026-11-22T03:33:56Z,compra,team-42,Dendrita,20,1139,1.747,Motor automático,1
+2026-11-22T03:34:00Z,venta,team-42,Dendrita,46,3134,1.348,Motor automático,1
+2026-11-22T03:34:01Z,venta,team-7,Reaper,46,3928,1.056,Motor automático,1
+2026-11-22T03:34:01Z,venta,team-45,Audem,47,3853,1.085,Motor automático,1
+2026-11-22T03:34:02Z,venta,team-29,Bando,28,1796,1.59,Motor automático,1
+2026-11-22T03:34:03Z,venta,team-3,Hoodini,28,1868,1.526,Motor automático,1
+2026-11-22T03:34:05Z,compra,team-39,Bicho,20,1043,1.9,Motor automático,1
+2026-11-22T03:34:06Z,compra,team-39,Bicho,20,961,2.055,Motor automático,1
+2026-11-22T03:34:07Z,compra,team-35,Agent Rooms,20,2052,1.006,Motor automático,1
+2026-11-22T03:34:08Z,compra,team-35,Agent Rooms,20,1754,1.163,Motor automático,1
+2026-11-22T03:34:09Z,compra,team-19,Branchpoint,20,1638,1.24,Motor automático,1
+2026-11-22T03:34:10Z,compra,team-35,Agent Rooms,20,1854,1.105,Motor automático,1
+2026-11-22T03:34:11Z,compra,team-35,Agent Rooms,20,1607,1.261,Motor automático,1
+2026-11-22T03:34:13Z,compra,team-19,Branchpoint,20,1447,1.392,Motor automático,1
+2026-11-22T03:34:14Z,compra,team-35,Agent Rooms,20,1422,1.416,Motor automático,1
+2026-11-22T03:34:15Z,compra,team-27,Vigente,20,1305,1.535,Motor automático,1
+2026-11-22T03:34:16Z,compra,team-19,Branchpoint,20,1294,1.547,Motor automático,1
+2026-11-22T03:34:18Z,compra,team-35,Agent Rooms,20,1563,1.295,Motor automático,1
+2026-11-22T03:34:22Z,venta,team-27,Vigente,52,4181,1.088,Motor automático,1
+2026-11-22T03:34:24Z,compra,team-35,Agent Rooms,20,1379,1.457,Motor automático,1
+2026-11-22T03:34:24Z,compra,team-35,Agent Rooms,20,1238,1.613,Motor automático,1
+2026-11-22T03:34:26Z,compra,team-46,Mayday,20,1181,1.687,Motor automático,1
+2026-11-22T03:34:29Z,venta,team-46,Mayday,56,4119,1.203,Motor automático,1
+2026-11-22T03:34:31Z,compra,team-19,Branchpoint,20,1166,1.708,Motor automático,1
+2026-11-22T03:34:32Z,compra,team-35,Agent Rooms,20,1122,1.771,Motor automático,1
+2026-11-22T03:34:33Z,compra,team-16,Agora,20,1079,1.839,Motor automático,1
+2026-11-22T03:36:16Z,venta,team-26,Viridis,201,12347,0.978,Motor automático,4
+2026-11-22T03:36:17Z,compra,team-48,Nodomics,20,1073,1.848,Motor automático,1
+2026-11-22T03:36:18Z,compra,team-17,Vigilia,20,1073,1.848,Motor automático,1
+2026-11-22T03:36:19Z,compra,team-8,Prompt Arena,20,1067,1.859,Motor automático,1
+2026-11-22T03:36:20Z,compra,team-4,VIAZ,20,1068,1.858,Motor automático,1
+2026-11-22T03:36:21Z,compra,team-19,Branchpoint,20,1069,1.856,Motor automático,1
+2026-11-22T03:36:22Z,compra,team-41,Yunta,20,1060,1.87,Motor automático,1
+2026-11-22T03:36:23Z,compra,team-22,root,20,1047,1.893,Motor automático,1
+2026-11-22T03:36:24Z,compra,team-28,What If Chile,20,1048,1.892,Motor automático,1
+2026-11-22T03:36:25Z,compra,team-33,Aterriza,20,1038,1.909,Motor automático,1
+2026-11-22T03:36:26Z,compra,team-35,Agent Rooms,20,1038,1.908,Motor automático,1
+2026-11-22T03:36:32Z,venta,team-11,Montu,139,8548,1.174,Motor automático,3
+2026-11-22T03:36:34Z,compra,team-44,Myo,20,1002,1.973,Motor automático,1
+2026-11-22T03:36:35Z,compra,team-2,MESH,20,996,1.986,Motor automático,1
+2026-11-22T03:36:36Z,compra,team-18,ADverse,20,997,1.984,Motor automático,1
+2026-11-22T03:36:37Z,compra,team-34,Drena,20,995,1.986,Motor automático,1
+2026-11-22T03:36:38Z,compra,team-12,Puente,20,986,2.005,Motor automático,1
+2026-11-22T03:36:40Z,compra,team-40,Grifter,20,981,2.015,Motor automático,1
+2026-11-22T03:36:41Z,compra,team-23,TRAZADA,20,980,2.017,Motor automático,1
+2026-11-22T03:36:42Z,compra,team-1,Cortafuego,20,980,2.017,Motor automático,1
+2026-11-22T03:40:33Z,venta,team-42,Dendrita,35,3135,1.049,Motor automático,1
+2026-11-22T03:40:34Z,venta,team-27,Vigente,36,4182,0.776,Motor automático,1
+2026-11-22T03:40:34Z,venta,team-26,Viridis,72,12348,0.356,Motor automático,2
+2026-11-22T03:40:35Z,venta,team-46,Mayday,40,4119,0.871,Motor automático,1
+2026-11-22T03:40:36Z,venta,team-7,Reaper,34,3928,0.778,Motor automático,1
+2026-11-22T03:40:36Z,venta,team-45,Audem,34,3854,0.802,Motor automático,1
+2026-11-22T03:40:37Z,venta,team-29,Bando,24,1796,1.394,Motor automático,1
+2026-11-22T03:40:38Z,venta,team-3,Hoodini,24,1869,1.329,Motor automático,1
+2026-11-22T03:40:40Z,compra,team-10,Factum,20,1579,1.283,Motor automático,1
+2026-11-22T03:40:41Z,compra,team-10,Factum,20,1397,1.439,Motor automático,1
+2026-11-22T03:40:42Z,compra,team-10,Factum,20,1253,1.595,Motor automático,1
+2026-11-22T03:40:43Z,compra,team-10,Factum,20,1136,1.75,Motor automático,1
+2026-11-22T03:40:44Z,compra,team-20,World UI,20,1095,1.814,Motor automático,1
+2026-11-22T03:40:45Z,compra,team-10,Factum,20,1179,1.689,Motor automático,1
+2026-11-22T03:40:46Z,compra,team-10,Factum,20,1075,1.845,Motor automático,1
+2026-11-22T03:40:47Z,compra,team-13,AIgis,20,1076,1.845,Motor automático,1
+2026-11-22T03:40:48Z,compra,team-20,World UI,20,1009,1.96,Motor automático,1
+2026-11-22T03:40:49Z,compra,team-13,AIgis,20,990,1.997,Motor automático,1
+2026-11-22T03:40:50Z,compra,team-20,World UI,20,934,2.112,Motor automático,1
+2026-11-22T03:40:51Z,compra,team-13,AIgis,20,917,2.149,Motor automático,1
+2026-11-22T03:40:52Z,compra,team-10,Factum,20,996,1.986,Motor automático,1
+2026-11-22T03:40:53Z,compra,team-16,Agora,20,979,2.018,Motor automático,1
+2026-11-22T03:40:54Z,compra,team-48,Nodomics,20,979,2.018,Motor automático,1
+2026-11-22T03:40:55Z,compra,team-17,Vigilia,20,979,2.018,Motor automático,1
+2026-11-22T03:41:00Z,venta,team-10,Factum,67,4307,1.388,Motor automático,2
+2026-11-22T03:41:01Z,venta,team-20,World UI,28,1519,1.862,Motor automático,1
+2026-11-22T03:41:02Z,venta,team-13,AIgis,28,1491,1.906,Motor automático,1
+2026-11-22T03:41:04Z,compra,team-8,Prompt Arena,20,968,2.041,Motor automático,1
+2026-11-22T03:41:05Z,compra,team-4,VIAZ,20,968,2.04,Motor automático,1
+2026-11-22T03:41:06Z,compra,team-19,Branchpoint,20,969,2.038,Motor automático,1
+2026-11-22T03:41:07Z,compra,team-41,Yunta,20,962,2.052,Motor automático,1
+2026-11-22T03:41:08Z,compra,team-30,Sculptor,20,959,2.058,Motor automático,1
+2026-11-22T03:41:09Z,compra,team-22,root,20,953,2.072,Motor automático,1
+2026-11-22T03:41:10Z,compra,team-28,What If Chile,20,953,2.071,Motor automático,1
+2026-11-22T03:47:12Z,venta,team-1,Cortafuego,512,26570,0.552,Motor automático,8
+2026-11-22T03:47:13Z,compra,team-5,Krylov,20,2902,0.736,Motor automático,1
+2026-11-22T03:47:14Z,compra,team-5,Krylov,20,2338,0.893,Motor automático,1
+2026-11-22T03:47:15Z,compra,team-5,Krylov,20,1959,1.05,Motor automático,1
+2026-11-22T03:47:16Z,compra,team-15,Caudales,20,1334,1.503,Motor automático,1
+2026-11-22T03:47:17Z,compra,team-15,Caudales,20,1205,1.655,Motor automático,1
+2026-11-22T03:47:18Z,compra,team-15,Caudales,20,1097,1.811,Motor automático,1
+2026-11-22T03:47:19Z,compra,team-15,Caudales,20,1006,1.966,Motor automático,1
+2026-11-22T03:47:20Z,compra,team-15,Caudales,20,930,2.121,Motor automático,1
+2026-11-22T03:47:21Z,compra,team-5,Krylov,20,1703,1.196,Motor automático,1
+2026-11-22T03:47:22Z,compra,team-5,Krylov,20,1493,1.352,Motor automático,1
+2026-11-22T03:47:23Z,compra,team-5,Krylov,20,1717,1.186,Motor automático,1
+2026-11-22T03:47:25Z,compra,team-5,Krylov,20,1504,1.342,Motor automático,1
+2026-11-22T03:47:26Z,compra,team-5,Krylov,20,1338,1.498,Motor automático,1
+2026-11-22T03:47:27Z,compra,team-5,Krylov,20,1206,1.654,Motor automático,1
+2026-11-22T03:47:28Z,compra,team-35,Agent Rooms,20,1112,1.787,Motor automático,1
+2026-11-22T03:47:29Z,compra,team-5,Krylov,20,1099,1.807,Motor automático,1
+2026-11-22T03:47:30Z,compra,team-35,Agent Rooms,20,1020,1.94,Motor automático,1
+2026-11-22T03:47:31Z,compra,team-5,Krylov,20,1136,1.751,Motor automático,1
+2026-11-22T03:47:32Z,compra,team-5,Krylov,20,1039,1.907,Motor automático,1
+2026-11-22T03:47:33Z,compra,team-5,Krylov,20,958,2.062,Motor automático,1
+2026-11-22T03:47:34Z,compra,team-35,Agent Rooms,20,946,2.086,Motor automático,1
+2026-11-22T03:47:36Z,compra,team-15,Caudales,20,878,2.24,Motor automático,1
+2026-11-22T03:47:36Z,compra,team-39,Bicho,20,869,2.263,Motor automático,1
+2026-11-22T03:47:37Z,compra,team-44,Myo,20,916,2.152,Motor automático,1
+2026-11-22T03:47:39Z,compra,team-33,Aterriza,20,917,2.15,Motor automático,1
+2026-11-22T03:47:40Z,compra,team-38,Minga,20,827,2.375,Motor automático,1
+2026-11-22T03:47:41Z,compra,team-15,Caudales,20,825,2.381,Motor automático,1
+2026-11-22T03:47:44Z,venta,team-15,Caudales,70,3637,1.769,Motor automático,2
+2026-11-22T03:47:46Z,compra,team-2,MESH,20,913,2.158,Motor automático,1
+2026-11-22T03:47:47Z,compra,team-38,Minga,20,776,2.524,Motor automático,1
+2026-11-22T03:47:48Z,compra,team-18,ADverse,20,916,2.153,Motor automático,1
+2026-11-22T03:47:49Z,compra,team-34,Drena,20,914,2.155,Motor automático,1
+2026-11-22T03:47:53Z,venta,team-38,Minga,17,801,2.357,Motor automático,1
+2026-11-22T03:47:55Z,compra,team-32,Bifurca,20,708,2.76,Motor automático,1
+2026-11-22T03:48:17Z,venta,team-1,Cortafuego,50,26570,0.054,Motor automático,1
+2026-11-22T03:48:18Z,compra,team-32,Bifurca,20,661,2.949,Motor automático,1
+2026-11-22T03:48:20Z,compra,team-6,SwarmWatch,20,631,3.085,Motor automático,1
+2026-11-22T03:48:21Z,compra,team-32,Bifurca,20,629,3.098,Motor automático,1
+2026-11-22T03:48:25Z,venta,team-32,Bifurca,27,999,2.857,Motor automático,1
+2026-11-22T03:48:26Z,compra,team-6,SwarmWatch,20,600,3.241,Motor automático,1
+2026-11-22T03:48:33Z,venta,team-32,Bifurca,21,999,2.226,Motor automático,1
+2026-11-22T03:48:33Z,venta,team-10,Factum,49,4308,0.999,Motor automático,1
+2026-11-22T03:48:34Z,venta,team-20,World UI,25,1519,1.69,Motor automático,1
+2026-11-22T03:48:35Z,venta,team-13,AIgis,25,1492,1.734,Motor automático,1
+2026-11-22T03:48:36Z,compra,team-37,Kuwü,20,566,3.432,Motor automático,1
+2026-11-22T03:48:37Z,compra,team-6,SwarmWatch,20,565,3.438,Motor automático,1
+2026-11-22T03:48:38Z,compra,team-37,Kuwü,20,542,3.58,Motor automático,1
+2026-11-22T03:48:39Z,compra,team-6,SwarmWatch,20,541,3.586,Motor automático,1
+2026-11-22T03:48:40Z,compra,team-37,Kuwü,20,520,3.726,Motor automático,1
+2026-11-22T03:48:41Z,compra,team-37,Kuwü,20,499,3.878,Motor automático,1
+2026-11-22T03:48:42Z,compra,team-37,Kuwü,20,480,4.03,Motor automático,1
+2026-11-22T03:48:46Z,venta,team-37,Kuwü,47,1303,3.631,Motor automático,1
+2026-11-22T03:48:48Z,compra,team-24,mosAIc,20,349,5.51,Motor automático,1
+2026-11-22T03:48:49Z,compra,team-24,mosAIc,20,340,5.66,Motor automático,1
+2026-11-22T03:48:52Z,venta,team-24,mosAIc,17,344,5.508,Motor automático,1
+2026-11-22T03:48:54Z,compra,team-14,santiaguito.cl,20,171,11.123,Motor automático,1
+2026-11-22T03:50:48Z,venta,team-37,Kuwü,38,1304,2.941,Motor automático,1
+2026-11-22T03:50:50Z,compra,team-25,Immune,20,2316,0.901,Motor automático,1
+2026-11-22T03:50:51Z,compra,team-25,Immune,20,1944,1.058,Motor automático,1
+2026-11-22T03:50:58Z,venta,team-23,TRAZADA,271,21136,0.492,Motor automático,5
+2026-11-22T03:50:59Z,venta,team-38,Minga,14,802,2.044,Motor automático,1
+2026-11-22T03:50:59Z,venta,team-24,mosAIc,15,345,4.898,Motor automático,1
+2026-11-22T03:51:01Z,compra,team-21,Rigo,20,1786,1.144,Motor automático,1
+2026-11-22T03:51:02Z,compra,team-25,Immune,20,1658,1.226,Motor automático,1
+2026-11-22T03:51:03Z,compra,team-21,Rigo,20,1556,1.301,Motor automático,1
+2026-11-22T03:51:04Z,compra,team-25,Immune,20,1737,1.174,Motor automático,1
+2026-11-22T03:51:05Z,compra,team-21,Rigo,20,1381,1.455,Motor automático,1
+2026-11-22T03:51:06Z,compra,team-21,Rigo,20,1428,1.41,Motor automático,1
+2026-11-22T03:51:07Z,compra,team-21,Rigo,20,1280,1.564,Motor automático,1
+2026-11-22T03:51:08Z,compra,team-25,Immune,20,1526,1.325,Motor automático,1
+2026-11-22T03:51:09Z,compra,team-25,Immune,20,1355,1.481,Motor automático,1
+2026-11-22T03:51:10Z,compra,team-25,Immune,20,1219,1.637,Motor automático,1
+2026-11-22T03:51:11Z,compra,team-21,Rigo,20,1163,1.712,Motor automático,1
+2026-11-22T03:51:13Z,compra,team-25,Immune,20,1110,1.79,Motor automático,1
+2026-11-22T03:51:14Z,compra,team-21,Rigo,20,1063,1.865,Motor automático,1
+2026-11-22T03:51:15Z,compra,team-25,Immune,20,1019,1.942,Motor automático,1
+2026-11-22T03:51:16Z,compra,team-12,Puente,20,993,1.991,Motor automático,1
+2026-11-22T03:51:17Z,compra,team-5,Krylov,20,990,1.996,Motor automático,1
+2026-11-22T03:51:21Z,venta,team-21,Rigo,69,4828,1.249,Motor automático,2
+2026-11-22T03:51:23Z,compra,team-40,Grifter,20,977,2.023,Motor automático,1
+2026-11-22T03:51:24Z,compra,team-16,Agora,20,972,2.032,Motor automático,1
+2026-11-22T03:51:25Z,compra,team-48,Nodomics,20,968,2.041,Motor automático,1
+2026-11-22T03:51:26Z,compra,team-17,Vigilia,20,968,2.041,Motor automático,1
+2026-11-22T03:51:30Z,venta,team-21,Rigo,28,4829,0.514,Motor automático,1
+2026-11-22T03:51:32Z,compra,team-35,Agent Rooms,20,965,2.047,Motor automático,1
+2026-11-22T03:52:49Z,venta,team-23,TRAZADA,122,21136,0.221,Motor automático,2
+2026-11-22T03:52:51Z,compra,team-25,Immune,20,1010,1.959,Motor automático,1
+2026-11-22T03:52:52Z,compra,team-8,Prompt Arena,20,941,2.096,Motor automático,1
+2026-11-22T03:52:53Z,compra,team-4,VIAZ,20,942,2.095,Motor automático,1
+2026-11-22T03:52:54Z,compra,team-19,Branchpoint,20,942,2.093,Motor automático,1
+2026-11-22T03:52:55Z,compra,team-25,Immune,20,937,2.106,Motor automático,1
+2026-11-22T03:52:56Z,compra,team-41,Yunta,20,938,2.104,Motor automático,1
+2026-11-22T03:52:57Z,compra,team-30,Sculptor,20,935,2.109,Motor automático,1
+2026-11-22T03:53:50Z,compra,team-14,santiaguito.cl,100,1020,9.972,Decisión en vivo,2
+2026-11-22T03:57:17Z,venta,team-15,Caudales,128,3638,3.133,Motor automático,2
+2026-11-22T03:57:19Z,compra,team-36,chameleonmode.app,20,932,2.116,Motor automático,1
+2026-11-22T03:57:20Z,compra,team-44,Myo,20,2720,0.78,Motor automático,1
+2026-11-22T04:03:53Z,venta,team-14,santiaguito.cl,47,510,9.608,Motor automático,1
+2026-11-22T04:03:56Z,compra,team-44,Myo,20,2342,0.892,Motor automático,1
+2026-11-22T04:03:57Z,compra,team-44,Myo,20,1962,1.049,Motor automático,1
+2026-11-22T04:05:41Z,compra,team-37,Kuwü,100,3722,3.05,Decisión en vivo,2
+2026-11-22T04:09:21Z,venta,team-25,Immune,133,7915,1.252,Motor automático,3
+2026-11-22T04:09:23Z,compra,team-11,Montu,20,1269,1.576,Motor automático,1
+2026-11-22T04:09:24Z,compra,team-11,Montu,20,1149,1.732,Motor automático,1
+2026-11-22T04:09:41Z,venta,team-37,Kuwü,62,1861,3.215,Motor automático,1
+2026-11-22T04:09:43Z,compra,team-11,Montu,20,1620,1.253,Motor automático,1
+2026-11-22T04:09:44Z,compra,team-11,Montu,20,1429,1.409,Motor automático,1
+2026-11-22T04:09:46Z,compra,team-11,Montu,20,1279,1.565,Motor automático,1
+2026-11-22T04:13:24Z,venta,team-25,Immune,95,7916,0.889,Motor automático,2
+2026-11-22T04:13:26Z,compra,team-7,Reaper,20,2153,0.963,Motor automático,1
+2026-11-22T04:13:27Z,compra,team-27,Vigente,20,2129,0.973,Motor automático,1
+2026-11-22T04:13:28Z,compra,team-45,Audem,20,2117,0.978,Motor automático,1
+2026-11-22T04:13:29Z,compra,team-46,Mayday,20,1985,1.037,Motor automático,1
+2026-11-22T04:13:31Z,compra,team-7,Reaper,20,1835,1.115,Motor automático,1
+2026-11-22T04:13:32Z,compra,team-27,Vigente,20,1818,1.125,Motor automático,1
+2026-11-22T04:13:37Z,venta,team-7,Reaper,18,1994,0.945,Motor automático,1
+2026-11-22T04:13:39Z,compra,team-45,Audem,20,1806,1.132,Motor automático,1
+2026-11-22T04:15:04Z,venta,team-4,VIAZ,385,21680,0.662,Motor automático,6
+2026-11-22T04:15:08Z,compra,team-46,Mayday,20,1706,1.194,Motor automático,1
+2026-11-22T04:15:09Z,compra,team-42,Dendrita,20,1675,1.214,Motor automático,1
+2026-11-22T04:15:10Z,compra,team-27,Vigente,20,1582,1.281,Motor automático,1
+2026-11-22T04:15:11Z,compra,team-3,Hoodini,20,1580,1.282,Motor automático,1
+2026-11-22T04:15:12Z,compra,team-45,Audem,20,1589,1.275,Motor automático,1
+2026-11-22T04:15:13Z,compra,team-26,Viridis,20,1542,1.311,Motor automático,1
+2026-11-22T04:15:14Z,compra,team-45,Audem,20,1657,1.226,Motor automático,1
+2026-11-22T04:15:16Z,compra,team-29,Bando,20,1523,1.327,Motor automático,1
+2026-11-22T04:15:17Z,compra,team-46,Mayday,20,1518,1.331,Motor automático,1
+2026-11-22T04:15:18Z,compra,team-42,Dendrita,20,1494,1.351,Motor automático,1
+2026-11-22T04:15:19Z,compra,team-27,Vigente,20,1423,1.415,Motor automático,1
+2026-11-22T04:15:20Z,compra,team-3,Hoodini,20,1412,1.425,Motor automático,1
+2026-11-22T04:15:22Z,compra,team-26,Viridis,20,1374,1.462,Motor automático,1
+2026-11-22T04:15:23Z,compra,team-29,Bando,20,1357,1.479,Motor automático,1
+2026-11-22T04:15:24Z,compra,team-46,Mayday,20,1353,1.483,Motor automático,1
+2026-11-22T04:15:26Z,compra,team-42,Dendrita,20,1334,1.503,Motor automático,1
+2026-11-22T04:15:27Z,compra,team-27,Vigente,20,1274,1.57,Motor automático,1
+2026-11-22T04:15:28Z,compra,team-42,Dendrita,20,1387,1.449,Motor automático,1
+2026-11-22T04:15:29Z,compra,team-3,Hoodini,20,1276,1.568,Motor automático,1
+2026-11-22T04:15:30Z,compra,team-42,Dendrita,20,1247,1.602,Motor automático,1
+2026-11-22T04:15:34Z,venta,team-42,Dendrita,47,3568,1.195,Motor automático,1
+2026-11-22T04:15:35Z,venta,team-27,Vigente,52,4113,1.119,Motor automático,1
+2026-11-22T04:15:36Z,venta,team-29,Bando,18,1440,1.314,Motor automático,1
+2026-11-22T04:15:36Z,venta,team-3,Hoodini,28,2134,1.327,Motor automático,1
+2026-11-22T04:15:38Z,compra,team-26,Viridis,20,1232,1.621,Motor automático,1
+2026-11-22T04:15:39Z,compra,team-11,Montu,20,1222,1.633,Motor automático,1
+2026-11-22T04:15:45Z,compra,team-26,Viridis,20,3683,0.599,Motor automático,1
+2026-11-22T04:15:47Z,compra,team-46,Mayday,20,1205,1.656,Motor automático,1
+2026-11-22T04:15:48Z,compra,team-36,chameleonmode.app,20,924,2.135,Motor automático,1
+2026-11-22T04:15:50Z,compra,team-26,Viridis,20,2825,0.754,Motor automático,1
+2026-11-22T04:15:51Z,compra,team-44,Myo,20,2355,0.888,Motor automático,1
+2026-11-22T04:15:53Z,compra,team-26,Viridis,20,3452,0.633,Motor automático,1
+2026-11-22T04:15:58Z,venta,team-36,chameleonmode.app,17,928,1.972,Motor automático,1
+2026-11-22T04:16:00Z,compra,team-26,Viridis,20,2678,0.791,Motor automático,1
+2026-11-22T04:17:40Z,venta,team-7,Reaper,15,1994,0.788,Motor automático,1
+2026-11-22T04:17:46Z,venta,team-45,Audem,37,3584,0.94,Motor automático,1
+2026-11-22T04:17:49Z,compra,team-26,Viridis,20,2125,0.975,Motor automático,1
+2026-11-22T04:17:50Z,compra,team-44,Myo,20,1911,1.075,Motor automático,1
+2026-11-22T04:17:52Z,compra,team-26,Viridis,20,1810,1.13,Motor automático,1
+2026-11-22T04:18:21Z,venta,team-26,Viridis,117,10360,0.739,Motor automático,2
+2026-11-22T04:18:23Z,compra,team-1,Cortafuego,20,1838,1.114,Motor automático,1
+2026-11-22T04:18:25Z,compra,team-1,Cortafuego,20,1594,1.271,Motor automático,1
+2026-11-22T04:18:26Z,compra,team-1,Cortafuego,20,1409,1.427,Motor automático,1
+2026-11-22T04:18:28Z,compra,team-1,Cortafuego,20,1473,1.369,Motor automático,1
+2026-11-22T04:18:30Z,compra,team-1,Cortafuego,20,1317,1.522,Motor automático,1
+2026-11-22T04:18:32Z,compra,team-44,Myo,20,1687,1.206,Motor automático,1
+2026-11-22T04:18:38Z,venta,team-26,Viridis,42,10361,0.27,Motor automático,1
+2026-11-22T04:18:40Z,compra,team-10,Factum,20,2086,0.991,Motor automático,1
+2026-11-22T04:18:42Z,compra,team-10,Factum,20,1779,1.148,Motor automático,1
+2026-11-22T04:19:08Z,venta,team-42,Dendrita,31,3569,0.798,Motor automático,1
+2026-11-22T04:19:11Z,venta,team-27,Vigente,31,4113,0.684,Motor automático,1
+2026-11-22T04:19:12Z,venta,team-36,chameleonmode.app,13,928,1.563,Motor automático,1
+2026-11-22T04:19:12Z,venta,team-19,Branchpoint,1260,19710,2.746,Motor automático,20
+2026-11-22T04:19:13Z,venta,team-29,Bando,15,1440,1.12,Motor automático,1
+2026-11-22T04:19:14Z,venta,team-3,Hoodini,22,2134,1.064,Motor automático,1
+2026-11-22T04:19:15Z,venta,team-4,VIAZ,73,21680,0.128,Motor automático,2
+2026-11-22T04:19:17Z,compra,team-10,Factum,20,1523,1.326,Motor automático,1
+2026-11-22T04:19:19Z,compra,team-10,Factum,20,1354,1.482,Motor automático,1
+2026-11-22T04:19:21Z,compra,team-20,World UI,20,1345,1.492,Motor automático,1
+2026-11-22T04:19:26Z,compra,team-10,Factum,20,1220,1.636,Motor automático,1
+2026-11-22T04:19:33Z,compra,team-20,World UI,20,1213,1.645,Motor automático,1
+2026-11-22T04:19:38Z,compra,team-20,World UI,20,1103,1.801,Motor automático,1
+2026-11-22T04:19:39Z,compra,team-32,Bifurca,20,1034,1.915,Motor automático,1
+2026-11-22T04:19:41Z,compra,team-20,World UI,20,1013,1.953,Motor automático,1
+2026-11-22T04:19:43Z,compra,team-13,AIgis,20,994,1.989,Motor automático,1
+2026-11-22T04:19:44Z,compra,team-32,Bifurca,20,957,2.064,Motor automático,1
+2026-11-22T04:19:46Z,compra,team-20,World UI,20,938,2.102,Motor automático,1
+2026-11-22T04:19:47Z,compra,team-13,AIgis,20,922,2.138,Motor automático,1
+2026-11-22T04:19:48Z,compra,team-44,Myo,20,1580,1.282,Motor automático,1
+2026-11-22T04:19:50Z,compra,team-44,Myo,20,1400,1.436,Motor automático,1
+2026-11-22T04:19:51Z,compra,team-46,Mayday,20,1324,1.514,Motor automático,1
+2026-11-22T04:19:53Z,compra,team-44,Myo,20,1466,1.375,Motor automático,1
+2026-11-22T04:19:54Z,compra,team-44,Myo,20,1310,1.529,Motor automático,1
+2026-11-22T04:19:56Z,compra,team-1,Cortafuego,20,1281,1.562,Motor automático,1
+2026-11-22T04:19:57Z,compra,team-5,Krylov,20,1237,1.614,Motor automático,1
+2026-11-22T04:19:59Z,compra,team-46,Mayday,20,1203,1.657,Motor automático,1
+2026-11-22T04:20:00Z,compra,team-11,Montu,20,1194,1.67,Motor automático,1
+2026-11-22T04:20:02Z,compra,team-44,Myo,20,1191,1.674,Motor automático,1
+2026-11-22T04:20:03Z,compra,team-1,Cortafuego,20,1167,1.707,Motor automático,1
+2026-11-22T04:20:05Z,compra,team-10,Factum,20,1147,1.735,Motor automático,1
+2026-11-22T04:20:06Z,compra,team-5,Krylov,20,1132,1.756,Motor automático,1
+2026-11-22T04:20:08Z,compra,team-22,root,20,1108,1.793,Motor automático,1
+2026-11-22T04:20:09Z,compra,team-28,What If Chile,20,1109,1.792,Motor automático,1
+2026-11-22T04:20:11Z,compra,team-32,Bifurca,20,919,2.146,Motor automático,1
+2026-11-22T04:20:12Z,compra,team-46,Mayday,20,1114,1.784,Motor automático,1
+2026-11-22T04:20:14Z,compra,team-33,Aterriza,20,1110,1.79,Motor automático,1
+2026-11-22T04:20:19Z,venta,team-32,Bifurca,27,1455,1.899,Motor automático,1
+2026-11-22T04:20:19Z,venta,team-10,Factum,63,4554,1.18,Motor automático,1
+2026-11-22T04:20:20Z,venta,team-46,Mayday,77,5704,1.124,Motor automático,2
+2026-11-22T04:20:21Z,venta,team-20,World UI,49,2806,1.63,Motor automático,1
+2026-11-22T04:20:22Z,venta,team-13,AIgis,17,958,1.948,Motor automático,1
+2026-11-22T04:20:24Z,compra,team-11,Montu,20,1081,1.836,Motor automático,1
+2026-11-22T04:20:25Z,compra,team-44,Myo,20,1078,1.84,Motor automático,1
+2026-11-22T04:20:27Z,compra,team-34,Drena,20,1078,1.841,Motor automático,1
+2026-11-22T04:20:29Z,compra,team-12,Puente,20,1061,1.868,Motor automático,1
+2026-11-22T04:20:30Z,compra,team-1,Cortafuego,20,1061,1.868,Motor automático,1
+2026-11-22T04:20:32Z,compra,team-40,Grifter,20,1059,1.871,Motor automático,1
+2026-11-22T04:20:33Z,compra,team-17,Vigilia,20,1057,1.876,Motor automático,1
+2026-11-22T04:20:35Z,compra,team-48,Nodomics,20,1055,1.878,Motor automático,1
+2026-11-22T04:20:36Z,compra,team-35,Agent Rooms,20,1054,1.88,Motor automático,1
+2026-11-22T04:20:38Z,compra,team-8,Prompt Arena,20,1053,1.882,Motor automático,1
+2026-11-22T04:20:39Z,compra,team-39,Bicho,20,1053,1.882,Motor automático,1
+2026-11-22T04:20:41Z,compra,team-41,Yunta,20,1047,1.893,Motor automático,1
+2026-11-22T04:20:42Z,compra,team-30,Sculptor,20,1044,1.898,Motor automático,1
+2026-11-22T04:20:44Z,compra,team-5,Krylov,20,1045,1.896,Motor automático,1
+2026-11-22T04:20:45Z,compra,team-22,root,20,1024,1.933,Motor automático,1
+2026-11-22T04:20:47Z,compra,team-28,What If Chile,20,1026,1.931,Motor automático,1
+2026-11-22T04:20:48Z,compra,team-2,MESH,20,1021,1.939,Motor automático,1
+2026-11-22T04:20:50Z,compra,team-33,Aterriza,20,1022,1.937,Motor automático,1
+2026-11-22T04:20:52Z,compra,team-11,Montu,20,1021,1.938,Motor automático,1
+2026-11-22T04:20:53Z,compra,team-18,ADverse,20,1007,1.964,Motor automático,1
+2026-11-22T04:21:00Z,compra,team-44,Myo,20,2240,0.929,Motor automático,1
+2026-11-22T04:21:01Z,compra,team-44,Myo,20,1890,1.085,Motor automático,1
+2026-11-22T04:21:03Z,compra,team-44,Myo,20,1635,1.242,Motor automático,1
+2026-11-22T04:21:04Z,compra,team-44,Myo,20,1441,1.398,Motor automático,1
+2026-11-22T04:21:06Z,compra,team-44,Myo,20,1288,1.554,Motor automático,1
+2026-11-22T04:21:07Z,compra,team-44,Myo,20,1165,1.71,Motor automático,1
+2026-11-22T04:21:09Z,compra,team-44,Myo,20,1296,1.544,Motor automático,1
+2026-11-22T04:21:10Z,compra,team-44,Myo,20,1172,1.7,Motor automático,1
+2026-11-22T04:21:12Z,compra,team-44,Myo,20,1086,1.828,Motor automático,1
+2026-11-22T04:21:14Z,compra,team-34,Drena,20,1035,1.913,Motor automático,1
+2026-11-22T04:21:15Z,compra,team-12,Puente,20,1021,1.939,Motor automático,1
+2026-11-22T04:21:17Z,compra,team-1,Cortafuego,20,1021,1.939,Motor automático,1
+2026-11-22T04:21:18Z,compra,team-16,Agora,20,1021,1.939,Motor automático,1
+2026-11-22T04:21:20Z,compra,team-40,Grifter,20,1021,1.939,Motor automático,1
+2026-11-22T04:21:21Z,compra,team-17,Vigilia,20,1026,1.929,Motor automático,1
+2026-11-22T04:21:23Z,compra,team-48,Nodomics,20,1025,1.931,Motor automático,1
+2026-11-22T04:21:24Z,compra,team-35,Agent Rooms,20,1024,1.933,Motor automático,1
+2026-11-22T04:21:26Z,compra,team-8,Prompt Arena,20,1026,1.93,Motor automático,1
+2026-11-22T04:21:27Z,compra,team-39,Bicho,20,1026,1.93,Motor automático,1
+2026-11-22T04:21:29Z,compra,team-44,Myo,20,1023,1.934,Motor automático,1
+2026-11-22T04:21:30Z,compra,team-41,Yunta,20,1021,1.938,Motor automático,1
+2026-11-22T04:21:31Z,compra,team-21,Rigo,20,2210,0.94,Motor automático,1
+2026-11-22T04:21:33Z,compra,team-21,Rigo,20,1868,1.097,Motor automático,1
+2026-11-22T04:21:34Z,compra,team-21,Rigo,20,1618,1.254,Motor automático,1
+2026-11-22T04:21:39Z,compra,team-21,Rigo,20,1711,1.19,Motor automático,1
+2026-11-22T04:21:43Z,compra,team-21,Rigo,20,1499,1.347,Motor automático,1
+2026-11-22T04:21:49Z,compra,team-21,Rigo,20,1335,1.502,Motor automático,1
+2026-11-22T04:21:51Z,compra,team-21,Rigo,20,1203,1.657,Motor automático,1
+2026-11-22T04:21:53Z,compra,team-21,Rigo,20,1101,1.804,Motor automático,1
+2026-11-22T04:21:54Z,compra,team-30,Sculptor,20,1037,1.91,Motor automático,1
+2026-11-22T04:21:58Z,venta,team-21,Rigo,84,6272,1.076,Motor automático,2
+2026-11-22T04:22:01Z,compra,team-5,Krylov,20,1030,1.922,Motor automático,1
+2026-11-22T04:22:02Z,compra,team-22,root,20,1017,1.946,Motor automático,1
+2026-11-22T04:22:04Z,compra,team-2,MESH,20,1013,1.953,Motor automático,1
+2026-11-22T04:22:05Z,compra,team-33,Aterriza,20,1013,1.953,Motor automático,1
+2026-11-22T04:22:07Z,compra,team-11,Montu,20,1013,1.954,Motor automático,1
+2026-11-22T04:22:08Z,compra,team-18,ADverse,20,1012,1.955,Motor automático,1
+2026-11-22T04:22:10Z,compra,team-34,Drena,20,1009,1.961,Motor automático,1
+2026-11-22T04:22:12Z,compra,team-12,Puente,20,996,1.986,Motor automático,1
+2026-11-22T04:22:13Z,compra,team-1,Cortafuego,20,996,1.985,Motor automático,1
+2026-11-22T04:22:14Z,compra,team-16,Agora,20,996,1.986,Motor automático,1
+2026-11-22T04:22:16Z,compra,team-40,Grifter,20,996,1.986,Motor automático,1
+2026-11-22T04:22:17Z,compra,team-48,Nodomics,20,990,1.996,Motor automático,1
+2026-11-22T04:22:18Z,compra,team-35,Agent Rooms,20,989,1.999,Motor automático,1
+2026-11-22T04:22:20Z,compra,team-8,Prompt Arena,20,988,2.001,Motor automático,1
+2026-11-22T04:22:22Z,compra,team-39,Bicho,20,988,2.001,Motor automático,1
+2026-11-22T04:22:26Z,venta,team-10,Factum,38,4555,0.728,Motor automático,1
+2026-11-22T04:22:27Z,venta,team-20,World UI,34,2806,1.153,Motor automático,1
+2026-11-22T04:22:28Z,venta,team-13,AIgis,13,958,1.6,Motor automático,1
+2026-11-22T04:22:31Z,compra,team-44,Myo,20,979,2.019,Motor automático,1
+2026-11-22T04:22:32Z,compra,team-41,Yunta,20,977,2.023,Motor automático,1
+2026-11-22T04:22:34Z,compra,team-30,Sculptor,20,973,2.03,Motor automático,1
+2026-11-22T04:22:38Z,compra,team-5,Krylov,20,974,2.027,Motor automático,1
+2026-11-22T04:22:53Z,venta,team-32,Bifurca,19,1455,1.402,Motor automático,1
+2026-11-22T04:22:54Z,venta,team-45,Audem,23,3585,0.612,Motor automático,1
+2026-11-22T04:22:55Z,venta,team-21,Rigo,45,6273,0.574,Motor automático,1
+2026-11-22T04:22:58Z,compra,team-23,TRAZADA,20,2926,0.731,Motor automático,1
+2026-11-22T04:23:00Z,compra,team-23,TRAZADA,20,2354,0.888,Motor automático,1
+2026-11-22T04:23:02Z,compra,team-23,TRAZADA,20,1970,1.045,Motor automático,1
+2026-11-22T04:23:03Z,compra,team-23,TRAZADA,20,1694,1.201,Motor automático,1
+2026-11-22T04:23:05Z,compra,team-23,TRAZADA,20,1486,1.358,Motor automático,1
+2026-11-22T04:23:10Z,venta,team-46,Mayday,45,5704,0.653,Motor automático,1
+2026-11-22T04:23:11Z,venta,team-19,Branchpoint,366,19711,0.769,Motor automático,6
+2026-11-22T04:23:13Z,compra,team-23,TRAZADA,20,1511,1.336,Motor automático,1
+2026-11-22T04:23:15Z,compra,team-23,TRAZADA,20,1344,1.492,Motor automático,1
+2026-11-22T04:23:17Z,compra,team-23,TRAZADA,20,1210,1.648,Motor automático,1
+2026-11-22T04:23:18Z,compra,team-23,TRAZADA,20,1101,1.804,Motor automático,1
+2026-11-22T04:23:20Z,compra,team-5,Krylov,20,1070,1.853,Motor automático,1
+2026-11-22T04:23:21Z,compra,team-22,root,20,1027,1.928,Motor automático,1
+2026-11-22T04:23:23Z,compra,team-28,What If Chile,20,1027,1.928,Motor automático,1
+2026-11-22T04:23:25Z,compra,team-2,MESH,20,1023,1.935,Motor automático,1
+2026-11-22T04:23:26Z,compra,team-33,Aterriza,20,1023,1.935,Motor automático,1
+2026-11-22T04:23:27Z,compra,team-11,Montu,20,1023,1.936,Motor automático,1
+2026-11-22T04:23:29Z,compra,team-18,ADverse,20,1022,1.936,Motor automático,1
+2026-11-22T04:23:30Z,compra,team-23,TRAZADA,20,1021,1.939,Motor automático,1
+2026-11-22T04:23:31Z,compra,team-34,Drena,20,1021,1.94,Motor automático,1
+2026-11-22T04:23:32Z,compra,team-12,Puente,20,1008,1.962,Motor automático,1
+2026-11-22T04:23:33Z,compra,team-1,Cortafuego,20,1009,1.961,Motor automático,1
+2026-11-22T04:23:35Z,compra,team-16,Agora,20,1009,1.962,Motor automático,1
+2026-11-22T04:23:36Z,compra,team-40,Grifter,20,1008,1.962,Motor automático,1
+2026-11-22T04:23:38Z,compra,team-48,Nodomics,20,1003,1.971,Motor automático,1
+2026-11-22T04:23:40Z,compra,team-5,Krylov,20,1004,1.971,Motor automático,1
+2026-11-22T04:23:41Z,compra,team-35,Agent Rooms,20,1004,1.971,Motor automático,1
+2026-11-22T04:23:42Z,compra,team-8,Prompt Arena,20,1003,1.973,Motor automático,1
+2026-11-22T04:23:44Z,compra,team-39,Bicho,20,1003,1.973,Motor automático,1
+2026-11-22T04:27:12Z,venta,team-11,Montu,101,6650,1.193,Motor automático,2
+2026-11-22T04:27:14Z,compra,team-44,Myo,20,1126,1.766,Motor automático,1
+2026-11-22T04:27:15Z,compra,team-44,Myo,20,1031,1.921,Motor automático,1
+2026-11-22T04:27:17Z,compra,team-44,Myo,20,951,2.076,Motor automático,1
+2026-11-22T04:27:18Z,compra,team-41,Yunta,20,920,2.142,Motor automático,1
+2026-11-22T04:27:19Z,compra,team-30,Sculptor,20,917,2.149,Motor automático,1
+2026-11-22T04:27:20Z,compra,team-15,Caudales,20,782,2.505,Motor automático,1
+2026-11-22T04:31:12Z,venta,team-11,Montu,55,6650,0.652,Motor automático,1
+2026-11-22T04:31:14Z,compra,team-23,TRAZADA,20,1790,1.141,Motor automático,1
+2026-11-22T04:31:16Z,compra,team-23,TRAZADA,20,1556,1.3,Motor automático,1
+2026-11-22T04:31:16Z,compra,team-23,TRAZADA,20,1616,1.256,Motor automático,1
+2026-11-22T04:31:43Z,compra,team-38,Minga,100,1994,5.312,Decisión en vivo,2
+2026-11-22T04:36:25Z,venta,team-12,Puente,582,16946,1.653,Motor automático,9
+2026-11-22T04:36:27Z,compra,team-23,TRAZADA,20,1193,1.671,Motor automático,1
+2026-11-22T04:36:28Z,compra,team-44,Myo,20,1186,1.68,Motor automático,1
+2026-11-22T04:36:29Z,compra,team-23,TRAZADA,20,1089,1.823,Motor automático,1
+2026-11-22T04:36:30Z,compra,team-44,Myo,20,1083,1.833,Motor automático,1
+2026-11-22T04:36:31Z,compra,team-23,TRAZADA,20,1001,1.976,Motor automático,1
+2026-11-22T04:36:32Z,compra,team-44,Myo,20,994,1.989,Motor automático,1
+2026-11-22T04:36:33Z,compra,team-23,TRAZADA,20,1035,1.913,Motor automático,1
+2026-11-22T04:36:35Z,compra,team-23,TRAZADA,20,954,2.068,Motor automático,1
+2026-11-22T04:36:35Z,compra,team-8,Prompt Arena,20,950,2.078,Motor automático,1
+2026-11-22T04:36:36Z,compra,team-41,Yunta,20,925,2.131,Motor automático,1
+2026-11-22T04:36:37Z,compra,team-44,Myo,20,926,2.128,Motor automático,1
+2026-11-22T04:36:38Z,compra,team-15,Caudales,20,727,2.688,Motor automático,1
+2026-11-22T04:36:39Z,compra,team-15,Caudales,20,687,2.842,Motor automático,1
+2026-11-22T04:36:40Z,compra,team-15,Caudales,20,650,2.996,Motor automático,1
+2026-11-22T04:36:41Z,compra,team-15,Caudales,20,618,3.149,Motor automático,1
+2026-11-22T04:36:42Z,compra,team-15,Caudales,20,589,3.302,Motor automático,1
+2026-11-22T04:36:43Z,compra,team-15,Caudales,20,562,3.455,Motor automático,1
+2026-11-22T04:36:45Z,compra,team-24,mosAIc,20,551,3.522,Motor automático,1
+2026-11-22T04:36:46Z,compra,team-15,Caudales,20,538,3.602,Motor automático,1
+2026-11-22T04:36:47Z,compra,team-24,mosAIc,20,528,3.669,Motor automático,1
+2026-11-22T04:36:48Z,compra,team-15,Caudales,20,521,3.72,Motor automático,1
+2026-11-22T04:36:49Z,compra,team-17,Vigilia,20,918,2.147,Motor automático,1
+2026-11-22T04:36:49Z,compra,team-24,mosAIc,20,513,3.78,Motor automático,1
+2026-11-22T04:36:51Z,compra,team-15,Caudales,20,502,3.86,Motor automático,1
+2026-11-22T04:36:52Z,compra,team-37,Kuwü,20,495,3.91,Motor automático,1
+2026-11-22T04:36:56Z,venta,team-15,Caudales,101,3088,3.006,Motor automático,2
+2026-11-22T04:36:58Z,compra,team-24,mosAIc,20,490,3.954,Motor automático,1
+2026-11-22T04:36:59Z,compra,team-37,Kuwü,20,473,4.091,Motor automático,1
+2026-11-22T04:37:00Z,compra,team-24,mosAIc,20,472,4.1,Motor automático,1
+2026-11-22T04:37:01Z,compra,team-37,Kuwü,20,456,4.236,Motor automático,1
+2026-11-22T04:37:02Z,compra,team-24,mosAIc,20,455,4.244,Motor automático,1
+2026-11-22T04:37:03Z,compra,team-23,TRAZADA,20,921,2.139,Motor automático,1
+2026-11-22T04:40:26Z,venta,team-12,Puente,137,16946,0.388,Motor automático,3
+2026-11-22T04:40:28Z,compra,team-8,Prompt Arena,20,1010,1.959,Motor automático,1
+2026-11-22T04:40:29Z,compra,team-8,Prompt Arena,20,933,2.114,Motor automático,1
+2026-11-22T04:40:30Z,compra,team-37,Kuwü,20,441,4.384,Motor automático,1
+2026-11-22T04:40:31Z,compra,team-22,root,20,915,2.154,Motor automático,1
+2026-11-22T04:40:32Z,compra,team-24,mosAIc,20,440,4.386,Motor automático,1
+2026-11-22T04:40:33Z,compra,team-37,Kuwü,20,427,4.521,Motor automático,1
+2026-11-22T04:40:34Z,compra,team-24,mosAIc,20,426,4.53,Motor automático,1
+2026-11-22T04:41:44Z,venta,team-38,Minga,54,997,5.471,Motor automático,1
+2026-11-22T04:41:46Z,compra,team-2,MESH,20,922,2.137,Motor automático,1
+2026-11-22T04:41:47Z,compra,team-33,Aterriza,20,922,2.137,Motor automático,1
+2026-11-22T04:41:48Z,compra,team-18,ADverse,20,920,2.142,Motor automático,1
+2026-11-22T04:45:06Z,venta,team-15,Caudales,92,3088,2.747,Motor automático,2
+2026-11-22T04:45:07Z,compra,team-25,Immune,20,2089,0.99,Motor automático,1
+2026-11-22T04:45:08Z,compra,team-25,Immune,20,1781,1.147,Motor automático,1
+2026-11-22T04:45:09Z,compra,team-25,Immune,20,1553,1.303,Motor automático,1
+2026-11-22T04:45:10Z,compra,team-25,Immune,20,1610,1.26,Motor automático,1
+2026-11-22T04:45:11Z,compra,team-25,Immune,20,1421,1.416,Motor automático,1
+2026-11-22T04:53:53Z,venta,team-14,santiaguito.cl,39,510,8.052,Motor automático,1
+2026-11-22T04:53:55Z,compra,team-27,Vigente,20,2952,0.725,Motor automático,1
+2026-11-22T04:53:56Z,compra,team-45,Audem,20,2929,0.73,Motor automático,1
+2026-11-22T05:05:43Z,venta,team-37,Kuwü,72,1861,3.821,Motor automático,2
+2026-11-22T05:05:45Z,compra,team-4,VIAZ,20,2686,0.789,Motor automático,1
+2026-11-22T05:05:47Z,compra,team-46,Mayday,20,2518,0.835,Motor automático,1
+2026-11-22T05:05:48Z,compra,team-21,Rigo,20,2473,0.849,Motor automático,1
+2026-11-22T05:05:49Z,compra,team-4,VIAZ,20,2203,0.943,Motor automático,1
+2026-11-22T05:14:43Z,venta,team-45,Audem,37,1464,2.521,Motor automático,1
+2026-11-22T05:14:45Z,compra,team-27,Vigente,20,2297,0.908,Motor automático,1
+2026-11-22T05:14:47Z,compra,team-42,Dendrita,20,2212,0.94,Motor automático,1
+2026-11-22T05:14:51Z,venta,team-45,Audem,68,732,9.65,Motor automático,2
+2026-11-22T05:14:53Z,compra,team-12,Puente,20,2356,0.887,Motor automático,1
+2026-11-22T05:14:55Z,compra,team-21,Rigo,20,2313,0.902,Motor automático,1
+2026-11-22T05:14:56Z,compra,team-46,Mayday,20,2175,0.954,Motor automático,1
+2026-11-22T05:14:57Z,compra,team-27,Vigente,20,2082,0.993,Motor automático,1
+2026-11-22T05:18:36Z,venta,team-45,Audem,57,733,7.929,Motor automático,1
+2026-11-22T05:18:39Z,compra,team-42,Dendrita,20,2095,0.987,Motor automático,1
+2026-11-22T05:18:40Z,compra,team-12,Puente,20,2059,1.003,Motor automático,1
+2026-11-22T05:18:42Z,compra,team-21,Rigo,20,2028,1.017,Motor automático,1
+2026-11-22T05:30:27Z,venta,team-4,VIAZ,114,2444,4.387,Motor automático,2
+2026-11-22T05:30:35Z,compra,team-46,Mayday,20,1914,1.073,Motor automático,1
+2026-11-22T05:30:41Z,compra,team-42,Dendrita,20,1763,1.157,Motor automático,1
+2026-11-22T05:30:44Z,compra,team-26,Viridis,20,3750,0.589,Motor automático,1
+2026-11-22T05:30:45Z,compra,team-26,Viridis,20,2857,0.747,Motor automático,1
+2026-11-22T05:30:47Z,compra,team-26,Viridis,20,2309,0.904,Motor automático,1
+2026-11-22T05:30:48Z,compra,team-12,Puente,20,1712,1.19,Motor automático,1
+2026-11-22T05:31:15Z,compra,team-26,Viridis,100,7758,1.708,Decisión en vivo,2
+2026-11-22T05:31:23Z,venta,team-26,Viridis,119,3879,2.707,Motor automático,2
+2026-11-22T05:31:25Z,compra,team-21,Rigo,20,1719,1.185,Motor automático,1
+2026-11-22T05:31:45Z,venta,team-38,Minga,41,997,4.222,Motor automático,1
+2026-11-22T05:31:48Z,compra,team-10,Factum,20,1677,1.212,Motor automático,1
+2026-11-22T05:31:49Z,compra,team-46,Mayday,20,1643,1.236,Motor automático,1
+2026-11-22T05:32:09Z,venta,team-4,VIAZ,38,2445,1.508,Motor automático,1
+2026-11-22T05:32:11Z,compra,team-42,Dendrita,20,1522,1.328,Motor automático,1
+2026-11-22T05:32:12Z,compra,team-12,Puente,20,1506,1.341,Motor automático,1
+2026-11-22T05:32:18Z,venta,team-42,Dendrita,41,3796,0.97,Motor automático,1
+2026-11-22T05:32:18Z,venta,team-12,Puente,42,3816,0.983,Motor automático,1
+2026-11-22T05:32:21Z,compra,team-3,Hoodini,20,1489,1.355,Motor automático,1
+2026-11-22T05:32:22Z,compra,team-36,chameleonmode.app,20,1481,1.362,Motor automático,1
+2026-11-22T05:32:23Z,compra,team-10,Factum,20,1458,1.383,Motor automático,1
+2026-11-22T05:32:25Z,compra,team-29,Bando,20,1454,1.386,Motor automático,1
+2026-11-22T05:32:26Z,compra,team-3,Hoodini,20,1339,1.498,Motor automático,1
+2026-11-22T05:32:30Z,venta,team-3,Hoodini,17,1414,1.334,Motor automático,1
+2026-11-22T05:32:33Z,compra,team-32,Bifurca,20,1327,1.51,Motor automático,1
+2026-11-22T05:40:17Z,venta,team-42,Dendrita,28,3796,0.69,Motor automático,1
+2026-11-22T05:40:17Z,venta,team-12,Puente,29,3817,0.698,Motor automático,1
+2026-11-22T05:40:18Z,venta,team-3,Hoodini,15,1414,1.171,Motor automático,1
+2026-11-22T05:40:21Z,compra,team-10,Factum,20,2052,1.007,Motor automático,1
+2026-11-22T05:40:22Z,compra,team-10,Factum,20,1754,1.163,Motor automático,1
+2026-11-22T05:40:23Z,compra,team-10,Factum,20,1532,1.319,Motor automático,1
+2026-11-22T05:40:25Z,compra,team-13,AIgis,20,1391,1.445,Motor automático,1
+2026-11-22T05:42:16Z,venta,team-27,Vigente,46,3665,1.126,Motor automático,1
+2026-11-22T05:42:18Z,compra,team-7,Reaper,20,1849,1.108,Motor automático,1
+2026-11-22T05:42:20Z,compra,team-7,Reaper,20,1604,1.264,Motor automático,1
+2026-11-22T05:42:24Z,venta,team-7,Reaper,18,1726,1.1,Motor automático,1
+2026-11-22T05:42:27Z,compra,team-36,chameleonmode.app,20,1288,1.553,Motor automático,1
+2026-11-22T05:48:06Z,venta,team-27,Vigente,105,1833,5.558,Motor automático,2
+2026-11-22T05:48:09Z,compra,team-19,Branchpoint,20,2594,0.814,Motor automático,1
+2026-11-22T05:48:15Z,venta,team-27,Vigente,26,1833,1.438,Motor automático,1
+2026-11-22T05:48:21Z,venta,team-19,Branchpoint,14,1297,1.171,Motor automático,1
+2026-11-22T05:48:23Z,compra,team-13,AIgis,20,1320,1.518,Motor automático,1
+2026-11-22T05:48:24Z,compra,team-29,Bando,20,1276,1.568,Motor automático,1
+2026-11-22T05:48:25Z,compra,team-13,AIgis,20,1193,1.671,Motor automático,1
+2026-11-22T05:48:27Z,compra,team-32,Bifurca,20,1183,1.684,Motor automático,1
+2026-11-22T05:48:28Z,compra,team-36,chameleonmode.app,20,1180,1.688,Motor automático,1
+2026-11-22T05:48:29Z,compra,team-29,Bando,20,1160,1.717,Motor automático,1
+2026-11-22T05:48:30Z,compra,team-20,World UI,20,1112,1.787,Motor automático,1
+2026-11-22T05:48:34Z,venta,team-36,chameleonmode.app,28,1974,1.431,Motor automático,1
+2026-11-22T05:48:35Z,venta,team-13,AIgis,28,1952,1.418,Motor automático,1
+2026-11-22T05:48:36Z,venta,team-29,Bando,28,1945,1.469,Motor automático,1
+2026-11-22T05:48:39Z,compra,team-45,Audem,20,1486,1.358,Motor automático,1
+2026-11-22T05:48:40Z,compra,team-45,Audem,20,1324,1.514,Motor automático,1
+2026-11-22T05:48:41Z,compra,team-45,Audem,20,1194,1.67,Motor automático,1
+2026-11-22T05:48:42Z,compra,team-45,Audem,20,1087,1.825,Motor automático,1
+2026-11-22T05:48:44Z,compra,team-32,Bifurca,20,1082,1.834,Motor automático,1
+2026-11-22T05:48:48Z,venta,team-45,Audem,39,2545,1.479,Motor automático,1
+2026-11-22T05:48:51Z,compra,team-20,World UI,20,1016,1.948,Motor automático,1
+2026-11-22T05:48:52Z,compra,team-32,Bifurca,20,992,1.993,Motor automático,1
+2026-11-22T05:48:57Z,venta,team-7,Reaper,15,1727,0.936,Motor automático,1
+2026-11-22T05:48:58Z,venta,team-20,World UI,17,1064,1.786,Motor automático,1
+2026-11-22T05:49:00Z,compra,team-32,Bifurca,20,915,2.154,Motor automático,1
+2026-11-22T05:49:01Z,compra,team-26,Viridis,20,1819,1.125,Motor automático,1
+2026-11-22T05:49:05Z,venta,team-32,Bifurca,50,2749,1.718,Motor automático,1
+2026-11-22T05:49:08Z,compra,team-26,Viridis,20,1575,1.286,Motor automático,1
+2026-11-22T05:49:09Z,compra,team-21,Rigo,20,1473,1.369,Motor automático,1
+2026-11-22T05:52:37Z,venta,team-36,chameleonmode.app,52,1975,2.563,Motor automático,1
+2026-11-22T05:52:38Z,venta,team-13,AIgis,22,1952,1.167,Motor automático,1
+2026-11-22T05:52:39Z,venta,team-29,Bando,23,1945,1.209,Motor automático,1
+2026-11-22T05:53:04Z,venta,team-45,Audem,31,2546,1.166,Motor automático,1
+2026-11-22T05:53:06Z,venta,team-20,World UI,15,1064,1.595,Motor automático,1
+2026-11-22T05:53:09Z,compra,team-8,Prompt Arena,20,1469,1.373,Motor automático,1
+2026-11-22T05:53:11Z,compra,team-25,Immune,20,1463,1.378,Motor automático,1
+2026-11-22T05:53:12Z,compra,team-46,Mayday,20,1453,1.387,Motor automático,1
+2026-11-22T05:53:15Z,compra,team-26,Viridis,20,1432,1.406,Motor automático,1
+2026-11-22T05:53:17Z,compra,team-10,Factum,20,1362,1.473,Motor automático,1
+2026-11-22T05:53:18Z,compra,team-21,Rigo,20,1352,1.484,Motor automático,1
+2026-11-22T05:53:19Z,compra,team-8,Prompt Arena,20,1320,1.518,Motor automático,1
+2026-11-22T05:53:20Z,compra,team-25,Immune,20,1315,1.523,Motor automático,1
+2026-11-22T05:53:25Z,venta,team-32,Bifurca,38,2750,1.319,Motor automático,1
+2026-11-22T05:53:27Z,compra,team-46,Mayday,20,1304,1.536,Motor automático,1
+2026-11-22T05:53:29Z,compra,team-26,Viridis,20,1287,1.556,Motor automático,1
+2026-11-22T06:06:54Z,venta,team-19,Branchpoint,27,648,4.441,Motor automático,1
+2026-11-22T06:06:58Z,compra,team-4,VIAZ,20,1004,1.969,Motor automático,1
+2026-11-22T06:07:03Z,compra,team-4,VIAZ,20,928,2.124,Motor automático,1
+2026-11-22T06:07:12Z,venta,team-4,VIAZ,17,966,1.963,Motor automático,1
+2026-11-22T06:10:38Z,venta,team-23,TRAZADA,334,13886,1.345,Motor automático,6
+2026-11-22T06:10:41Z,compra,team-12,Puente,20,2705,0.784,Motor automático,1
+2026-11-22T06:10:42Z,compra,team-42,Dendrita,20,2565,0.822,Motor automático,1
+2026-11-22T06:10:44Z,compra,team-12,Puente,20,2212,0.94,Motor automático,1
+2026-11-22T06:10:45Z,compra,team-42,Dendrita,20,2118,0.978,Motor automático,1
+2026-11-22T06:10:47Z,compra,team-12,Puente,20,1872,1.095,Motor automático,1
+2026-11-22T06:10:48Z,compra,team-42,Dendrita,20,1805,1.133,Motor automático,1
+2026-11-22T06:10:49Z,compra,team-12,Puente,20,1624,1.249,Motor automático,1
+2026-11-22T06:10:50Z,compra,team-3,Hoodini,20,1597,1.269,Motor automático,1
+2026-11-22T06:10:52Z,compra,team-42,Dendrita,20,1576,1.285,Motor automático,1
+2026-11-22T06:10:53Z,compra,team-3,Hoodini,20,1413,1.423,Motor automático,1
+2026-11-22T06:10:55Z,compra,team-3,Hoodini,20,1266,1.579,Motor automático,1
+2026-11-22T06:10:57Z,compra,team-3,Hoodini,20,1147,1.735,Motor automático,1
+2026-11-22T06:10:58Z,compra,team-3,Hoodini,20,1048,1.89,Motor automático,1
+2026-11-22T06:10:59Z,compra,team-3,Hoodini,20,966,2.045,Motor automático,1
+2026-11-22T06:11:01Z,compra,team-12,Puente,20,1447,1.392,Motor automático,1
+2026-11-22T06:11:03Z,compra,team-42,Dendrita,20,1407,1.429,Motor automático,1
+2026-11-22T06:11:03Z,compra,team-1,Cortafuego,20,1311,1.528,Motor automático,1
+2026-11-22T06:11:05Z,compra,team-12,Puente,20,1301,1.54,Motor automático,1
+2026-11-22T06:11:14Z,venta,team-42,Dendrita,53,4735,0.962,Motor automático,1
+2026-11-22T06:11:16Z,venta,team-12,Puente,65,5580,0.977,Motor automático,2
+2026-11-22T06:11:20Z,venta,team-3,Hoodini,63,3718,1.511,Motor automático,1
+2026-11-22T06:11:22Z,venta,team-4,VIAZ,16,966,1.791,Motor automático,1
+2026-11-22T06:11:24Z,compra,team-10,Factum,20,1280,1.563,Motor automático,1
+2026-11-22T06:11:26Z,compra,team-21,Rigo,20,1272,1.573,Motor automático,1
+2026-11-22T06:11:27Z,compra,team-8,Prompt Arena,20,1245,1.605,Motor automático,1
+2026-11-22T06:11:28Z,compra,team-25,Immune,20,1241,1.61,Motor automático,1
+2026-11-22T06:11:29Z,compra,team-46,Mayday,20,1235,1.618,Motor automático,1
+2026-11-22T06:11:30Z,compra,team-26,Viridis,20,1220,1.636,Motor automático,1
+2026-11-22T06:11:32Z,compra,team-1,Cortafuego,20,1176,1.693,Motor automático,1
+2026-11-22T06:11:33Z,compra,team-10,Factum,20,1169,1.704,Motor automático,1
+2026-11-22T06:11:34Z,compra,team-21,Rigo,20,1162,1.714,Motor automático,1
+2026-11-22T06:11:36Z,compra,team-48,Nodomics,20,1151,1.73,Motor automático,1
+2026-11-22T06:11:37Z,compra,team-44,Myo,20,1144,1.739,Motor automático,1
+2026-11-22T06:11:41Z,venta,team-46,Mayday,73,6121,0.968,Motor automático,2
+2026-11-22T06:11:42Z,venta,team-21,Rigo,86,6896,0.975,Motor automático,2
+2026-11-22T06:11:44Z,compra,team-40,Grifter,20,1129,1.762,Motor automático,1
+2026-11-22T06:11:45Z,compra,team-8,Prompt Arena,20,1129,1.76,Motor automático,1
+2026-11-22T06:11:47Z,compra,team-25,Immune,20,1126,1.765,Motor automático,1
+2026-11-22T06:11:48Z,compra,team-5,Krylov,20,1125,1.767,Motor automático,1
+2026-11-22T06:11:50Z,compra,team-35,Agent Rooms,20,1125,1.767,Motor automático,1
+2026-11-22T06:11:51Z,compra,team-30,Sculptor,20,1118,1.778,Motor automático,1
+2026-11-22T06:11:53Z,compra,team-26,Viridis,20,1113,1.786,Motor automático,1
+2026-11-22T06:13:39Z,compra,team-22,root,20,1096,1.812,Motor automático,1
+2026-11-22T06:13:40Z,compra,team-16,Agora,20,1093,1.817,Motor automático,1
+2026-11-22T06:14:39Z,venta,team-23,TRAZADA,103,13886,0.413,Motor automático,2
+2026-11-22T06:14:41Z,compra,team-2,MESH,20,1083,1.833,Motor automático,1
+2026-11-22T06:14:42Z,compra,team-33,Aterriza,20,1083,1.833,Motor automático,1
+2026-11-22T06:14:43Z,compra,team-1,Cortafuego,20,1074,1.848,Motor automático,1
+2026-11-22T06:14:44Z,compra,team-10,Factum,20,1068,1.858,Motor automático,1
+2026-11-22T06:14:45Z,compra,team-41,Yunta,20,1058,1.874,Motor automático,1
+2026-11-22T06:14:49Z,venta,team-10,Factum,91,6676,1.072,Motor automático,2
+2026-11-22T06:14:50Z,compra,team-48,Nodomics,20,1044,1.897,Motor automático,1
+2026-11-22T06:14:51Z,compra,team-18,ADverse,20,1044,1.898,Motor automático,1
+2026-11-22T06:14:52Z,compra,team-44,Myo,20,1040,1.904,Motor automático,1
+2026-11-22T06:14:53Z,compra,team-40,Grifter,20,1041,1.902,Motor automático,1
+2026-11-22T06:14:54Z,compra,team-8,Prompt Arena,20,1042,1.901,Motor automático,1
+2026-11-22T06:15:11Z,venta,team-42,Dendrita,35,4736,0.648,Motor automático,1
+2026-11-22T06:15:12Z,venta,team-12,Puente,41,5581,0.612,Motor automático,1
+2026-11-22T06:15:13Z,venta,team-3,Hoodini,46,3719,1.103,Motor automático,1
+2026-11-22T06:15:23Z,compra,team-25,Immune,20,1029,1.925,Motor automático,1
+2026-11-22T06:15:29Z,compra,team-5,Krylov,20,1028,1.926,Motor automático,1
+2026-11-22T06:15:32Z,compra,team-35,Agent Rooms,20,1028,1.926,Motor automático,1
+2026-11-22T06:15:33Z,compra,team-30,Sculptor,20,1022,1.937,Motor automático,1
+2026-11-22T06:15:34Z,compra,team-26,Viridis,20,1017,1.945,Motor automático,1
+2026-11-22T06:15:36Z,compra,team-17,Vigilia,20,1015,1.949,Motor automático,1
+2026-11-22T06:15:36Z,compra,team-22,root,20,1005,1.968,Motor automático,1
+2026-11-22T06:15:44Z,venta,team-46,Mayday,44,6121,0.58,Motor automático,1
+2026-11-22T06:15:45Z,venta,team-21,Rigo,48,6896,0.546,Motor automático,1
+2026-11-22T06:15:46Z,compra,team-16,Agora,20,994,1.988,Motor automático,1
+2026-11-22T06:15:47Z,compra,team-2,MESH,20,995,1.988,Motor automático,1
+2026-11-22T06:15:48Z,compra,team-28,What If Chile,20,995,1.987,Motor automático,1
+2026-11-22T06:15:49Z,compra,team-33,Aterriza,20,1000,1.978,Motor automático,1
+2026-11-22T06:15:50Z,compra,team-1,Cortafuego,20,992,1.992,Motor automático,1
+2026-11-22T06:18:49Z,venta,team-10,Factum,51,6676,0.603,Motor automático,1
+2026-11-22T06:18:52Z,compra,team-27,Vigente,20,1400,1.436,Motor automático,1
+2026-11-22T06:18:54Z,compra,team-27,Vigente,20,1255,1.592,Motor automático,1
+2026-11-22T06:18:58Z,venta,team-27,Vigente,17,1327,1.393,Motor automático,1
+2026-11-22T06:19:01Z,compra,team-7,Reaper,20,2116,0.978,Motor automático,1
+2026-11-22T06:21:31Z,venta,team-19,Branchpoint,27,649,4.414,Motor automático,1
+2026-11-22T06:21:33Z,compra,team-7,Reaper,20,1803,1.133,Motor automático,1
+2026-11-22T06:21:35Z,compra,team-7,Reaper,20,1570,1.29,Motor automático,1
+2026-11-22T06:21:39Z,venta,team-7,Reaper,29,2744,1.029,Motor automático,1
+2026-11-22T06:21:42Z,compra,team-39,Bicho,20,1007,1.964,Motor automático,1
+2026-11-22T06:22:45Z,venta,team-41,Yunta,453,30295,0.348,Motor automático,8
+2026-11-22T06:22:48Z,compra,team-13,AIgis,20,1652,1.23,Motor automático,1
+2026-11-22T06:22:49Z,compra,team-29,Bando,20,1604,1.264,Motor automático,1
+2026-11-22T06:22:50Z,compra,team-13,AIgis,20,1456,1.384,Motor automático,1
+2026-11-22T06:22:51Z,compra,team-29,Bando,20,1419,1.418,Motor automático,1
+2026-11-22T06:22:53Z,compra,team-13,AIgis,20,1302,1.538,Motor automático,1
+2026-11-22T06:22:54Z,compra,team-29,Bando,20,1273,1.572,Motor automático,1
+2026-11-22T06:22:56Z,compra,team-13,AIgis,20,1178,1.691,Motor automático,1
+2026-11-22T06:22:57Z,compra,team-29,Bando,20,1154,1.725,Motor automático,1
+2026-11-22T06:22:59Z,compra,team-13,AIgis,20,1076,1.844,Motor automático,1
+2026-11-22T06:23:00Z,compra,team-29,Bando,20,1056,1.877,Motor automático,1
+2026-11-22T06:23:01Z,compra,team-13,AIgis,20,990,1.996,Motor automático,1
+2026-11-22T06:23:03Z,compra,team-45,Audem,20,1688,1.206,Motor automático,1
+2026-11-22T06:23:04Z,compra,team-45,Audem,20,1481,1.362,Motor automático,1
+2026-11-22T06:23:05Z,compra,team-45,Audem,20,1320,1.518,Motor automático,1
+2026-11-22T06:23:06Z,compra,team-20,World UI,20,1264,1.582,Motor automático,1
+2026-11-22T06:23:08Z,compra,team-45,Audem,20,1193,1.671,Motor automático,1
+2026-11-22T06:23:10Z,compra,team-20,World UI,20,1147,1.735,Motor automático,1
+2026-11-22T06:23:11Z,compra,team-45,Audem,20,1088,1.824,Motor automático,1
+2026-11-22T06:23:12Z,compra,team-20,World UI,20,1050,1.888,Motor automático,1
+2026-11-22T06:23:14Z,compra,team-45,Audem,20,997,1.984,Motor automático,1
+2026-11-22T06:23:16Z,compra,team-29,Bando,20,983,2.011,Motor automático,1
+2026-11-22T06:23:17Z,compra,team-20,World UI,20,966,2.045,Motor automático,1
+2026-11-22T06:23:18Z,compra,team-48,Nodomics,20,1019,1.941,Motor automático,1
+2026-11-22T06:23:20Z,compra,team-18,ADverse,20,1019,1.943,Motor automático,1
+2026-11-22T06:23:21Z,compra,team-44,Myo,20,1016,1.948,Motor automático,1
+2026-11-22T06:23:25Z,venta,team-27,Vigente,15,1328,1.222,Motor automático,1
+2026-11-22T06:23:26Z,venta,team-45,Audem,63,3883,1.428,Motor automático,1
+2026-11-22T06:23:27Z,venta,team-20,World UI,39,2213,1.703,Motor automático,1
+2026-11-22T06:23:28Z,venta,team-13,AIgis,62,3827,1.442,Motor automático,1
+2026-11-22T06:23:29Z,venta,team-29,Bando,63,3744,1.488,Motor automático,1
+2026-11-22T06:23:32Z,compra,team-32,Bifurca,20,1494,1.351,Motor automático,1
+2026-11-22T06:23:33Z,compra,team-32,Bifurca,20,1330,1.507,Motor automático,1
+2026-11-22T06:23:35Z,compra,team-32,Bifurca,20,1199,1.663,Motor automático,1
+2026-11-22T06:23:37Z,compra,team-32,Bifurca,20,1092,1.818,Motor automático,1
+2026-11-22T06:23:38Z,compra,team-32,Bifurca,20,1002,1.973,Motor automático,1
+2026-11-22T06:23:40Z,compra,team-32,Bifurca,20,926,2.128,Motor automático,1
+2026-11-22T06:23:41Z,compra,team-40,Grifter,20,1006,1.967,Motor automático,1
+2026-11-22T06:23:43Z,compra,team-8,Prompt Arena,20,1006,1.966,Motor automático,1
+2026-11-22T06:23:44Z,compra,team-25,Immune,20,1005,1.969,Motor automático,1
+2026-11-22T06:23:46Z,compra,team-5,Krylov,20,1004,1.97,Motor automático,1
+2026-11-22T06:23:47Z,compra,team-35,Agent Rooms,20,1004,1.97,Motor automático,1
+2026-11-22T06:23:49Z,compra,team-30,Sculptor,20,998,1.98,Motor automático,1
+2026-11-22T06:23:50Z,compra,team-26,Viridis,20,994,1.988,Motor automático,1
+2026-11-22T06:23:55Z,venta,team-32,Bifurca,62,3521,1.578,Motor automático,1
+2026-11-22T06:23:57Z,compra,team-17,Vigilia,20,988,2.001,Motor automático,1
+2026-11-22T06:23:59Z,compra,team-22,root,20,978,2.02,Motor automático,1
+2026-11-22T06:24:00Z,compra,team-16,Agora,20,976,2.024,Motor automático,1
+2026-11-22T06:25:41Z,venta,team-7,Reaper,21,2745,0.767,Motor automático,1
+2026-11-22T06:25:43Z,compra,team-11,Montu,20,927,2.127,Motor automático,1
+2026-11-22T06:27:28Z,venta,team-45,Audem,42,3884,0.976,Motor automático,1
+2026-11-22T06:27:29Z,venta,team-20,World UI,30,2214,1.336,Motor automático,1
+2026-11-22T06:27:30Z,venta,team-13,AIgis,42,3827,0.988,Motor automático,1
+2026-11-22T06:27:31Z,venta,team-29,Bando,42,3745,1.024,Motor automático,1
+2026-11-22T06:27:33Z,compra,team-15,Caudales,20,919,2.144,Motor automático,1
+2026-11-22T06:27:35Z,compra,team-2,MESH,20,1017,1.945,Motor automático,1
+2026-11-22T06:27:37Z,compra,team-28,What If Chile,20,1018,1.944,Motor automático,1
+2026-11-22T06:27:38Z,compra,team-33,Aterriza,20,1018,1.943,Motor automático,1
+2026-11-22T06:27:40Z,compra,team-1,Cortafuego,20,1011,1.956,Motor automático,1
+2026-11-22T06:27:42Z,compra,team-39,Bicho,20,990,1.996,Motor automático,1
+2026-11-22T06:27:43Z,compra,team-48,Nodomics,20,990,1.997,Motor automático,1
+2026-11-22T06:27:45Z,compra,team-18,ADverse,20,989,1.998,Motor automático,1
+2026-11-22T06:27:57Z,venta,team-32,Bifurca,43,3522,1.114,Motor automático,1
+2026-11-22T06:28:00Z,compra,team-40,Grifter,20,983,2.01,Motor automático,1
+2026-11-22T06:28:01Z,compra,team-44,Myo,20,985,2.007,Motor automático,1
+2026-11-22T06:28:03Z,compra,team-8,Prompt Arena,20,985,2.006,Motor automático,1
+2026-11-22T06:29:50Z,venta,team-41,Yunta,556,30295,0.427,Motor automático,9
+2026-11-22T06:29:53Z,compra,team-25,Immune,20,940,2.099,Motor automático,1
+2026-11-22T06:29:54Z,compra,team-5,Krylov,20,939,2.1,Motor automático,1
+2026-11-22T06:29:56Z,compra,team-35,Agent Rooms,20,939,2.101,Motor automático,1
+2026-11-22T06:29:57Z,compra,team-30,Sculptor,20,934,2.111,Motor automático,1
+2026-11-22T06:29:59Z,compra,team-26,Viridis,20,931,2.118,Motor automático,1
+2026-11-22T06:30:00Z,compra,team-17,Vigilia,20,930,2.121,Motor automático,1
+2026-11-22T06:30:01Z,compra,team-22,root,20,922,2.139,Motor automático,1
+2026-11-22T06:30:03Z,compra,team-16,Agora,20,920,2.143,Motor automático,1
+2026-11-22T06:30:05Z,compra,team-2,MESH,20,917,2.149,Motor automático,1
+2026-11-22T06:30:06Z,compra,team-28,What If Chile,20,918,2.148,Motor automático,1
+2026-11-22T06:30:08Z,compra,team-33,Aterriza,20,918,2.147,Motor automático,1
+2026-11-22T06:30:09Z,compra,team-11,Montu,20,842,2.334,Motor automático,1
+2026-11-22T06:30:11Z,compra,team-15,Caudales,20,841,2.335,Motor automático,1
+2026-11-22T06:30:12Z,compra,team-34,Drena,20,915,2.153,Motor automático,1
+2026-11-22T06:30:14Z,compra,team-1,Cortafuego,20,916,2.151,Motor automático,1
+2026-11-22T06:30:15Z,compra,team-11,Montu,20,791,2.477,Motor automático,1
+2026-11-22T06:30:16Z,compra,team-15,Caudales,20,791,2.478,Motor automático,1
+2026-11-22T06:30:18Z,compra,team-11,Montu,20,745,2.627,Motor automático,1
+2026-11-22T06:30:19Z,compra,team-15,Caudales,20,744,2.629,Motor automático,1
+2026-11-22T06:30:21Z,compra,team-36,chameleonmode.app,20,725,2.698,Motor automático,1
+2026-11-22T06:30:22Z,compra,team-11,Montu,20,704,2.773,Motor automático,1
+2026-11-22T06:30:24Z,compra,team-15,Caudales,20,704,2.774,Motor automático,1
+2026-11-22T06:30:25Z,compra,team-36,chameleonmode.app,20,687,2.843,Motor automático,1
+2026-11-22T06:30:27Z,compra,team-11,Montu,20,668,2.918,Motor automático,1
+2026-11-22T06:30:28Z,compra,team-15,Caudales,20,668,2.919,Motor automático,1
+2026-11-22T06:30:30Z,compra,team-36,chameleonmode.app,20,652,2.988,Motor automático,1
+2026-11-22T06:30:31Z,compra,team-11,Montu,20,636,3.062,Motor automático,1
+2026-11-22T06:30:32Z,compra,team-39,Bicho,20,915,2.153,Motor automático,1
+2026-11-22T06:30:34Z,compra,team-48,Nodomics,20,915,2.154,Motor automático,1
+2026-11-22T06:30:42Z,venta,team-36,chameleonmode.app,27,1032,2.735,Motor automático,1
+2026-11-22T06:30:46Z,venta,team-11,Montu,69,2656,2.467,Motor automático,2
+2026-11-22T06:30:50Z,venta,team-15,Caudales,60,2333,2.421,Motor automático,1
+2026-11-22T06:30:56Z,compra,team-37,Kuwü,20,564,3.443,Motor automático,1
+2026-11-22T06:30:57Z,compra,team-24,mosAIc,20,551,3.524,Motor automático,1
+2026-11-22T06:31:05Z,compra,team-18,ADverse,20,926,2.13,Motor automático,1
+2026-11-22T06:31:06Z,compra,team-40,Grifter,20,924,2.134,Motor automático,1
+2026-11-22T06:31:08Z,compra,team-44,Myo,20,925,2.131,Motor automático,1
+2026-11-22T06:31:10Z,compra,team-25,Immune,20,926,2.128,Motor automático,1
+2026-11-22T06:31:11Z,compra,team-8,Prompt Arena,20,927,2.126,Motor automático,1
+2026-11-22T06:31:12Z,compra,team-5,Krylov,20,927,2.126,Motor automático,1
+2026-11-22T06:31:14Z,compra,team-35,Agent Rooms,20,927,2.127,Motor automático,1
+2026-11-22T06:31:18Z,venta,team-26,Viridis,64,3879,1.449,Motor automático,1
+2026-11-22T06:31:21Z,compra,team-26,Viridis,20,1245,1.605,Motor automático,1
+2026-11-22T06:31:22Z,compra,team-26,Viridis,20,1129,1.761,Motor automático,1
+2026-11-22T06:31:24Z,compra,team-26,Viridis,20,1034,1.916,Motor automático,1
+2026-11-22T06:34:40Z,venta,team-36,chameleonmode.app,24,1032,2.436,Motor automático,1
+2026-11-22T06:34:41Z,venta,team-11,Montu,54,2657,1.917,Motor automático,1
+2026-11-22T06:34:42Z,venta,team-15,Caudales,47,2334,1.93,Motor automático,1
+2026-11-22T06:34:44Z,compra,team-26,Viridis,20,949,2.08,Motor automático,1
+2026-11-22T06:34:46Z,compra,team-30,Sculptor,20,920,2.144,Motor automático,1
+2026-11-22T06:34:47Z,compra,team-37,Kuwü,20,557,3.482,Motor automático,1
+2026-11-22T06:34:49Z,compra,team-17,Vigilia,20,915,2.153,Motor automático,1
+2026-11-22T06:34:50Z,compra,team-24,mosAIc,20,546,3.555,Motor automático,1
+2026-11-22T06:34:52Z,compra,team-38,Minga,20,544,3.567,Motor automático,1
+2026-11-22T06:34:53Z,compra,team-37,Kuwü,20,536,3.618,Motor automático,1
+2026-11-22T06:49:56Z,venta,team-16,Agora,414,27206,0.42,Motor automático,7
+2026-11-22T06:49:58Z,compra,team-23,TRAZADA,20,4335,0.522,Motor automático,1
+2026-11-22T06:49:59Z,compra,team-21,Rigo,20,3424,0.637,Motor automático,1
+2026-11-22T06:50:01Z,compra,team-46,Mayday,20,3241,0.668,Motor automático,1
+2026-11-22T06:50:02Z,compra,team-23,TRAZADA,20,3198,0.676,Motor automático,1
+2026-11-22T06:50:04Z,compra,team-21,Rigo,20,2675,0.791,Motor automático,1
+2026-11-22T06:50:05Z,compra,team-46,Mayday,20,2562,0.823,Motor automático,1
+2026-11-22T06:50:06Z,compra,team-21,Rigo,20,2193,0.947,Motor automático,1
+2026-11-22T06:50:08Z,compra,team-46,Mayday,20,2116,0.978,Motor automático,1
+2026-11-22T06:50:09Z,compra,team-12,Puente,20,1969,1.045,Motor automático,1
+2026-11-22T06:50:10Z,compra,team-42,Dendrita,20,1878,1.092,Motor automático,1
+2026-11-22T06:50:11Z,compra,team-3,Hoodini,20,1722,1.183,Motor automático,1
+2026-11-22T06:50:13Z,compra,team-12,Puente,20,1698,1.198,Motor automático,1
+2026-11-22T06:50:14Z,compra,team-42,Dendrita,20,1630,1.245,Motor automático,1
+2026-11-22T06:50:16Z,compra,team-3,Hoodini,20,1513,1.336,Motor automático,1
+2026-11-22T06:50:17Z,compra,team-12,Puente,20,1494,1.351,Motor automático,1
+2026-11-22T06:50:19Z,compra,team-42,Dendrita,20,1408,1.428,Motor automático,1
+2026-11-22T06:50:20Z,compra,team-3,Hoodini,20,1324,1.514,Motor automático,1
+2026-11-22T06:50:21Z,compra,team-12,Puente,20,1309,1.53,Motor automático,1
+2026-11-22T06:50:23Z,compra,team-42,Dendrita,20,1272,1.573,Motor automático,1
+2026-11-22T06:50:25Z,compra,team-3,Hoodini,20,1197,1.665,Motor automático,1
+2026-11-22T06:50:26Z,compra,team-12,Puente,20,1186,1.681,Motor automático,1
+2026-11-22T06:50:27Z,compra,team-4,VIAZ,20,1175,1.696,Motor automático,1
+2026-11-22T06:50:32Z,venta,team-3,Hoodini,41,2878,1.328,Motor automático,1
+2026-11-22T06:50:34Z,compra,team-42,Dendrita,20,1847,1.109,Motor automático,1
+2026-11-22T06:50:35Z,compra,team-4,VIAZ,20,1064,1.863,Motor automático,1
+2026-11-22T06:50:40Z,venta,team-4,VIAZ,18,1119,1.763,Motor automático,1
+2026-11-22T06:50:42Z,compra,team-23,TRAZADA,20,2447,0.857,Motor automático,1
+2026-11-22T06:54:40Z,venta,team-3,Hoodini,30,2878,0.999,Motor automático,1
+2026-11-22T06:54:41Z,venta,team-4,VIAZ,15,1120,1.497,Motor automático,1
+2026-11-22T06:54:43Z,compra,team-27,Vigente,20,1615,1.256,Motor automático,1
+2026-11-22T06:54:45Z,compra,team-27,Vigente,20,1426,1.412,Motor automático,1
+2026-11-22T06:54:46Z,compra,team-27,Vigente,20,1276,1.568,Motor automático,1
+2026-11-22T06:54:50Z,venta,team-27,Vigente,29,2158,1.313,Motor automático,1
+2026-11-22T06:54:52Z,compra,team-21,Rigo,20,1913,1.073,Motor automático,1
+2026-11-22T06:55:55Z,venta,team-16,Agora,124,27207,0.125,Motor automático,2
+2026-11-22T06:55:57Z,compra,team-7,Reaper,20,1751,1.165,Motor automático,1
+2026-11-22T06:55:58Z,compra,team-7,Reaper,20,1530,1.322,Motor automático,1
+2026-11-22T06:55:59Z,compra,team-7,Reaper,20,1358,1.478,Motor automático,1
+2026-11-22T06:56:00Z,compra,team-7,Reaper,20,1222,1.633,Motor automático,1
+2026-11-22T06:56:02Z,compra,team-7,Reaper,20,1111,1.789,Motor automático,1
+2026-11-22T06:56:04Z,compra,team-7,Reaper,20,1018,1.944,Motor automático,1
+2026-11-22T06:56:05Z,compra,team-46,Mayday,20,1879,1.091,Motor automático,1
+2026-11-22T06:56:09Z,venta,team-7,Reaper,45,3995,1.001,Motor automático,1
+2026-11-22T06:56:11Z,compra,team-12,Puente,20,1817,1.126,Motor automático,1
+2026-11-22T06:56:12Z,compra,team-42,Dendrita,20,1670,1.218,Motor automático,1
+2026-11-22T06:56:13Z,compra,team-21,Rigo,20,1664,1.221,Motor automático,1
+2026-11-22T06:58:52Z,venta,team-27,Vigente,22,2159,1.032,Motor automático,1
+2026-11-22T06:58:55Z,compra,team-45,Audem,20,2012,1.024,Motor automático,1
+2026-11-22T07:00:10Z,venta,team-7,Reaper,30,3995,0.68,Motor automático,1
+2026-11-22T07:00:12Z,compra,team-32,Bifurca,20,1782,1.146,Motor automático,1
+2026-11-22T07:32:55Z,venta,team-28,What If Chile,145,14643,0.532,Decisión en vivo,3
+2026-11-22T07:32:56Z,venta,team-22,root,120,10395,0.759,Decisión en vivo,2
+2026-11-22T07:32:57Z,venta,team-8,Prompt Arena,124,9912,0.84,Decisión en vivo,2
+2026-11-22T07:32:57Z,compra,team-17,Vigilia,128,5191,2.974,Decisión en vivo,2
+2026-11-22T07:32:58Z,compra,team-5,Krylov,128,5299,2.925,Decisión en vivo,2
+2026-11-22T07:32:59Z,compra,team-1,Cortafuego,102,4539,2.635,Decisión en vivo,2
+2026-11-22T07:32:59Z,compra,team-15,Caudales,76,3748,2.291,Decisión en vivo,2
+2026-11-22T07:33:00Z,compra,team-4,VIAZ,76,4539,1.952,Decisión en vivo,2
+2026-11-22T09:09:01Z,compra,team-13,AIgis,100,10774,1.373,Decisión en vivo,2
+2026-11-22T09:19:03Z,venta,team-13,AIgis,57,5387,0.879,Motor automático,1
+2026-11-22T09:39:57Z,venta,team-28,What If Chile,880,21964,1.503,Motor automático,14
+2026-11-22T09:40:00Z,compra,team-17,Vigilia,20,706,2.767,Motor automático,1
+2026-11-22T09:40:02Z,compra,team-17,Vigilia,20,668,2.921,Motor automático,1
+2026-11-22T09:40:03Z,compra,team-17,Vigilia,20,633,3.074,Motor automático,1
+2026-11-22T09:40:05Z,compra,team-5,Krylov,20,713,2.739,Motor automático,1
+2026-11-22T09:40:06Z,compra,team-5,Krylov,20,674,2.893,Motor automático,1
+2026-11-22T09:40:08Z,compra,team-5,Krylov,20,639,3.046,Motor automático,1
+2026-11-22T09:40:09Z,compra,team-1,Cortafuego,20,787,2.491,Motor automático,1
+2026-11-22T09:40:11Z,compra,team-1,Cortafuego,20,740,2.645,Motor automático,1
+2026-11-22T09:40:12Z,compra,team-1,Cortafuego,20,698,2.799,Motor automático,1
+2026-11-22T09:40:14Z,compra,team-1,Cortafuego,20,660,2.953,Motor automático,1
+2026-11-22T09:40:15Z,compra,team-1,Cortafuego,20,627,3.106,Motor automático,1
+2026-11-22T09:40:17Z,compra,team-4,VIAZ,20,1046,1.894,Motor automático,1
+2026-11-22T09:40:18Z,compra,team-4,VIAZ,20,964,2.049,Motor automático,1
+2026-11-22T09:40:19Z,compra,team-4,VIAZ,20,893,2.204,Motor automático,1
+2026-11-22T09:40:20Z,compra,team-4,VIAZ,20,833,2.359,Motor automático,1
+2026-11-22T09:40:21Z,compra,team-4,VIAZ,20,780,2.513,Motor automático,1
+2026-11-22T09:40:22Z,compra,team-5,Krylov,20,617,3.152,Motor automático,1
+2026-11-22T09:40:23Z,compra,team-4,VIAZ,20,734,2.663,Motor automático,1
+2026-11-22T09:40:24Z,compra,team-4,VIAZ,20,693,2.817,Motor automático,1
+2026-11-22T09:40:25Z,compra,team-17,Vigilia,20,618,3.151,Motor automático,1
+2026-11-22T09:40:25Z,compra,team-4,VIAZ,20,657,2.966,Motor automático,1
+2026-11-22T09:40:26Z,compra,team-4,VIAZ,20,624,3.12,Motor automático,1
+2026-11-22T09:40:27Z,compra,team-15,Caudales,20,917,2.149,Motor automático,1
+2026-11-22T09:40:28Z,compra,team-15,Caudales,20,853,2.303,Motor automático,1
+2026-11-22T09:40:29Z,compra,team-15,Caudales,20,798,2.458,Motor automático,1
+2026-11-22T09:40:30Z,compra,team-15,Caudales,20,749,2.612,Motor automático,1
+2026-11-22T09:40:31Z,compra,team-15,Caudales,20,706,2.766,Motor automático,1
+2026-11-22T09:40:32Z,compra,team-15,Caudales,20,668,2.919,Motor automático,1
+2026-11-22T09:40:33Z,compra,team-15,Caudales,20,634,3.073,Motor automático,1
+2026-11-22T09:40:34Z,compra,team-44,Myo,20,1138,1.747,Motor automático,1
+2026-11-22T09:40:38Z,compra,team-44,Myo,20,1041,1.902,Motor automático,1
+2026-11-22T09:40:39Z,compra,team-44,Myo,20,960,2.058,Motor automático,1
+2026-11-22T09:40:40Z,compra,team-44,Myo,20,890,2.213,Motor automático,1
+2026-11-22T09:40:41Z,compra,team-44,Myo,20,830,2.367,Motor automático,1
+2026-11-22T09:40:42Z,compra,team-1,Cortafuego,20,618,3.149,Motor automático,1
+2026-11-22T09:40:43Z,compra,team-44,Myo,20,778,2.518,Motor automático,1
+2026-11-22T09:40:44Z,compra,team-44,Myo,20,732,2.672,Motor automático,1
+2026-11-22T09:40:45Z,compra,team-44,Myo,20,691,2.826,Motor automático,1
+2026-11-22T09:40:46Z,compra,team-44,Myo,20,654,2.979,Motor automático,1
+2026-11-22T09:40:47Z,compra,team-44,Myo,20,621,3.133,Motor automático,1
+2026-11-22T09:43:58Z,venta,team-28,What If Chile,136,21965,0.227,Motor automático,3
+2026-11-22T09:44:00Z,compra,team-22,root,20,2692,0.787,Motor automático,1
+2026-11-22T09:44:01Z,compra,team-22,root,20,2201,0.944,Motor automático,1
+2026-11-22T09:44:02Z,compra,team-22,root,20,1862,1.101,Motor automático,1
+2026-11-22T09:44:03Z,compra,team-22,root,20,1614,1.257,Motor automático,1
+2026-11-22T09:44:04Z,compra,team-22,root,20,1424,1.413,Motor automático,1
+2026-11-22T09:44:05Z,compra,team-22,root,20,1275,1.569,Motor automático,1
+2026-11-22T09:44:07Z,compra,team-26,Viridis,20,1191,1.674,Motor automático,1
+2026-11-22T09:46:18Z,venta,team-46,Mayday,63,4899,1.123,Motor automático,2
+2026-11-22T09:46:19Z,compra,team-18,ADverse,20,1168,1.705,Motor automático,1
+2026-11-22T09:46:21Z,compra,team-15,Caudales,20,618,3.151,Motor automático,1
+2026-11-22T09:46:22Z,compra,team-40,Grifter,20,1168,1.705,Motor automático,1
+2026-11-22T09:50:19Z,venta,team-46,Mayday,42,4899,0.743,Motor automático,1
+2026-11-22T09:50:21Z,compra,team-22,root,20,1161,1.715,Motor automático,1
+2026-11-22T09:50:22Z,compra,team-4,VIAZ,20,618,3.149,Motor automático,1
+2026-11-22T09:50:23Z,compra,team-5,Krylov,20,618,3.151,Motor automático,1
+2026-11-22T10:09:05Z,venta,team-13,AIgis,42,5387,0.653,Motor automático,1
+2026-11-22T10:09:07Z,compra,team-17,Vigilia,20,724,2.699,Motor automático,1
+2026-11-22T10:09:08Z,compra,team-17,Vigilia,20,684,2.853,Motor automático,1
+2026-11-22T11:22:04Z,compra,team-4,VIAZ,100,10306,1.411,Decisión en vivo,2
+2026-11-22T12:07:00Z,venta,team-37,Kuwü,197,1974,9.652,Motor automático,4
+2026-11-22T12:07:02Z,compra,team-17,Vigilia,20,1073,1.849,Motor automático,1
+2026-11-22T12:07:04Z,compra,team-17,Vigilia,20,986,2.004,Motor automático,1
+2026-11-22T12:07:05Z,compra,team-17,Vigilia,20,913,2.159,Motor automático,1
+2026-11-22T12:07:07Z,compra,team-17,Vigilia,20,849,2.313,Motor automático,1
+2026-11-22T12:07:08Z,compra,team-17,Vigilia,20,788,2.488,Motor automático,1
+2026-11-22T12:08:12Z,venta,team-37,Kuwü,57,1975,2.792,Motor automático,1
+2026-11-22T12:08:15Z,compra,team-17,Vigilia,20,694,2.815,Motor automático,1
+2026-11-22T12:08:17Z,compra,team-17,Vigilia,20,657,2.969,Motor automático,1
+2026-11-22T12:08:18Z,compra,team-17,Vigilia,20,624,3.122,Motor automático,1
+2026-11-22T12:14:33Z,compra,team-37,Kuwü,100,3414,3.284,Decisión en vivo,2
+2026-11-22T12:14:46Z,venta,team-37,Kuwü,92,1707,5.275,Motor automático,2
+2026-11-22T12:18:44Z,venta,team-37,Kuwü,102,1707,5.846,Motor automático,2
+2026-11-22T12:18:46Z,compra,team-5,Krylov,20,811,2.42,Motor automático,1
+2026-11-22T12:18:47Z,compra,team-5,Krylov,20,761,2.575,Motor automático,1
+2026-11-22T12:18:48Z,compra,team-5,Krylov,20,716,2.728,Motor automático,1
+2026-11-22T12:18:49Z,compra,team-5,Krylov,20,677,2.882,Motor automático,1
+2026-11-22T12:18:50Z,compra,team-5,Krylov,20,642,3.036,Motor automático,1
+2026-11-22T12:20:55Z,venta,team-30,Sculptor,45,13126,0.198,Motor automático,1
+2026-11-22T12:20:57Z,compra,team-1,Cortafuego,20,839,2.343,Motor automático,1
+2026-11-22T12:20:58Z,compra,team-1,Cortafuego,20,785,2.497,Motor automático,1
+2026-11-22T12:20:59Z,compra,team-1,Cortafuego,20,738,2.651,Motor automático,1
+2026-11-22T12:27:12Z,venta,team-30,Sculptor,69,13127,0.309,Motor automático,2
+2026-11-22T12:27:14Z,compra,team-5,Krylov,20,643,3.03,Motor automático,1
+2026-11-22T12:27:15Z,compra,team-1,Cortafuego,20,729,2.682,Motor automático,1
+2026-11-22T12:27:16Z,compra,team-1,Cortafuego,20,688,2.836,Motor automático,1
+2026-11-22T12:27:17Z,compra,team-1,Cortafuego,20,652,2.989,Motor automático,1
+2026-11-22T12:38:11Z,venta,team-42,Dendrita,67,4852,1.206,Motor automático,2
+2026-11-22T12:38:13Z,compra,team-5,Krylov,20,626,3.111,Motor automático,1
+2026-11-22T12:38:14Z,compra,team-1,Cortafuego,20,632,3.08,Motor automático,1
+2026-11-22T12:38:15Z,compra,team-4,VIAZ,20,1286,1.556,Motor automático,1
+2026-11-22T12:41:40Z,venta,team-22,root,895,21707,1.567,Motor automático,14
+2026-11-22T12:41:43Z,compra,team-4,VIAZ,20,1179,1.69,Motor automático,1
+2026-11-22T12:41:44Z,compra,team-4,VIAZ,20,1075,1.846,Motor automático,1
+2026-11-22T12:41:46Z,compra,team-4,VIAZ,20,988,2.001,Motor automático,1
+2026-11-22T12:41:47Z,compra,team-4,VIAZ,20,914,2.156,Motor automático,1
+2026-11-22T12:41:50Z,compra,team-4,VIAZ,20,851,2.311,Motor automático,1
+2026-11-22T12:41:52Z,compra,team-4,VIAZ,20,795,2.465,Motor automático,1
+2026-11-22T12:41:53Z,compra,team-4,VIAZ,20,747,2.619,Motor automático,1
+2026-11-22T12:41:54Z,compra,team-1,Cortafuego,20,617,3.152,Motor automático,1
+2026-11-22T12:41:55Z,compra,team-4,VIAZ,20,705,2.769,Motor automático,1
+2026-11-22T12:41:57Z,compra,team-4,VIAZ,20,667,2.923,Motor automático,1
+2026-11-22T12:41:59Z,compra,team-4,VIAZ,20,633,3.076,Motor automático,1
+2026-11-22T12:42:01Z,compra,team-15,Caudales,20,1637,1.24,Motor automático,1
+2026-11-22T12:42:02Z,compra,team-15,Caudales,20,1442,1.396,Motor automático,1
+2026-11-22T12:42:03Z,compra,team-5,Krylov,20,618,3.149,Motor automático,1
+2026-11-22T12:42:05Z,compra,team-15,Caudales,20,1291,1.55,Motor automático,1
+2026-11-22T12:42:06Z,compra,team-15,Caudales,20,1168,1.706,Motor automático,1
+2026-11-22T12:42:08Z,compra,team-15,Caudales,20,1066,1.861,Motor automático,1
+2026-11-22T12:42:09Z,compra,team-15,Caudales,20,980,2.016,Motor automático,1
+2026-11-22T12:42:11Z,compra,team-15,Caudales,20,907,2.171,Motor automático,1
+2026-11-22T12:42:12Z,compra,team-15,Caudales,20,845,2.326,Motor automático,1
+2026-11-22T12:42:13Z,compra,team-15,Caudales,20,790,2.48,Motor automático,1
+2026-11-22T12:42:14Z,compra,team-15,Caudales,20,743,2.635,Motor automático,1
+2026-11-22T12:42:15Z,compra,team-15,Caudales,20,700,2.788,Motor automático,1
+2026-11-22T12:42:17Z,compra,team-15,Caudales,20,663,2.942,Motor automático,1
+2026-11-22T12:42:18Z,compra,team-15,Caudales,20,629,3.096,Motor automático,1
+2026-11-22T12:42:19Z,compra,team-44,Myo,20,816,2.406,Motor automático,1
+2026-11-22T12:42:20Z,compra,team-44,Myo,20,765,2.561,Motor automático,1
+2026-11-22T12:42:22Z,compra,team-4,VIAZ,20,617,3.152,Motor automático,1
+2026-11-22T12:42:23Z,compra,team-44,Myo,20,721,2.71,Motor automático,1
+2026-11-22T12:42:24Z,compra,team-44,Myo,20,681,2.864,Motor automático,1
+2026-11-22T12:42:29Z,compra,team-17,Vigilia,20,618,3.15,Motor automático,1
+2026-11-22T12:42:30Z,compra,team-44,Myo,20,647,3.013,Motor automático,1
+2026-11-22T12:42:32Z,compra,team-48,Nodomics,20,1789,1.142,Motor automático,1
+2026-11-22T12:42:34Z,compra,team-33,Aterriza,20,1775,1.151,Motor automático,1
+2026-11-22T12:42:35Z,compra,team-26,Viridis,20,1733,1.176,Motor automático,1
+2026-11-22T12:42:36Z,compra,team-44,Myo,20,617,3.152,Motor automático,1
+2026-11-22T12:42:37Z,compra,team-18,ADverse,20,1702,1.196,Motor automático,1
+2026-11-22T12:42:39Z,compra,team-40,Grifter,20,1699,1.198,Motor automático,1
+2026-11-22T12:42:40Z,compra,team-48,Nodomics,20,1561,1.297,Motor automático,1
+2026-11-22T12:42:41Z,compra,team-33,Aterriza,20,1550,1.305,Motor automático,1
+2026-11-22T12:42:42Z,compra,team-26,Viridis,20,1519,1.331,Motor automático,1
+2026-11-22T12:42:43Z,compra,team-8,Prompt Arena,20,1514,1.335,Motor automático,1
+2026-11-22T12:42:45Z,compra,team-18,ADverse,20,1504,1.343,Motor automático,1
+2026-11-22T12:42:46Z,compra,team-40,Grifter,20,1502,1.345,Motor automático,1
+2026-11-22T12:42:47Z,compra,team-1,Cortafuego,20,618,3.15,Motor automático,1
+2026-11-22T12:42:48Z,compra,team-33,Aterriza,20,1385,1.451,Motor automático,1
+2026-11-22T12:42:49Z,compra,team-26,Viridis,20,1360,1.476,Motor automático,1
+2026-11-22T12:42:50Z,compra,team-8,Prompt Arena,20,1356,1.48,Motor automático,1
+2026-11-22T12:43:27Z,venta,team-42,Dendrita,63,4853,1.093,Motor automático,1
+2026-11-22T12:43:29Z,compra,team-5,Krylov,20,624,3.12,Motor automático,1
+2026-11-22T12:43:30Z,compra,team-15,Caudales,20,625,3.116,Motor automático,1
+2026-11-22T12:43:31Z,compra,team-18,ADverse,20,1368,1.468,Motor automático,1
+2026-11-22T12:46:30Z,venta,team-22,root,209,21708,0.358,Motor automático,4
+2026-11-22T12:46:32Z,compra,team-40,Grifter,20,1337,1.5,Motor automático,1
+2026-11-22T12:46:34Z,compra,team-33,Aterriza,20,1242,1.608,Motor automático,1
+2026-11-22T12:46:35Z,compra,team-26,Viridis,20,1222,1.634,Motor automático,1
+2026-11-22T12:46:36Z,compra,team-8,Prompt Arena,20,1219,1.638,Motor automático,1
+2026-11-22T12:46:38Z,compra,team-18,ADverse,20,1211,1.648,Motor automático,1
+2026-11-22T12:46:39Z,compra,team-40,Grifter,20,1212,1.646,Motor automático,1
+2026-11-22T12:46:40Z,compra,team-33,Aterriza,20,1134,1.754,Motor automático,1
+2026-11-22T12:46:41Z,compra,team-26,Viridis,20,1117,1.779,Motor automático,1
+2026-11-22T12:46:43Z,compra,team-8,Prompt Arena,20,1115,1.783,Motor automático,1
+2026-11-22T12:46:44Z,compra,team-18,ADverse,20,1108,1.793,Motor automático,1
+2026-11-22T12:46:45Z,compra,team-33,Aterriza,20,1042,1.901,Motor automático,1
+2026-11-22T12:46:47Z,compra,team-26,Viridis,20,1028,1.926,Motor automático,1
+2026-11-22T12:47:22Z,venta,team-8,Prompt Arena,289,17470,0.769,Motor automático,5
+2026-11-22T12:47:24Z,compra,team-18,ADverse,20,1021,1.939,Motor automático,1
+2026-11-22T12:47:25Z,compra,team-33,Aterriza,20,965,2.045,Motor automático,1
+2026-11-22T12:47:26Z,compra,team-26,Viridis,20,953,2.07,Motor automático,1
+2026-11-22T12:47:27Z,compra,team-18,ADverse,20,945,2.088,Motor automático,1
+2026-11-22T12:47:29Z,compra,team-11,Montu,20,2551,0.826,Motor automático,1
+2026-11-22T12:47:30Z,compra,team-3,Hoodini,20,2401,0.872,Motor automático,1
+2026-11-22T12:47:31Z,compra,team-4,VIAZ,20,618,3.151,Motor automático,1
+2026-11-22T12:47:32Z,compra,team-45,Audem,20,2393,0.875,Motor automático,1
+2026-11-22T12:47:33Z,compra,team-11,Montu,20,2115,0.979,Motor automático,1
+2026-11-22T12:47:34Z,compra,team-17,Vigilia,20,618,3.149,Motor automático,1
+2026-11-22T12:47:35Z,compra,team-3,Hoodini,20,2014,1.024,Motor automático,1
+2026-11-22T12:47:37Z,compra,team-45,Audem,20,2005,1.028,Motor automático,1
+2026-11-22T12:47:38Z,compra,team-46,Mayday,20,1975,1.042,Motor automático,1
+2026-11-22T12:47:39Z,compra,team-11,Montu,20,1810,1.129,Motor automático,1
+2026-11-22T12:47:40Z,compra,team-44,Myo,20,618,3.151,Motor automático,1
+2026-11-22T12:51:47Z,venta,team-8,Prompt Arena,106,17470,0.282,Motor automático,2
+2026-11-22T12:51:49Z,compra,team-27,Vigente,20,2494,0.843,Motor automático,1
+2026-11-22T12:51:50Z,compra,team-27,Vigente,20,2067,1.0,Motor automático,1
+2026-11-22T12:51:51Z,compra,team-33,Aterriza,20,915,2.155,Motor automático,1
+2026-11-22T12:51:52Z,compra,team-32,Bifurca,20,1813,1.128,Motor automático,1
+2026-11-22T12:51:53Z,compra,team-1,Cortafuego,20,617,3.152,Motor automático,1
+2026-11-22T12:51:55Z,compra,team-27,Vigente,20,1773,1.152,Motor automático,1
+2026-11-22T12:54:03Z,venta,team-25,Immune,139,8749,1.136,Motor automático,3
+2026-11-22T12:54:06Z,compra,team-5,Krylov,20,623,3.122,Motor automático,1
+2026-11-22T12:54:08Z,compra,team-26,Viridis,20,923,2.135,Motor automático,1
+2026-11-22T12:54:09Z,compra,team-18,ADverse,20,916,2.151,Motor automático,1
+2026-11-22T12:54:11Z,compra,team-32,Bifurca,20,2238,0.93,Motor automático,1
+2026-11-22T12:54:12Z,compra,team-32,Bifurca,20,1888,1.086,Motor automático,1
+2026-11-22T12:54:13Z,compra,team-3,Hoodini,20,1754,1.163,Motor automático,1
+2026-11-22T12:54:15Z,compra,team-45,Audem,20,1748,1.167,Motor automático,1
+2026-11-22T12:54:40Z,venta,team-25,Immune,74,8750,0.612,Motor automático,2
+2026-11-22T12:54:43Z,compra,team-17,Vigilia,20,709,2.757,Motor automático,1
+2026-11-22T12:54:44Z,compra,team-17,Vigilia,20,670,2.911,Motor automático,1
+2026-11-22T12:54:45Z,compra,team-17,Vigilia,20,636,3.064,Motor automático,1
+2026-11-22T12:54:46Z,compra,team-5,Krylov,20,695,2.811,Motor automático,1
+2026-11-22T13:02:53Z,venta,team-2,MESH,395,10380,2.526,Motor automático,7
+2026-11-22T13:02:55Z,compra,team-17,Vigilia,20,625,3.114,Motor automático,1
+2026-11-22T13:02:56Z,compra,team-5,Krylov,20,680,2.87,Motor automático,1
+2026-11-22T13:02:56Z,compra,team-5,Krylov,20,644,3.023,Motor automático,1
+2026-11-22T13:02:57Z,compra,team-1,Cortafuego,20,728,2.685,Motor automático,1
+2026-11-22T13:02:58Z,compra,team-1,Cortafuego,20,688,2.839,Motor automático,1
+2026-11-22T13:03:00Z,compra,team-1,Cortafuego,20,651,2.992,Motor automático,1
+2026-11-22T13:03:02Z,compra,team-1,Cortafuego,20,619,3.146,Motor automático,1
+2026-11-22T13:03:03Z,compra,team-4,VIAZ,20,747,2.62,Motor automático,1
+2026-11-22T13:03:04Z,compra,team-5,Krylov,20,617,3.153,Motor automático,1
+2026-11-22T13:03:05Z,compra,team-4,VIAZ,20,705,2.77,Motor automático,1
+2026-11-22T13:03:06Z,compra,team-4,VIAZ,20,667,2.923,Motor automático,1
+2026-11-22T13:03:07Z,compra,team-4,VIAZ,20,643,3.029,Motor automático,1
+2026-11-22T13:03:08Z,compra,team-15,Caudales,20,632,3.08,Motor automático,1
+2026-11-22T13:03:09Z,compra,team-44,Myo,20,757,2.588,Motor automático,1
+2026-11-22T13:03:10Z,compra,team-44,Myo,20,713,2.742,Motor automático,1
+2026-11-22T13:03:11Z,compra,team-17,Vigilia,20,618,3.15,Motor automático,1
+2026-11-22T13:03:12Z,compra,team-44,Myo,20,675,2.891,Motor automático,1
+2026-11-22T13:03:13Z,compra,team-44,Myo,20,640,3.045,Motor automático,1
+2026-11-22T13:03:14Z,compra,team-33,Aterriza,20,1096,1.812,Motor automático,1
+2026-11-22T13:03:15Z,compra,team-4,VIAZ,20,618,3.149,Motor automático,1
+2026-11-22T13:03:16Z,compra,team-26,Viridis,20,1084,1.831,Motor automático,1
+2026-11-22T13:03:34Z,venta,team-2,MESH,126,10380,0.792,Motor automático,2
+2026-11-22T13:03:35Z,compra,team-18,ADverse,20,1058,1.874,Motor automático,1
+2026-11-22T13:03:37Z,compra,team-33,Aterriza,20,993,1.991,Motor automático,1
+2026-11-22T13:03:38Z,compra,team-26,Viridis,20,982,2.013,Motor automático,1
+2026-11-22T13:03:40Z,compra,team-18,ADverse,20,977,2.023,Motor automático,1
+2026-11-22T13:03:40Z,compra,team-33,Aterriza,20,921,2.14,Motor automático,1
+2026-11-22T13:03:41Z,compra,team-46,Mayday,20,2816,0.756,Motor automático,1
+2026-11-22T13:03:42Z,compra,team-30,Sculptor,20,2445,0.858,Motor automático,1
+2026-11-22T13:05:51Z,venta,team-33,Aterriza,135,9436,0.993,Decisión en vivo,3
+2026-11-22T13:05:52Z,compra,team-47,Alicanto,300,17922,3.131,Decisión en vivo,5
+2026-11-22T13:12:56Z,venta,team-11,Montu,54,3238,1.52,Motor automático,1
+2026-11-22T13:13:34Z,venta,team-26,Viridis,118,9443,0.86,Decisión en vivo,2
+2026-11-22T13:13:35Z,venta,team-33,Aterriza,47,7077,0.511,Decisión en vivo,1
+2026-11-22T13:13:36Z,venta,team-39,Bicho,47,3705,1.138,Decisión en vivo,1
+2026-11-22T13:13:37Z,compra,team-45,Audem,300,16261,3.272,Decisión en vivo,5
+2026-11-22T13:14:24Z,venta,team-11,Montu,135,1619,8.186,Motor automático,3
+2026-11-22T13:15:05Z,compra,team-37,Kuwü,100,1845,5.704,Decisión en vivo,2
+2026-11-22T13:17:02Z,venta,team-26,Viridis,88,7082,0.965,Decisión en vivo,2
+2026-11-22T13:17:04Z,venta,team-33,Aterriza,27,5308,0.449,Decisión en vivo,1
+2026-11-22T13:17:06Z,venta,team-31,Sideband,24,5173,0.417,Decisión en vivo,1
+2026-11-22T13:17:09Z,venta,team-11,Montu,29,404,7.67,Decisión en vivo,1
+2026-11-22T13:17:11Z,venta,team-43,Cachai,22,3306,0.654,Decisión en vivo,1
+2026-11-22T13:17:12Z,venta,team-39,Bicho,23,2779,0.802,Decisión en vivo,1
+2026-11-22T13:17:14Z,venta,team-34,Drena,20,3920,0.479,Decisión en vivo,1
+2026-11-22T13:17:16Z,compra,team-12,Puente,300,18797,3.069,Decisión en vivo,5
+2026-11-22T13:17:25Z,venta,team-11,Montu,76,1215,6.301,Motor automático,2
+2026-11-22T13:22:07Z,venta,team-3,Hoodini,32,6169,0.427,Decisión en vivo,1
+2026-11-22T13:25:30Z,venta,team-37,Kuwü,45,922,4.921,Motor automático,1
+2026-11-22T13:28:18Z,venta,team-39,Bicho,29,2084,1.372,Decisión en vivo,1
+2026-11-22T13:29:27Z,venta,team-26,Viridis,85,5312,1.338,Decisión en vivo,2
+2026-11-22T13:29:28Z,venta,team-34,Drena,25,2940,0.812,Decisión en vivo,1
+2026-11-22T13:29:29Z,compra,team-18,ADverse,300,8791,4.675,Decisión en vivo,5
+2026-11-22T13:32:56Z,venta,team-26,Viridis,161,7968,1.494,Motor automático,3
+2026-11-22T13:37:02Z,venta,team-26,Viridis,26,1992,1.327,Decisión en vivo,1
+2026-11-22T13:37:02Z,venta,team-39,Bicho,24,1563,1.603,Decisión en vivo,1
+2026-11-22T13:37:03Z,venta,team-33,Aterriza,19,3981,0.452,Decisión en vivo,1
+2026-11-22T13:37:05Z,venta,team-32,Bifurca,20,1930,1.09,Decisión en vivo,1
+2026-11-22T13:37:05Z,venta,team-21,Rigo,14,2967,0.486,Decisión en vivo,1
+2026-11-22T13:37:06Z,venta,team-6,SwarmWatch,14,1805,0.857,Decisión en vivo,1
+2026-11-22T13:37:07Z,venta,team-23,TRAZADA,13,2495,0.548,Decisión en vivo,1
+2026-11-22T13:37:08Z,venta,team-27,Vigente,13,1583,0.896,Decisión en vivo,1
+2026-11-22T13:37:09Z,venta,team-34,Drena,12,2205,0.609,Decisión en vivo,1
+2026-11-22T13:37:10Z,venta,team-24,mosAIc,11,1243,1.068,Decisión en vivo,1
+2026-11-22T13:37:11Z,venta,team-37,Kuwü,9,230,4.862,Decisión en vivo,1
+2026-11-22T13:37:12Z,compra,team-1,Cortafuego,300,8783,4.678,Decisión en vivo,5
+2026-11-22T13:52:47Z,venta,team-46,Mayday,64,2395,2.511,Motor automático,1
+2026-11-22T14:03:36Z,compra,team-33,Aterriza,112,10331,1.581,Decisión en vivo,2
+2026-11-22T14:15:05Z,venta,team-37,Kuwü,9,693,1.589,Motor automático,1
+2026-11-22T14:27:59Z,venta,team-6,SwarmWatch,25,5417,0.403,Decisión en vivo,1
+2026-11-22T14:28:01Z,venta,team-38,Minga,6,544,1.457,Decisión en vivo,1
+2026-11-22T14:28:02Z,venta,team-23,TRAZADA,32,7485,0.33,Decisión en vivo,1
+2026-11-22T14:28:02Z,venta,team-30,Sculptor,8,2445,0.405,Decisión en vivo,1
+2026-11-22T14:28:03Z,venta,team-32,Bifurca,34,5791,0.496,Decisión en vivo,1
+2026-11-22T14:28:04Z,venta,team-46,Mayday,29,2396,1.181,Decisión en vivo,1
+2026-11-22T14:28:06Z,venta,team-26,Viridis,27,5976,0.384,Decisión en vivo,1
+2026-11-22T14:28:08Z,venta,team-34,Drena,27,6616,0.338,Decisión en vivo,1
+2026-11-22T14:28:08Z,venta,team-39,Bicho,23,4690,0.449,Decisión en vivo,1
+2026-11-22T14:28:09Z,venta,team-27,Vigente,16,4751,0.324,Decisión en vivo,1
+2026-11-22T14:28:11Z,venta,team-14,santiaguito.cl,0,171,1.386,Decisión en vivo,1
+2026-11-22T14:28:12Z,venta,team-21,Rigo,45,8902,0.36,Decisión en vivo,1
+2026-11-22T14:28:13Z,venta,team-24,mosAIc,45,3729,1.089,Decisión en vivo,1
+2026-11-22T14:28:14Z,venta,team-44,Myo,1846,19664,4.147,Decisión en vivo,29
+2026-11-22T14:34:19Z,compra,team-46,Mayday,100,4340,2.68,Decisión en vivo,2
+2026-11-22T14:44:21Z,venta,team-46,Mayday,48,2170,2.138,Motor automático,1
+2026-11-22T14:52:10Z,venta,team-46,Mayday,177,2170,7.77,Motor automático,3
+2026-11-22T15:00:43Z,venta,team-40,Grifter,605,14939,2.165,Decisión en vivo,10
+2026-11-22T16:18:56Z,compra,team-45,Audem,400,19492,4.023,Decisión en vivo,6
+2026-11-22T16:28:43Z,venta,team-43,Cachai,253,9920,1.716,Guardián,4
+2026-11-22T16:38:55Z,compra,team-34,Drena,150,9263,2.264,Decisión en vivo,3
+2026-11-22T16:46:54Z,venta,team-48,Nodomics,581,28912,0.506,Motor automático,9
+2026-11-22T16:47:28Z,compra,team-48,Nodomics,580,18601,5.898,Decisión en vivo,9
+2026-11-22T17:08:49Z,venta,team-17,Vigilia,831,13691,3.479,Decisión en vivo,13
+2026-11-22T17:12:17Z,compra,team-37,Kuwü,150,8291,2.44,Decisión en vivo,3
+2026-11-22T17:29:40Z,compra,team-1,Cortafuego,500,9338,7.429,Decisión en vivo,8
+2026-11-22T17:29:40Z,compra,team-33,Aterriza,35,8741,0.547,Guardián,1
+2026-11-22T17:43:00Z,compra,team-9,Sub50,400,18909,4.072,Decisión en vivo,6
+2026-11-22T17:51:21Z,venta,team-9,Sub50,217,4727,3.936,Decisión en vivo,4
+2026-11-22T18:14:07Z,compra,team-25,Immune,300,18227,3.109,Decisión en vivo,5
+2026-11-22T18:16:16Z,venta,team-31,Sideband,82,15520,0.274,Decisión en vivo,2
+2026-11-22T18:16:17Z,venta,team-33,Aterriza,69,31016,0.05,Decisión en vivo,2
+2026-11-22T18:16:18Z,venta,team-4,VIAZ,79,37142,0.033,Decisión en vivo,2
+2026-11-22T18:16:19Z,venta,team-15,Caudales,71,23809,0.101,Decisión en vivo,2
+2026-11-22T18:16:20Z,venta,team-12,Puente,75,28270,0.07,Decisión en vivo,2
+2026-11-22T18:21:41Z,compra,team-10,Factum,150,6458,2.925,Decisión en vivo,3
+2026-11-22T18:30:58Z,venta,team-45,Audem,256,43911,0.059,Decisión en vivo,4
+2026-11-22T18:30:59Z,venta,team-40,Grifter,136,44820,0.029,Decisión en vivo,3
+2026-11-22T18:31:00Z,venta,team-35,Agent Rooms,81,64062,0.003,Decisión en vivo,2
+2026-11-22T18:34:11Z,compra,team-25,Immune,300,18589,3.083,Decisión en vivo,5
+2026-11-22T18:35:10Z,compra,team-10,Factum,300,18857,3.065,Decisión en vivo,5
+2026-11-22T18:47:29Z,venta,team-47,Alicanto,27,27410,0.028,Decisión en vivo,1
+2026-11-22T18:47:30Z,compra,team-28,What If Chile,600,17724,6.227,Decisión en vivo,9
+2026-11-22T18:47:32Z,compra,team-9,Sub50,300,8376,4.833,Decisión en vivo,5
+2026-11-22T18:47:33Z,compra,team-37,Kuwü,800,14247,9.146,Decisión en vivo,12
+2026-11-22T18:47:34Z,compra,team-10,Factum,200,7162,3.623,Decisión en vivo,3

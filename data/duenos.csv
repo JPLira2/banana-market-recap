@@ -1,0 +1,49 @@
+equipo,nombre,finalista,resultado,pre_jplira2,pre_total,pre_pct,pre_dueno,pre_dueno_acc,pre_dueno_pct,pre_dato,pre_otros,cierre_jplira2,cierre_total,cierre_pct,cierre_dueno,cierre_dueno_acc,cierre_dueno_pct,cierre_dato,recuperado_post,precio_final_pct,escenario,cierre_otros,pre_precio_pct
+team-18,ADverse,sí,Finalista,57564,118404,48.6,JPLira2,57564,48.6,exacto,,57564,135823,42.4,JPLira2,57564,42.4,exacto,0,1.21,,,2.0601
+team-35,Agent Rooms,no,No clasificó,64062,119308,53.7,JPLira2,64062,53.7,exacto,,0,128944,0.0,tomileonel,13156,10.2,estimado,81,0.68,,,2.2213
+team-16,Agora,no,No clasificó,0,108626,0.0,Sin dueño detectado,0,0.0,,,0,126959,0.0,tomileonel,7850,6.2,estimado,0,0.58,,,0.912
+team-13,AIgis,no,No clasificó,0,104617,0.0,Sin dueño detectado,0,0.0,,,0,127411,0.0,tomileonel,11501,9.0,estimado,0,0.6,,,0.653
+team-47,Alicanto,no,No clasificó,27410,104991,26.1,JPLira2,27410,26.1,exacto,,0,88435,0.0,tomileonel,15736,17.8,estimado,27,0.02,,,0.6737
+team-33,Aterriza,no,No clasificó,22275,107108,20.8,JPLira2,22275,20.8,exacto,,0,123996,0.0,tomileonel,54275,43.8,estimado,69,0.45,,,0.8037
+team-45,Audem,no,No clasificó,24419,128751,19.0,JPLira2,24419,19.0,exacto,,0,129048,0.0,tomileonel,28810,22.3,estimado,256,0.69,,,4.8793
+team-29,Bando,no,No clasificó,0,104002,0.0,Sin dueño detectado,0,0.0,,,0,129102,0.0,tomileonel,52190,40.4,estimado,0,0.69,,,0.6204
+team-39,Bicho,sí,1° Hardware,4690,104939,4.5,JPLira2,4690,4.5,exacto,,0,132913,0.0,SimonOyaneder,26274,19.8,estimado,23,0.95,SimonOyaneder,tomileonel 11580,0.6708
+team-32,Bifurca,no,No clasificó,5791,107348,5.4,JPLira2,5791,5.4,exacto,,0,129145,0.0,tomileonel,42456,32.9,estimado,34,0.69,,,0.8199
+team-19,Branchpoint,no,No clasificó,0,106633,0.0,Sin dueño detectado,0,0.0,,,0,129137,0.0,tomileonel,3853,3.0,estimado,0,0.69,,,0.7725
+team-43,Cachai,sí,Finalista,9920,104895,9.5,JPLira2,9920,9.5,exacto,,0,149984,0.0,tomileonel,3392,2.3,estimado,253,3.93,,,0.6683
+team-15,Caudales,no,No clasificó,23809,109554,21.7,JPLira2,23809,21.7,exacto,SimonOyaneder 5394,0,137405,0.0,tomileonel,34296,25.0,estimado,71,1.38,,SimonOyaneder 5394,0.9854
+team-36,chameleonmode.app,no,No clasificó,0,118447,0.0,Sin dueño detectado,0,0.0,,,0,129301,0.0,Sin dueño detectado,0,0.0,,0,0.7,,,2.0675
+team-1,Cortafuego,sí,Finalista,46476,135964,34.2,JPLira2,46476,34.2,exacto,,57037,149119,38.2,JPLira2,57037,38.2,exacto,0,3.65,,,8.9003
+team-42,Dendrita,sí,2° Multiplayer,0,109417,0.0,Sin dueño detectado,0,0.0,,,0,129059,0.0,Sin dueño detectado,0,0.0,,0,0.69,,,0.9742
+team-34,Drena,sí,Finalista,4910,103473,4.7,JPLira2,4910,4.7,exacto,SimonOyaneder 4011,9263,133898,6.9,tomileonel,9885,7.4,estimado,27,1.03,,JPLira2 9263; SimonOyaneder 4011,0.5936
+team-10,Factum,sí,Finalista,0,114017,0.0,Sin dueño detectado,0,0.0,,,32477,110248,29.5,JPLira2,32477,29.5,exacto,0,0.14,,tomileonel 6712,1.4293
+team-40,Grifter,no,No clasificó,58607,103282,56.7,JPLira2,58607,56.7,exacto,,0,129028,0.0,Sin dueño detectado,0,0.0,,741,0.68,,,0.5843
+team-3,Hoodini,sí,Finalista,0,113979,0.0,Sin dueño detectado,0,0.0,,,0,145540,0.0,Sin dueño detectado,0,0.0,,0,2.71,,,1.4248
+team-25,Immune,sí,1° (track de Immune),0,108002,0.0,Sin dueño detectado,0,0.0,,,36816,145147,25.4,JPLira2,36816,25.4,exacto,0,2.62,,tomileonel 14902,0.8658
+team-5,Krylov,sí,Finalista,51834,118331,43.8,JPLira2,51834,43.8,exacto,,51834,138438,37.4,JPLira2,51834,37.4,exacto,0,1.5,,tomileonel 1587,2.0476
+team-37,Kuwü,sí,Finalista,0,111481,0.0,Sin dueño detectado,0,0.0,,,22538,160268,14.1,JPLira2,22538,14.1,exacto,0,9.25,,tomileonel 2556,1.157
+team-46,Mayday,no,No clasificó,0,114330,0.0,Sin dueño detectado,0,0.0,,,0,132299,0.0,Sin dueño detectado,0,0.0,,254,0.9,,,1.4671
+team-2,MESH,no,No clasificó,0,101687,0.0,Sin dueño detectado,0,0.0,,,0,135296,0.0,tomileonel,10194,7.5,estimado,0,1.15,,,0.5115
+team-38,Minga,no,No clasificó,0,115119,0.0,Sin dueño detectado,0,0.0,,,0,139706,0.0,Sin dueño detectado,0,0.0,,6,1.67,,,1.5668
+team-11,Montu,no,No clasificó,0,124735,0.0,Sin dueño detectado,0,0.0,,,0,147528,0.0,Sin dueño detectado,0,0.0,,0,3.2,,,3.4915
+team-24,mosAIc,no,No clasificó,3729,114541,3.3,JPLira2,3729,3.3,exacto,SimonOyaneder 529,0,127270,0.0,tomileonel,1769,1.4,estimado,45,0.59,,SimonOyaneder 529,1.4931
+team-44,Myo,sí,2° Hardware,98324,144617,68.0,JPLira2,98324,68.0,exacto,,78660,167687,46.9,JPLira2,78660,46.9,exacto,1846,17.17,,,18.3049
+team-48,Nodomics,sí,1° Multiplayer,55931,128714,43.5,JPLira2,55931,43.5,exacto,,47514,149860,31.7,JPLira2,47514,31.7,exacto,581,3.89,,,4.8643
+team-8,Prompt Arena,no,No clasificó,0,107016,0.0,Sin dueño detectado,0,0.0,,,0,129031,0.0,tomileonel,11522,8.9,estimado,0,0.69,,,0.7975
+team-12,Puente,no,No clasificó,28270,108066,26.2,JPLira2,28270,26.2,exacto,,0,129060,0.0,tomileonel,40360,31.3,estimado,75,0.69,,,0.8704
+team-7,Reaper,sí,2° (track de Immune),8291,101654,8.2,JPLira2,8291,8.2,exacto,,0,128860,0.0,SimonOyaneder,25146,19.5,estimado,0,0.68,,tomileonel 17154,0.5101
+team-21,Rigo,no,No clasificó,8902,106463,8.4,JPLira2,8902,8.4,exacto,,0,127389,0.0,tomileonel,18241,14.3,estimado,45,0.6,,,0.7616
+team-22,root,no,No clasificó,0,132639,0.0,Sin dueño detectado,0,0.0,,,0,132639,0.0,Sin dueño detectado,0,0.0,,0,0.93,,,6.7464
+team-14,santiaguito.cl,sí,1° Simulaciones,0,113976,0.0,Sin dueño detectado,0,0.0,,,0,154540,0.0,SimonOyaneder,17452,11.3,estimado,0,5.74,SimonOyaneder,tomileonel 1998,1.4244
+team-30,Sculptor,no,No clasificó,2445,101614,2.4,JPLira2,2445,2.4,exacto,,0,129354,0.0,tomileonel,19004,14.7,estimado,8,0.7,,,0.5084
+team-31,Sideband,no,No clasificó,15520,101486,15.3,JPLira2,15520,15.3,exacto,SimonOyaneder 15490,0,129316,0.0,SimonOyaneder,42873,33.2,estimado,82,0.7,,tomileonel 13449,0.503
+team-9,Sub50,sí,Finalista,0,108532,0.0,data-diego,7554,7.0,estimado,,22558,151319,14.9,JPLira2,22558,14.9,exacto,217,4.39,,tomileonel 20358; data-diego 7554,0.9049
+team-6,SwarmWatch,no,No clasificó,3709,104585,3.5,SimonOyaneder,9073,8.7,estimado,JPLira2 3709,0,148340,0.0,SimonOyaneder,42493,28.6,estimado,25,3.42,,tomileonel 2827,0.6513
+team-23,TRAZADA,no,No clasificó,6268,104203,6.0,JPLira2,6268,6.0,exacto,SimonOyaneder 3881,0,129112,0.0,SimonOyaneder,3881,3.0,estimado,32,0.69,,,0.6309
+team-4,VIAZ,no,No clasificó,37142,109556,33.9,JPLira2,37142,33.9,exacto,,0,129079,0.0,tomileonel,12421,9.6,estimado,79,0.69,,,0.9855
+team-27,Vigente,no,No clasificó,4751,101115,4.7,JPLira2,4751,4.7,exacto,,0,128450,0.0,tomileonel,39657,30.9,estimado,16,0.65,,,0.4877
+team-17,Vigilia,sí,1° Mundo físico · Ganador general,54765,120992,45.3,JPLira2,54765,45.3,exacto,,41074,155098,26.5,JPLira2,41074,26.5,exacto,831,6.01,,nicopad22 32959; nayru-dev 27179; nicru 13787,2.5559
+team-26,Viridis,no,No clasificó,5976,104394,5.7,JPLira2,5976,5.7,exacto,,0,103578,0.0,tomileonel,35421,34.2,estimado,27,0.08,,,0.641
+team-28,What If Chile,sí,2° Simulaciones,0,119893,0.0,Sin dueño detectado,0,0.0,,,17724,154065,11.5,JPLira2,17724,11.5,exacto,0,5.52,,,2.3323
+team-20,World UI,sí,2° Mundo físico,0,113517,0.0,Sin dueño detectado,0,0.0,,,0,131419,0.0,Sin dueño detectado,0,0.0,,0,0.84,,,1.3709
+team-41,Yunta,sí,Finalista,0,135874,0.0,Sin dueño detectado,0,0.0,,,0,146350,0.0,Sin dueño detectado,0,0.0,,0,2.9,,,8.8338

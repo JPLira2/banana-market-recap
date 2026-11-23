@@ -1,0 +1,790 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>¿Quién era el dueño de tu equipo? · Banana Market Recap</title>
+<meta name="description" content="El mercado de predicción de Platanus Hack 26 desde el escritorio de JPLira2: entró con 1.000 bananas y salió con 41.703. Busca tu equipo y mira quién era su dueño.">
+<meta property="og:title" content="¿Quién era el dueño de tu equipo? · Banana Market Recap">
+<meta property="og:description" content="El mercado de predicción de Platanus Hack 26 desde el escritorio de JPLira2: entró con 1.000 bananas y salió con 41.703. Busca tu equipo y mira quién era su dueño.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#1a1a1a">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍌</text></svg>">
+<link rel="preload" href="fonts/chivo-mono.woff2" as="font" type="font/woff2" crossorigin>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<style>
+  @font-face { font-family: "BD Chivo"; src: url("fonts/chivo-mono.woff2") format("woff2"); font-weight: 100 900; font-style: normal; font-display: swap; }
+  /* Calco del Platanus Hack Market: columna de ~770px, paneles con borde amarillo de 2px, Chivo Mono en todo (800 en títulos y cifras), bloques con barra izquierda */
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body { margin: 0; background: #1a1a1a; min-height: 100%; overflow-x: hidden; }
+  html { scroll-behavior: smooth; }
+  .bd {
+    --neon: #f2ff00; --soft: rgba(242, 255, 0, .72); --dim: rgba(242, 255, 0, .5); --line: rgba(242, 255, 0, .2); --wash: rgba(242, 255, 0, .09);
+    --ink: #1a1a1a; --magenta: #ff1ab3; --green: #3fa34d; --olive: #6b6f15;
+    --f: "BD Chivo", "Chivo Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+    color-scheme: dark; background: var(--ink); color: var(--neon); font-family: var(--f); font-size: 13px; letter-spacing: .02em;
+    display: flex; flex-direction: column; gap: 20px; width: 100%; min-height: 100%;
+    padding-block: 24px 48px;
+    padding-left: max(16px, env(safe-area-inset-left, 0px), calc((100% - 780px) / 2));
+    padding-right: max(16px, env(safe-area-inset-right, 0px), calc((100% - 780px) / 2));
+    --color-fg: var(--neon); --color-fg-muted: var(--soft); --color-border-line: var(--line); --color-panel: var(--ink); --color-bg: var(--ink);
+  }
+  .bd * { box-sizing: border-box; }
+  .bd h1, .bd h2, .bd h3 { margin: 0; text-wrap: balance; font-family: var(--f); font-weight: 800; color: var(--neon); letter-spacing: 0; }
+  .bd p { margin: 0; max-width: 64ch; line-height: 1.55; color: var(--soft); }
+  .bd b { color: var(--neon); font-weight: 700; font-variant-numeric: tabular-nums; }
+  .bd-kicker { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--soft); }
+  .bd-hero, .bd-sec { border: 2px solid var(--neon); padding: clamp(18px, 4.5vw, 32px); display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+  .bd-col { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+  .bd-head { display: flex; flex-wrap: wrap; gap: 12px; align-items: flex-start; justify-content: space-between; padding-bottom: 14px; border-bottom: 1px solid var(--line); }
+  .bd-head > div { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+  .bd-hero h1 { font-size: clamp(1.6rem, 5vw, 2.25rem); line-height: 1.15; }
+  .bd-sec > .bd-head h2 { font-size: clamp(1.6rem, 5vw, 2.25rem); line-height: 1.15; }
+  .bd-status { border: 2px solid var(--neon); padding: 8px 14px; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; white-space: nowrap; }
+  .bd-status::before { content: ""; display: inline-block; width: 9px; height: 9px; background: var(--neon); margin-right: 8px; vertical-align: 0; }
+  .bd-stat, .bd-tile { border-left: 4px solid var(--neon); padding: 0 0 0 14px; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+  .bd-tile .bd-l, .bd-stat .bd-l { order: -1; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--soft); }
+  .bd-stat .bd-sub { order: 2; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--soft); }
+  .bd-big { font-weight: 800; font-size: clamp(1.5rem, 4.5vw, 1.75rem); line-height: 1.2; color: var(--neon); font-variant-numeric: tabular-nums; }
+  .bd-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 18px 24px; }
+  .bd-tile .bd-v { font-weight: 800; font-size: clamp(1.4rem, 4vw, 1.75rem); line-height: 1.2; font-variant-numeric: tabular-nums; color: var(--neon); }
+  .bd-tile .bd-v.up { color: var(--green); }
+  .bd-tag { border: 2px solid var(--neon); padding: 6px 10px; font-size: 11px; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; white-space: nowrap; align-self: center; }
+  .bd-chart { position: relative; width: 100%; min-height: 280px; }
+  .bd-chart.bd-s { min-height: 200px; }
+  .bd-chart svg { display: block; overflow: visible; }
+  .bd-chart text { font-family: var(--f); }
+  .bd-chart .tick text { fill: var(--soft); font-size: 11px; }
+  .bd-chart .domain, .bd-chart .tick line { stroke: var(--line); }
+  .bd-chart .bd-grid line { stroke: rgba(242, 255, 0, .08); }
+  .bd-chart .bd-grid .domain { display: none; }
+  .bd-tip { position: absolute; pointer-events: none; background: var(--ink); border: 2px solid var(--neon); color: var(--neon); padding: 8px 10px; font-size: 12px; font-variant-numeric: tabular-nums; white-space: nowrap; z-index: 3; }
+  .bd-tip strong { display: block; margin-bottom: 3px; font-weight: 800; }
+  .bd-legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--soft); }
+  .bd-legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .bd-sw { width: 11px; height: 11px; display: inline-block; }
+  .bd-sw.n { background: var(--neon); } .bd-sw.m { background: var(--magenta); } .bd-sw.g { background: var(--green); } .bd-sw.o { background: var(--olive); }
+  .bd-sw.dot { border-radius: 50%; }
+  .bd-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; }
+  .bd-card { display: flex; flex-direction: column; gap: 4px; padding: 0 0 0 14px; border-left: 4px solid var(--line); min-width: 0; }
+  .bd-card.on { border-left-color: var(--neon); }
+  .bd-card.win { border-left-color: var(--neon); background: var(--wash); padding: 10px 12px 10px 14px; }
+  .bd-card .k { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--soft); }
+  .bd-card .t { font-weight: 800; font-size: 1.05rem; color: var(--neon); }
+  .bd-card .s { font-size: 12px; color: var(--soft); font-variant-numeric: tabular-nums; }
+  .bd-pill { align-self: flex-start; font-size: 10px; letter-spacing: .08em; text-transform: uppercase; padding: 3px 8px; border: 2px solid var(--neon); color: var(--neon); margin-top: 2px; }
+  .bd-card.win .bd-pill { background: var(--neon); color: var(--ink); }
+  .bd-search { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+  .bd-search label { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--soft); }
+  .bd .dash-select { padding: 8px 10px; appearance: auto;  background-color: var(--ink); color: var(--neon); border: 2px solid var(--neon); font-family: var(--f); font-size: 13px; min-width: 0; max-width: 100%; border-radius: 0; }
+  .bd-owner { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; align-items: start; }
+  .bd-owner > * { min-width: 0; }
+  .bd-who { display: flex; flex-direction: column; gap: 8px; border-left: 4px solid var(--neon); padding: 0 0 0 14px; }
+  .bd-who .name { font-weight: 800; font-size: clamp(1.4rem, 4.5vw, 1.75rem); color: var(--neon); word-break: break-word; line-height: 1.15; }
+  .bd-who .meta { font-size: 12px; color: var(--soft); font-variant-numeric: tabular-nums; }
+  .bd-bar { height: 10px; border: 2px solid var(--neon); position: relative; }
+  .bd-bar i { position: absolute; inset: 0 auto 0 0; background: var(--neon); }
+  .bd-bar.me { border-color: var(--magenta); } .bd-bar.me i { background: var(--magenta); }
+  .bd-feed { display: flex; flex-direction: column; }
+  .bd-feed div { display: grid; grid-template-columns: 70px 1fr auto; gap: 10px; padding: 9px 12px; border-left: 4px solid var(--olive); margin-bottom: 4px; font-size: 12px; font-variant-numeric: tabular-nums; background: rgba(242,255,0,.03); }
+  .bd-feed .buy { color: var(--neon); font-weight: 700; } .bd-feed .sell { color: var(--magenta); font-weight: 700; }
+  .bd-feed span:first-child { color: var(--soft); }
+  .bd-phases { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px 20px; }
+  .bd-phase { border-left: 4px solid var(--neon); padding: 0 0 0 14px; display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+  .bd-phase .k { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--soft); }
+  .bd-phase h3 { font-size: 1rem; }
+  .bd-phase p { font-size: 12px; }
+  .bd-wrap { overflow-x: auto; }
+  .bd-switch { display: inline-flex; flex-wrap: wrap; gap: 10px; }
+  .bd-switch button { font-family: var(--f); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; background: var(--ink); color: var(--neon); border: 2px solid var(--neon); padding: 9px 14px; cursor: pointer; }
+  .bd-switch button[aria-pressed="true"] { background: var(--neon); color: var(--ink); }
+  .bd table { border-collapse: separate; border-spacing: 0 4px; width: 100%; font-size: 12px; font-variant-numeric: tabular-nums; }
+  .bd th, .bd td { padding: 9px 10px; text-align: right; white-space: nowrap; }
+  .bd td { background: rgba(242,255,0,.03); }
+  .bd td:first-child { border-left: 4px solid var(--olive); font-weight: 700; color: var(--neon); }
+  .bd th { color: var(--soft); font-weight: 400; text-transform: uppercase; letter-spacing: .08em; font-size: 11px; }
+  .bd th:nth-child(-n+3), .bd td:nth-child(-n+3) { text-align: left; }
+  .bd tbody tr:first-child td { background: var(--wash); }
+  .bd tbody tr:first-child td:first-child { border-left-color: var(--neon); }
+  .bd-foot { font-size: 11px; color: var(--dim); max-width: none; }
+  .bd :focus-visible { outline: 2px solid var(--magenta); outline-offset: 2px; }
+</style>
+
+
+<style>
+  .bd-fact { font-weight: 800; font-size: clamp(1.05rem, 3.4vw, 1.3rem); line-height: 1.4; color: var(--neon); max-width: 48ch; margin: 0; }
+  .bd-fact .hl { background: var(--neon); color: var(--ink); padding: 0 6px; font-variant-numeric: tabular-nums; }
+  .bd-hero .bd-fact { font-size: clamp(1.2rem, 4vw, 1.6rem); }
+  .bd-h1sub { display: block; font-size: .55em; font-weight: 700; color: var(--soft); margin-top: 4px; }
+  .bd-cta { align-self: flex-start; background: var(--neon); color: var(--ink); border: 2px solid var(--neon); padding: 10px 16px; font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; text-decoration: none; }
+  .bd-cta:hover { background: var(--ink); color: var(--neon); }
+  .bd-note { font-size: 11px; color: var(--dim); letter-spacing: .04em; max-width: 64ch; }
+</style>
+</head>
+<body>
+<div class="bd" lang="es" data-read>
+  <header class="bd-hero" id="inicio">
+    <div class="bd-head">
+      <div><span class="bd-kicker">Platanus Hack 26: Santiago · Banana Market Recap</span><h1>🍌 ¿Quién era el dueño de tu equipo?<span class="bd-h1sub">El mercado de predicción, desde el escritorio de JPLira2</span></h1></div>
+      <span class="bd-status">Resuelto</span>
+    </div>
+    <a class="bd-cta" href="#buscador">Buscar mi equipo ↓</a>
+    <p class="bd-fact">Entré con <span class="hl" data-draw="h-ini" data-source="contexto" data-field="bananas_iniciales" data-row="0">—</span> bananas. Salí con <span class="hl" data-draw="h-fin" data-source="final" data-field="bananas" data-where="puesto=1">—</span>.</p>
+    <div class="bd-tiles" id="cifras">
+      <div class="bd-tile"><span class="bd-v" data-draw="t-final" data-source="final" data-field="bananas" data-where="puesto=1">—</span><span class="bd-l">Total final 🍌</span></div>
+      <div class="bd-tile"><span class="bd-v" data-draw="t-puesto" data-source="final" data-field="puesto" data-where="puesto=1">—</span><span class="bd-l">Posición final</span></div>
+      <div class="bd-tile"><span class="bd-v up" data-draw="t-mult" data-source="resumen" data-field="multiplicador" data-row="0">—</span><span class="bd-l">Multiplicador</span></div>
+      <div class="bd-tile"><span class="bd-v up" data-draw="t-ventaja" data-source="resumen" data-field="ventaja" data-row="0">—</span><span class="bd-l">Ventaja sobre el 2°</span></div>
+    </div>
+  </header>
+
+  <section class="bd-sec" id="reglas">
+    <div class="bd-head"><div><span class="bd-kicker">Antes de empezar</span><h2>El juego en 30 segundos</h2></div></div>
+    <div class="bd-phases">
+      <div class="bd-phase"><span class="k">1</span><h3>Cada equipo era una acción</h3><p>Su precio subía cuando la gente compraba. El precio era la probabilidad de que ese equipo ganara.</p></div>
+      <div class="bd-phase"><span class="k">2</span><h3>Todos partían con 1.000 🍌</h3><p><b data-draw="r-jug" data-source="contexto" data-field="jugadores" data-row="0">—</b> jugadores, 48 equipos, poco más de un día de mercado.</p></div>
+      <div class="bd-phase"><span class="k">3</span><h3>Al final, solo paga el ganador</h3><p>Cada acción del equipo campeón vale 1 banana. Las del resto, cero. Gana quien junte más.</p></div>
+    </div>
+  </section>
+
+  <section class="bd-sec" id="buscador">
+    <div class="bd-head"><div><span class="bd-kicker">Primero lo primero</span><h2>¿Quién era dueño de tu equipo?</h2></div></div>
+    <div class="bd-search">
+      <label for="bd-equipo">Busca tu equipo</label>
+      <select id="bd-equipo" class="dash-select" data-draw="equipo-select" data-source="duenos" aria-label="Equipo"></select>
+      <div class="bd-switch" role="group" aria-label="Momento" data-switch="dueno">
+        <button type="button" data-v="pre" aria-pressed="true">Antes del corte</button>
+        <button type="button" data-v="cierre" aria-pressed="false">Al cierre</button>
+      </div>
+    </div>
+    <div class="bd-owner">
+      <div class="bd-who" data-draw="dueno" data-source="duenos" id="dueno-carta"></div>
+      <div class="bd-col">
+        <div class="bd-legend"><span><i class="bd-sw n"></i>Precio</span><span><i class="bd-sw g dot"></i>Compra de JPLira2</span><span><i class="bd-sw m dot"></i>Venta de JPLira2</span></div>
+        <div class="bd-chart bd-s" data-draw="dueno-precio" data-source="precios operaciones" id="dueno-precio"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bd-sec" id="motor">
+    <div class="bd-head"><div><span class="bd-kicker">Capítulo 1</span><h2>Un bot que no dormía</h2></div></div>
+    <p class="bd-fact">Entre medianoche y las 8 de la mañana, mientras el resto dormía, el motor hizo <span class="hl" data-draw="m-noche" data-source="motor" data-field="noche" data-row="0">—</span> operaciones.</p>
+    <div class="bd-tiles">
+      <div class="bd-tile"><span class="bd-v" data-draw="t-ops" data-source="motor" data-field="operaciones" data-row="0">—</span><span class="bd-l">Operaciones</span></div>
+      <div class="bd-tile"><span class="bd-v" data-draw="t-auto" data-source="motor" data-field="pct_auto" data-row="0">—</span><span class="bd-l">Sin intervención humana</span></div>
+      <div class="bd-tile"><span class="bd-v" data-draw="t-eq" data-source="motor" data-field="equipos" data-row="0">—</span><span class="bd-l">Equipos operados, de 48</span></div>
+      <div class="bd-tile"><span class="bd-v" data-draw="t-fee" data-source="motor" data-field="comisiones" data-row="0">—</span><span class="bd-l">Bananas en comisiones</span></div>
+    </div>
+    <div class="bd-legend"><span><i class="bd-sw n"></i>Motor automático</span><span><i class="bd-sw m"></i>Decisión en vivo</span><span><i class="bd-sw g"></i>Guardián</span></div>
+    <div class="bd-chart bd-s" data-draw="actividad" data-source="actividad" id="actividad-grafico"></div>
+    <p class="bd-note">Operaciones por hora (hora de Chile). Solo en comisiones se fue <span data-draw="m-feex" data-source="motor" data-field="comisiones_x" data-row="0">—</span> veces el capital inicial.</p>
+  </section>
+
+  <section class="bd-sec" id="rastreador">
+    <div class="bd-head"><div><span class="bd-kicker">Capítulo 2</span><h2>Espiando a los rivales</h2></div><span class="bd-tag">el factor diferencial</span></div>
+    <p>Cada 10 segundos, un rastreador miraba el efectivo de los rivales y deducía qué habían comprado o vendido. Así se sabía dónde iban a pelear antes de que se notara en el ranking.</p>
+    <p class="bd-fact"><span data-draw="x-top" data-source="rastreo_datos" data-field="jugador" data-row="0">—</span> hizo <span class="hl" data-draw="x-jug" data-source="rastreo_datos" data-field="jugadas" data-row="0">—</span> jugadas detectadas. Su apuesta típica: <span class="hl" data-draw="x-tip" data-source="rastreo_datos" data-field="tipica" data-row="0">—</span> bananas.</p>
+    <div class="bd-legend"><span><i class="bd-sw n dot"></i>Compra</span><span><i class="bd-sw m dot"></i>Venta</span><span>Tamaño = bananas</span></div>
+    <div class="bd-chart" data-draw="rastreo" data-source="rastreador" id="rastreo-grafico"></div>
+    <div class="bd-cards" data-draw="rastreo-jugadores" data-source="rastreo_resumen" id="rastreo-jugadores"></div>
+    <span class="bd-kicker">Las 8 jugadas más grandes que vio</span>
+    <div class="bd-feed" data-draw="rastreo-feed" data-source="rastreador" id="rastreo-feed"></div>
+  </section>
+
+  <section class="bd-sec" id="carrera">
+    <div class="bd-head"><div><span class="bd-kicker">Capítulo 3</span><h2>La carrera</h2></div><span class="bd-tag">valor en papel</span></div>
+    <p class="bd-fact">El primer lugar en papel cambió de manos <span class="hl" data-draw="c-cambios" data-source="carrera_datos" data-field="cambios" data-row="0">—</span> veces entre JPLira2 y tomileonel.</p>
+    <div class="bd-legend"><span><i class="bd-sw n"></i>JPLira2</span><span><i class="bd-sw m"></i>tomileonel</span><span><i class="bd-sw g"></i>SimonOyaneder</span></div>
+    <div class="bd-chart" data-draw="carrera" data-source="ranking" id="carrera-grafico"></div>
+    <p class="bd-note">tomileonel llegó a tener <span data-draw="c-pico" data-source="carrera_datos" data-field="pico_tomi" data-row="0">—</span> bananas en papel. Terminó en el puesto <span data-draw="c-tomi-p" data-source="final" data-field="puesto" data-where="jugador=tomileonel">—</span> con <span data-draw="c-tomi-b" data-source="final" data-field="bananas" data-where="jugador=tomileonel">—</span>.</p>
+  </section>
+
+  <section class="bd-sec" id="antes">
+    <div class="bd-head"><div><span class="bd-kicker">Capítulo 4</span><h2>Dueño de medio mercado</h2></div><span class="bd-tag">dom 11:26 · antes del corte</span></div>
+    <p class="bd-fact">Antes del corte de finalistas, JPLira2 era el mayor dueño de <span class="hl" data-draw="a-n" data-source="corte" data-field="duenos_pre" data-row="0">—</span> equipos. De <span data-draw="a-top" data-source="corte" data-field="top_nombre" data-row="0">—</span> tenía el <span class="hl" data-draw="a-pct" data-source="corte" data-field="top_pct" data-row="0">—</span>.</p>
+    <div class="bd-tiles">
+      <div class="bd-tile"><span class="bd-v" data-draw="a-valor" data-source="corte" data-field="pct_valor" data-row="0">—</span><span class="bd-l">Del valor de todo el mercado</span></div>
+      <div class="bd-tile"><span class="bd-v" data-draw="a-acc" data-source="corte" data-field="pct_acciones" data-row="0">—</span><span class="bd-l">De todas las acciones emitidas</span></div>
+      <div class="bd-tile"><span class="bd-v" data-draw="a-port" data-source="corte" data-field="valor_portafolio" data-row="0">—</span><span class="bd-l">Valor de sus acciones 🍌</span></div>
+    </div>
+    <div class="bd-legend"><span><i class="bd-sw n"></i>Pasó a la final</span><span><i class="bd-sw o"></i>Quedó fuera</span></div>
+    <div class="bd-chart" data-draw="pre-barras" data-source="duenos" id="pre-grafico"></div>
+  </section>
+
+  <section class="bd-sec" id="corte">
+    <div class="bd-head"><div><span class="bd-kicker">Capítulo 5</span><h2>El corte: vender primero</h2></div></div>
+    <p class="bd-fact"><span data-draw="k-fuera" data-source="corte" data-field="fuera" data-row="0">—</span> equipos quedaron fuera. Vender sus acciones antes que el resto recuperó <span class="hl" data-draw="k-rec" data-source="corte" data-field="recuperado" data-row="0">—</span> bananas para la final.</p>
+    <p>Ese efectivo se repartió para ser el mayor dueño de la mayor cantidad de finalistas posible. Al cierre, JPLira2 tenía acciones en <b data-draw="k-fin-mios" data-source="corte" data-field="finalistas_con_acciones" data-row="0">—</b> de los 20.</p>
+    <div class="bd-legend"><span><i class="bd-sw n"></i>Ganó su track</span><span><i class="bd-sw o"></i>Finalista</span></div>
+    <div class="bd-chart" data-draw="propiedad-barras" data-source="propiedad" id="propiedad-grafico"></div>
+  </section>
+
+  <section class="bd-sec" id="tracks">
+    <div class="bd-head"><div><span class="bd-kicker">Capítulo 6</span><h2>La final</h2></div></div>
+    <p class="bd-fact">El ganador salía de los 5 ganadores de track. <span class="hl" data-draw="k-tracks" data-source="cobertura" data-field="tracks_mios" data-row="0">—</span> de los 5 tenían a JPLira2 como mayor dueño.</p>
+    <div class="bd-cards" data-draw="tracks" data-source="duenos" id="tracks-cartas"></div>
+  </section>
+
+  <section class="bd-sec" id="vigilia">
+    <div class="bd-head"><div><span class="bd-kicker">Capítulo 7</span><h2>Y ganó Vigilia</h2></div><span class="bd-tag">★ ganador general</span></div>
+    <p class="bd-fact">Costo neto: <span class="hl" data-draw="v-neto" data-source="vigilia" data-field="costo_neto" data-row="0">—</span> bananas. Pagó <span class="hl" data-draw="v-pago" data-source="vigilia" data-field="acciones" data-row="0">—</span>. Un retorno de <span class="hl" data-draw="v-mult" data-source="vigilia" data-field="multiplo" data-row="0">—</span>.</p>
+    <div class="bd-tiles">
+      <div class="bd-tile"><span class="bd-v" data-draw="v-compras" data-source="vigilia" data-field="compras" data-row="0">—</span><span class="bd-l">Compras, casi todas del bot</span></div>
+      <div class="bd-tile"><span class="bd-v" data-draw="v-precio" data-source="vigilia" data-field="precio_promedio" data-row="0">—</span><span class="bd-l">Precio promedio pagado</span></div>
+    </div>
+    <div class="bd-legend"><span><i class="bd-sw n"></i>Precio de Vigilia</span><span><i class="bd-sw g dot"></i>Compra de JPLira2</span><span><i class="bd-sw m dot"></i>Venta de JPLira2</span></div>
+    <div class="bd-chart bd-s" data-draw="vig-precio" data-source="precios operaciones" id="vigilia-precio"></div>
+  </section>
+
+  <section class="bd-sec" id="final">
+    <div class="bd-head"><div><span class="bd-kicker">Leaderboard</span><h2>Ranking final</h2></div></div>
+    <div class="bd-legend"><span><i class="bd-sw n"></i>Acciones de Vigilia</span><span><i class="bd-sw o"></i>Efectivo</span></div>
+    <div class="bd-chart bd-s" data-draw="ranking-final" data-source="final" id="final-grafico"></div>
+    <p class="bd-note">SimonOyaneder, el de las apuestas más grandes del domingo, terminó en el puesto <span data-draw="f-simon-p" data-source="contexto" data-field="puesto_simon" data-row="0">—</span> con <span data-draw="f-simon-b" data-source="contexto" data-field="bananas_simon" data-row="0">—</span> bananas.</p>
+  </section>
+
+  <section class="bd-sec" id="equipos">
+    <div class="bd-head"><div><span class="bd-kicker">Detalle</span><h2>Los 48 equipos</h2></div></div>
+    <div class="bd-switch" role="group" aria-label="Vista de la tabla" data-switch="tabla">
+      <button type="button" data-v="pre" aria-pressed="true">Antes del corte</button>
+      <button type="button" data-v="fin" aria-pressed="false">Finalistas</button>
+      <button type="button" data-v="fuera" aria-pressed="false">Fuera del corte</button>
+    </div>
+    <div class="bd-wrap" data-tabla="pre">
+      <table data-source="duenos" data-row-key="equipo">
+        <thead><tr><th data-field="nombre">Equipo</th><th data-field="finalista">Finalista</th><th data-field="pre_dueno">Mayor dueño</th><th data-field="pre_dueno_acc">Acciones</th><th data-field="pre_jplira2">JPLira2</th><th data-field="pre_pct">% JPLira2</th></tr></thead>
+        <tbody data-draw="tabla-pre"></tbody>
+      </table>
+    </div>
+    <div class="bd-wrap" data-tabla="fin" hidden>
+      <table data-source="duenos" data-row-key="equipo">
+        <thead><tr><th data-field="nombre">Equipo</th><th data-field="resultado">Resultado</th><th data-field="cierre_dueno">Mayor dueño</th><th data-field="cierre_dueno_acc">Acciones</th><th data-field="cierre_jplira2">JPLira2</th><th data-field="cierre_pct">% JPLira2</th></tr></thead>
+        <tbody data-draw="tabla-fin"></tbody>
+      </table>
+    </div>
+    <div class="bd-wrap" data-tabla="fuera" hidden>
+      <table data-source="duenos" data-row-key="equipo">
+        <thead><tr><th data-field="nombre">Equipo</th><th data-field="pre_dueno">Mayor dueño antes</th><th data-field="pre_jplira2">JPLira2 antes</th><th data-field="pre_pct">% JPLira2</th><th data-field="recuperado_post">Bananas recuperadas</th></tr></thead>
+        <tbody data-draw="tabla-fuera"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <p class="bd-foot">Recap no oficial de JPLira2, hecho con Claude Code. El motor, el guardián y el rastreador se programaron en Python durante la hackathon sobre la API del mercado. Exactos: acciones de JPLira2, dueños de Vigilia y total de acciones por equipo antes del corte (reconstruido desde el historial de precios). Estimados: dueños de los demás equipos, según el rastreador, que seguía a cinco jugadores. Cierre del mercado: <span data-draw="k-cierre" data-source="contexto" data-field="cierre_mercado" data-row="0">—</span>. Hora de Chile.</p>
+</div>
+
+<script>
+  // Reemplazo mínimo del runtime de dashboards: carga los CSV, calcula los derivados y dibuja cada [data-draw].
+  window.dash = (() => {
+    const FILES = { contexto: 'contexto', final: 'final', ranking: 'ranking', operaciones: 'operaciones', propiedad: 'propiedad', rastreador: 'rastreador', duenos: 'duenos', precios: 'precios' };
+    const raw = {}, calcs = {}, cache = {}, draws = {};
+    let state = 'loading';
+    const data = (name) => {
+      if (state === 'error') return { status: 'error', data: [] };
+      if (name in raw) return { status: 'ok', data: raw[name] };
+      const c = calcs[name];
+      if (c && state === 'ok') {
+        if (!(name in cache)) {
+          try { cache[name] = c.fn(...c.inputs.map((i) => data(i).data)); } catch (e) { console.error(name, e); return { status: 'error', data: [] }; }
+        }
+        return { status: 'ok', data: cache[name] };
+      }
+      return { status: 'loading', data: [] };
+    };
+    const run = (name) => {
+      const fn = draws[name]; if (!fn || state === 'loading') return;
+      document.querySelectorAll(`[data-draw="${name}"]`).forEach((el) => {
+        if (el.closest('[hidden]')) return;
+        try { fn(el); } catch (e) { console.error(name, e); }
+      });
+    };
+    const draw = (name, fn) => { if (fn) draws[name] = fn; run(name); };
+    const calc = (name, def) => { calcs[name] = def; };
+    const all = () => Object.keys(draws).forEach(run);
+    Promise.all(Object.entries(FILES).map(([k, f]) => d3.csv(`data/${f}.csv`).then((rows) => { raw[k] = rows; })))
+      .then(() => { state = 'ok'; all(); }, (e) => { console.error(e); state = 'error'; all(); });
+    let w = window.innerWidth, t;
+    window.addEventListener('resize', () => {
+      clearTimeout(t);
+      t = setTimeout(() => { if (window.innerWidth !== w) { w = window.innerWidth; all(); } }, 150);
+    });
+    return { data, draw, calc };
+  })();
+
+  window.bd = (() => {
+    const loc = d3.formatLocale({ decimal: ',', thousands: '.', grouping: [3], currency: ['', ''] });
+    const int = loc.format(',d'), dec1 = loc.format(',.1f');
+    const n = (v) => (v === '' || v == null ? null : +v);
+    const chile = (iso) => new Date(new Date(iso).getTime() - 3 * 3600e3);
+    const days = { 20: 'vie', 21: 'sáb', 22: 'dom', 23: 'lun' };
+    const when = (d) => `${days[d.getUTCDate()] || ''} ${d3.utcFormat('%H:%M')(d)}`.trim();
+    const C = { neon: 'var(--neon)', mag: 'var(--magenta)', green: 'var(--green)', olive: 'var(--olive)', soft: 'var(--soft)' };
+    const empty = (el, d, what) => { el.replaceChildren(); el.textContent = d.status === 'error' ? `No se pudo cargar ${what}.` : '—'; };
+    const tipPos = (el, tip, sx) => { const bw = el.clientWidth; tip.style('left', `${Math.max(0, Math.min(sx + 12, bw - 220))}px`).style('top', '6px'); };
+    return { int, dec1, n, chile, when, C, empty, tipPos, sel: 'team-17', view: 'pre' };
+  })();
+
+  document.querySelectorAll('.bd [data-switch]').forEach((grp) => {
+    grp.addEventListener('click', (ev) => {
+      const btn = ev.target.closest('button[data-v]'); if (!btn) return;
+      grp.querySelectorAll('button[data-v]').forEach((b) => b.setAttribute('aria-pressed', String(b === btn)));
+      const v = btn.getAttribute('data-v');
+      if (grp.getAttribute('data-switch') === 'dueno') { bd.view = v; dash.draw('dueno'); }
+      else {
+        document.querySelectorAll('.bd [data-tabla]').forEach((w) => { w.hidden = w.getAttribute('data-tabla') !== v; });
+        dash.draw(`tabla-${v}`);
+      }
+    });
+  });
+
+  dash.calc('resumen', {
+    title: 'Resultado final', description: 'Multiplicador sobre las bananas iniciales y ventaja sobre el segundo lugar.',
+    inputs: ['final', 'contexto'],
+    fn: (final, contexto) => {
+      const p1 = final.find((r) => +r.puesto === 1), p2 = final.find((r) => +r.puesto === 2);
+      return [{ multiplicador: Math.round((+p1.bananas / +contexto[0].bananas_iniciales) * 10) / 10, ventaja: +p1.bananas - +p2.bananas }];
+    },
+  });
+
+  dash.calc('motor', {
+    title: 'Actividad del motor', description: 'Totales del registro de operaciones de JPLira2; la noche va de 00:00 a 07:59, hora de Chile.',
+    inputs: ['operaciones', 'contexto'],
+    fn: (operaciones, contexto) => {
+      const auto = operaciones.filter((r) => r.quien === 'Motor automático').length;
+      const noche = operaciones.filter((r) => new Date(new Date(r.t).getTime() - 3 * 3600e3).getUTCHours() < 8).length;
+      const comisiones = d3.sum(operaciones, (r) => +r.comision);
+      return [{
+        operaciones: operaciones.length, pct_auto: Math.round((auto / operaciones.length) * 100), noche,
+        equipos: new Set(operaciones.map((r) => r.equipo)).size, comisiones,
+        comisiones_x: Math.round((comisiones / +contexto[0].bananas_iniciales) * 10) / 10,
+      }];
+    },
+  });
+
+  dash.calc('actividad', {
+    title: 'Operaciones por hora', description: 'Operaciones de JPLira2 por hora de Chile, según quién las decidió.',
+    inputs: ['operaciones'],
+    fn: (operaciones) => {
+      const m = new Map();
+      for (const r of operaciones) {
+        const d = new Date(new Date(r.t).getTime() - 3 * 3600e3); d.setUTCMinutes(0, 0, 0);
+        const k = d.toISOString();
+        if (!m.has(k)) m.set(k, { hora: k, motor: 0, vivo: 0, guardian: 0 });
+        const o = m.get(k);
+        if (r.quien === 'Motor automático') o.motor++; else if (r.quien === 'Guardián') o.guardian++; else o.vivo++;
+      }
+      return [...m.values()].sort((a, b) => d3.ascending(a.hora, b.hora));
+    },
+  });
+
+  dash.calc('rastreo_resumen', {
+    title: 'Jugadas por rival', description: 'Compras y ventas detectadas por el rastreador para los tres rivales más activos.',
+    inputs: ['rastreador'],
+    fn: (rastreador) => d3.rollups(rastreador, (v) => ({
+      jugadas: v.length,
+      compras: d3.sum(v, (r) => (r.accion === 'compra' ? +r.bananas : 0)),
+      ventas: d3.sum(v, (r) => (r.accion === 'venta' ? +r.bananas : 0)),
+    }), (r) => r.jugador).map(([jugador, o]) => ({ jugador, ...o })).filter((r) => r.compras > 0).sort((a, b) => b.jugadas - a.jugadas).slice(0, 3),
+  });
+
+  dash.calc('rastreo_datos', {
+    title: 'Rival más activo', description: 'El jugador con más jugadas detectadas y la mediana de bananas de sus compras.',
+    inputs: ['rastreador'],
+    fn: (rastreador) => {
+      const [jugador, v] = d3.rollups(rastreador, (x) => x, (r) => r.jugador).sort((a, b) => b[1].length - a[1].length)[0];
+      return [{ jugador, jugadas: v.length, tipica: Math.round(d3.median(v.filter((r) => r.accion === 'compra'), (r) => +r.bananas)) }];
+    },
+  });
+
+  dash.calc('carrera_datos', {
+    title: 'La carrera', description: 'Veces que cambió quién iba adelante entre JPLira2 y tomileonel, y el máximo en papel de tomileonel.',
+    inputs: ['ranking'],
+    fn: (ranking) => {
+      let cambios = 0, prev = null;
+      ranking.forEach((r) => {
+        if (r.tomileonel === '' || r.JPLira2 === '') return;
+        const a = +r.JPLira2 > +r.tomileonel;
+        if (prev !== null && a !== prev) cambios++;
+        prev = a;
+      });
+      return [{ cambios, pico_tomi: d3.max(ranking, (r) => (r.tomileonel === '' ? null : +r.tomileonel)) }];
+    },
+  });
+
+  dash.calc('corte', {
+    title: 'El corte de finalistas', description: 'Propiedad de JPLira2 antes del corte (dom 11:26): equipos donde era el mayor dueño, su parte del valor del mercado (acciones por precio de ese momento) y de todas las acciones, y lo recuperado al vender los eliminados.',
+    inputs: ['duenos'],
+    fn: (duenos) => {
+      const top = [...duenos].sort((a, b) => +b.pre_pct - +a.pre_pct)[0];
+      const fuera = duenos.filter((r) => r.finalista === 'no');
+      return [{
+        duenos_pre: duenos.filter((r) => r.pre_dueno === 'JPLira2' && +r.pre_jplira2 > 0).length,
+        top_nombre: top.nombre, top_pct: +top.pre_pct,
+        fuera: fuera.length, recuperado: d3.sum(fuera, (r) => +r.recuperado_post),
+        finalistas_con_acciones: duenos.filter((r) => r.finalista === 'sí' && +r.cierre_jplira2 > 0).length,
+        pct_valor: Math.round((d3.sum(duenos, (r) => +r.pre_jplira2 * +r.pre_precio_pct) / d3.sum(duenos, (r) => +r.pre_total * +r.pre_precio_pct)) * 1000) / 10,
+        pct_acciones: Math.round((d3.sum(duenos, (r) => +r.pre_jplira2) / d3.sum(duenos, (r) => +r.pre_total)) * 1000) / 10,
+        valor_portafolio: Math.round(d3.sum(duenos, (r) => +r.pre_jplira2 * +r.pre_precio_pct) / 100),
+      }];
+    },
+  });
+
+  dash.calc('cobertura', {
+    title: 'Ganadores de track con JPLira2', description: 'Cuántos de los cinco ganadores de track tenían a JPLira2 como mayor dueño al cierre.',
+    inputs: ['duenos'],
+    fn: (duenos) => [{ tracks_mios: duenos.filter((r) => r.resultado.startsWith('1°') && r.cierre_dueno === 'JPLira2').length }],
+  });
+
+  dash.calc('vigilia', {
+    title: 'Vigilia (team-17)', description: 'Compras, ventas y pago de las acciones de Vigilia de JPLira2.',
+    inputs: ['operaciones', 'propiedad'],
+    fn: (operaciones, propiedad) => {
+      const ops = operaciones.filter((r) => r.equipo === 'team-17'), buys = ops.filter((r) => r.lado === 'compra');
+      const inv = d3.sum(buys, (r) => +r.bananas), rec = d3.sum(ops.filter((r) => r.lado === 'venta'), (r) => +r.bananas);
+      const acc = +propiedad.find((r) => r.equipo === 'team-17').acciones_cierre, neto = inv - rec;
+      return [{ compras: buys.length, costo_neto: neto, acciones: acc, multiplo: Math.round(acc / neto), precio_promedio: Math.round((inv / d3.sum(buys, (r) => +r.acciones)) * 1000) / 10 }];
+    },
+  });
+
+  // números sueltos
+  const val = (name, src, pick, fmt) => dash.draw(name, (el) => {
+    const d = dash.data(src);
+    if (d.status !== 'ok' || !d.data || !d.data.length) { el.textContent = '—'; return; }
+    const v = pick(d.data); el.textContent = v == null ? '—' : fmt(v);
+  });
+  const r0 = (f) => (rows) => rows[0][f];
+  const by = (k, v, f) => (rows) => (rows.find((r) => String(r[k]) === v) || {})[f];
+  const N = (v) => bd.int(+v);
+  val('h-ini', 'contexto', r0('bananas_iniciales'), N);
+  val('h-fin', 'final', by('puesto', '1', 'bananas'), N);
+  val('t-final', 'final', by('puesto', '1', 'bananas'), N);
+  val('t-puesto', 'final', by('puesto', '1', 'puesto'), (v) => `#${v}`);
+  val('r-jug', 'contexto', r0('jugadores'), N);
+  val('t-mult', 'resumen', r0('multiplicador'), (v) => `${bd.dec1(v)}×`);
+  val('t-ventaja', 'resumen', r0('ventaja'), (v) => `+${bd.int(v)}`);
+  val('m-noche', 'motor', r0('noche'), N);
+  val('t-ops', 'motor', r0('operaciones'), N);
+  val('t-auto', 'motor', r0('pct_auto'), (v) => `${v}%`);
+  val('t-eq', 'motor', r0('equipos'), N);
+  val('t-fee', 'motor', r0('comisiones'), N);
+  val('m-feex', 'motor', r0('comisiones_x'), (v) => bd.dec1(v));
+  val('x-top', 'rastreo_datos', r0('jugador'), String);
+  val('x-jug', 'rastreo_datos', r0('jugadas'), N);
+  val('x-tip', 'rastreo_datos', r0('tipica'), (v) => `~${bd.int(v)}`);
+  val('c-cambios', 'carrera_datos', r0('cambios'), N);
+  val('c-pico', 'carrera_datos', r0('pico_tomi'), N);
+  val('c-tomi-p', 'final', by('jugador', 'tomileonel', 'puesto'), (v) => `#${v}`);
+  val('c-tomi-b', 'final', by('jugador', 'tomileonel', 'bananas'), N);
+  val('a-n', 'corte', r0('duenos_pre'), N);
+  val('a-top', 'corte', r0('top_nombre'), String);
+  val('a-pct', 'corte', r0('top_pct'), (v) => `${bd.dec1(v)}%`);
+  val('a-valor', 'corte', r0('pct_valor'), (v) => `${bd.dec1(v)}%`);
+  val('a-acc', 'corte', r0('pct_acciones'), (v) => `${bd.dec1(v)}%`);
+  val('a-port', 'corte', r0('valor_portafolio'), N);
+  val('k-fuera', 'corte', r0('fuera'), N);
+  val('k-rec', 'corte', r0('recuperado'), N);
+  val('k-fin-mios', 'corte', r0('finalistas_con_acciones'), N);
+  val('k-tracks', 'cobertura', r0('tracks_mios'), N);
+  val('v-neto', 'vigilia', r0('costo_neto'), N);
+  val('v-pago', 'vigilia', r0('acciones'), N);
+  val('v-mult', 'vigilia', r0('multiplo'), (v) => `${bd.int(v)}×`);
+  val('v-compras', 'vigilia', r0('compras'), N);
+  val('v-precio', 'vigilia', r0('precio_promedio'), (v) => `${bd.dec1(v)}%`);
+  val('f-simon-p', 'contexto', r0('puesto_simon'), (v) => `#${v}`);
+  val('f-simon-b', 'contexto', r0('bananas_simon'), N);
+  val('k-cierre', 'contexto', r0('cierre_mercado'), String);
+
+  // gráfico de precio con compras y ventas de JPLira2
+  const priceChart = (el, team, label) => {
+    const d = dash.data('precios'), o = dash.data('operaciones');
+    if (d.status !== 'ok' || !d.data.length) return bd.empty(el, d, 'los precios');
+    const pts = d.data.filter((r) => r.equipo === team).map((r) => ({ t: bd.chile(r.t), p: +r.precio }));
+    const ops = o.status === 'ok' ? o.data.filter((r) => r.equipo === team).map((r) => ({ t: bd.chile(r.t), p: +r.precio_pct, b: +r.bananas, lado: r.lado })) : [];
+    el.replaceChildren();
+    if (!pts.length) { el.textContent = 'Sin historial de precio.'; return; }
+    const W = el.clientWidth || 500, H = 210, m = { t: 10, r: 14, b: 26, l: 40 };
+    const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img')
+      .attr('aria-label', `Precio de ${label} durante el mercado, con las compras y ventas de JPLira2.`);
+    const x = d3.scaleUtc().domain(d3.extent(pts, (r) => r.t)).range([m.l, W - m.r]);
+    const y = d3.scaleLinear().domain([0, d3.max([...pts, ...ops], (r) => r.p) * 1.08]).nice().range([H - m.b, m.t]);
+    svg.append('g').attr('class', 'bd-grid').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickSize(-(W - m.l - m.r)).tickFormat(''));
+    svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).ticks(Math.max(2, Math.floor(W / 120))).tickFormat(bd.when));
+    svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickFormat((v) => `${v}%`));
+    svg.append('path').datum(pts).attr('fill', 'none').attr('stroke-width', 1.6).style('stroke', bd.C.neon).attr('d', d3.line().x((r) => x(r.t)).y((r) => y(r.p)));
+    svg.append('g').selectAll('circle').data(ops.filter((r) => r.b >= 15 || r.lado === 'venta')).join('circle')
+      .attr('cx', (r) => x(r.t)).attr('cy', (r) => y(r.p)).attr('r', (r) => Math.min(9, 2.5 + Math.sqrt(r.b) / 4))
+      .style('fill', (r) => (r.lado === 'compra' ? bd.C.green : bd.C.mag)).style('fill-opacity', 0.85);
+    const tip = d3.select(el).append('div').attr('class', 'bd-tip').style('display', 'none');
+    const bis = d3.bisector((r) => r.t).center;
+    svg.append('rect').attr('x', m.l).attr('y', m.t).attr('width', W - m.l - m.r).attr('height', H - m.t - m.b).style('fill', 'transparent')
+      .on('pointermove', (ev) => {
+        const [px] = d3.pointer(ev); const r = pts[bis(pts, x.invert(px))];
+        tip.style('display', null).html(''); tip.append('strong').text(bd.when(r.t)); tip.append('div').text(`Precio ${bd.dec1(r.p)}%`);
+        bd.tipPos(el, tip, (x(r.t) / W) * el.clientWidth);
+      })
+      .on('pointerleave', () => tip.style('display', 'none'));
+  };
+  dash.draw('vig-precio', (el) => priceChart(el, 'team-17', 'Vigilia'));
+  dash.draw('dueno-precio', (el) => priceChart(el, bd.sel, 'el equipo elegido'));
+
+  // barras horizontales genéricas
+  const hbars = (el, rows, opts) => {
+    el.replaceChildren();
+    const W = el.clientWidth || 600, bh = 26, m = { t: 6, r: opts.r || 132, b: 22, l: opts.l || 110 }, H = m.t + m.b + rows.length * bh;
+    const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', opts.aria);
+    const x = d3.scaleLinear().domain([0, Math.max(opts.min || 0, d3.max(rows, (r) => r.v))]).range([m.l, W - m.r]);
+    const y = d3.scaleBand().domain(rows.map((r) => r.k)).range([m.t, H - m.b]).padding(0.25);
+    svg.append('g').attr('class', 'bd-grid').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).ticks(5).tickSize(-(H - m.t - m.b)).tickFormat(''));
+    svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).ticks(5).tickFormat(opts.tick));
+    const g = svg.selectAll('g.bar').data(rows).join('g').attr('class', 'bar');
+    g.append('rect').attr('x', x(0)).attr('y', (r) => y(r.k)).attr('height', y.bandwidth()).attr('width', (r) => Math.max(1, x(r.v) - x(0))).style('fill', (r) => r.c);
+    g.append('text').attr('x', m.l - 8).attr('y', (r) => y(r.k) + y.bandwidth() / 2 + 4).attr('text-anchor', 'end').text((r) => r.name)
+      .style('fill', bd.C.neon).style('font-size', '12px').style('font-weight', (r) => (r.bold ? 800 : 400));
+    g.append('text').attr('x', (r) => x(r.v) + 6).attr('y', (r) => y(r.k) + y.bandwidth() / 2 + 4).text((r) => r.lab).style('fill', bd.C.soft).style('font-size', '11px');
+  };
+
+  dash.draw('pre-barras', (el) => {
+    const d = dash.data('duenos');
+    if (d.status !== 'ok' || !d.data.length) return bd.empty(el, d, 'la propiedad');
+    const rows = d.data.filter((r) => +r.pre_jplira2 > 0).sort((a, b) => +b.pre_pct - +a.pre_pct).slice(0, 16)
+      .map((r) => ({ k: r.equipo, v: +r.pre_pct, name: r.nombre, lab: `${bd.dec1(+r.pre_pct)}% · ${bd.int(+r.pre_jplira2)}`, c: r.finalista === 'sí' ? bd.C.neon : bd.C.olive, bold: r.equipo === 'team-17' }));
+    hbars(el, rows, { min: 50, tick: (v) => `${v}%`, aria: 'Porcentaje de cada equipo que tenía JPLira2 antes del corte, destacando los que pasaron a la final.' });
+  });
+
+  dash.draw('propiedad-barras', (el) => {
+    const d = dash.data('propiedad');
+    if (d.status !== 'ok' || !d.data.length) return bd.empty(el, d, 'la propiedad');
+    const rows = d.data.filter((r) => r.finalista === 'sí' && +r.acciones_cierre > 0).sort((a, b) => +b.pct_cierre - +a.pct_cierre)
+      .map((r) => ({ k: r.equipo, v: +r.pct_cierre, name: r.equipo === 'team-17' ? `★ ${r.nombre}` : r.nombre, lab: `${bd.dec1(+r.pct_cierre)}% · ${bd.int(+r.acciones_cierre)}`, c: r.resultado.startsWith('1°') ? bd.C.neon : bd.C.olive, bold: r.equipo === 'team-17' }));
+    hbars(el, rows, { min: 50, tick: (v) => `${v}%`, aria: 'Porcentaje de cada finalista que tenía JPLira2 al cierre.' });
+  });
+
+  // la carrera
+  dash.draw('carrera', (el) => {
+    const d = dash.data('ranking');
+    if (d.status !== 'ok' || !d.data.length) return bd.empty(el, d, 'el ranking');
+    const S = [['JPLira2', bd.C.neon], ['tomileonel', bd.C.mag], ['SimonOyaneder', bd.C.green]];
+    const rows = d.data.map((r) => ({ t: bd.chile(r.t), v: S.map(([k]) => bd.n(r[k])) }));
+    const paper = rows.slice(0, -1), last = rows[rows.length - 1], prev = paper[paper.length - 1];
+    el.replaceChildren();
+    const W = el.clientWidth || 600, H = 290, m = { t: 14, r: 112, b: 26, l: 44 };
+    const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img')
+      .attr('aria-label', 'Valor en papel de JPLira2, tomileonel y SimonOyaneder durante el mercado, con el salto final de JPLira2 al ganar Vigilia.');
+    const x = d3.scaleUtc().domain(d3.extent(rows, (r) => r.t)).range([m.l, W - m.r]);
+    const y = d3.scaleLinear().domain([0, d3.max(rows, (r) => d3.max(r.v)) * 1.05]).nice().range([H - m.b, m.t]);
+    svg.append('g').attr('class', 'bd-grid').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(5).tickSize(-(W - m.l - m.r)).tickFormat(''));
+    svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).ticks(Math.max(2, Math.floor(W / 120))).tickFormat(bd.when));
+    svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(5).tickFormat((v) => (v >= 1000 ? `${v / 1000}k` : v)));
+    S.slice().reverse().forEach(([k, c]) => {
+      const i = S.findIndex((s) => s[0] === k);
+      svg.append('path').datum(paper).attr('fill', 'none').attr('stroke-width', i === 0 ? 2.5 : 1.5).style('stroke', c)
+        .attr('d', d3.line().defined((r) => r.v[i] != null).x((r) => x(r.t)).y((r) => y(r.v[i])));
+    });
+    svg.append('path').attr('d', `M${x(prev.t)},${y(prev.v[0])}L${x(last.t)},${y(last.v[0])}`).attr('fill', 'none').attr('stroke-width', 2.5).attr('stroke-dasharray', '4 4').style('stroke', bd.C.neon);
+    svg.append('circle').attr('cx', x(last.t)).attr('cy', y(last.v[0])).attr('r', 6).style('fill', bd.C.neon);
+    const labs = [{ v: last.v[0], t: `${bd.int(last.v[0])} ★`, c: bd.C.neon, xx: x(last.t) },
+      { v: prev.v[1], t: bd.int(prev.v[1]), c: bd.C.mag, xx: x(prev.t) }, { v: prev.v[2], t: bd.int(prev.v[2]), c: bd.C.green, xx: x(prev.t) }]
+      .filter((e) => e.v != null).sort((a, b) => y(a.v) - y(b.v));
+    let ly = -Infinity;
+    labs.forEach((e) => { const yy = Math.max(y(e.v), ly + 14); ly = yy; svg.append('text').attr('x', e.xx + 9).attr('y', yy + 4).text(e.t).style('fill', e.c).style('font-size', '12px').style('font-weight', 800); });
+    const tip = d3.select(el).append('div').attr('class', 'bd-tip').style('display', 'none');
+    const guide = svg.append('line').attr('y1', m.t).attr('y2', H - m.b).style('stroke', bd.C.olive).style('display', 'none');
+    const bis = d3.bisector((r) => r.t).center;
+    svg.append('rect').attr('x', m.l).attr('y', m.t).attr('width', W - m.l - m.r).attr('height', H - m.t - m.b).style('fill', 'transparent')
+      .on('pointermove', (ev) => {
+        const [px] = d3.pointer(ev); const r = rows[bis(rows, x.invert(px))];
+        guide.attr('x1', x(r.t)).attr('x2', x(r.t)).style('display', null);
+        tip.style('display', null).html(''); tip.append('strong').text(r === last ? 'Resolución: ganó Vigilia' : bd.when(r.t));
+        S.forEach(([k], i) => { if (r.v[i] != null) tip.append('div').text(`${k}: ${bd.int(r.v[i])}`); });
+        bd.tipPos(el, tip, (x(r.t) / W) * el.clientWidth);
+      })
+      .on('pointerleave', () => { tip.style('display', 'none'); guide.style('display', 'none'); });
+  });
+
+  // rastreador
+  dash.draw('rastreo', (el) => {
+    const d = dash.data('rastreador');
+    if (d.status !== 'ok' || !d.data.length) return bd.empty(el, d, 'el rastreador');
+    const players = d3.rollups(d.data, (v) => v.length, (r) => r.jugador).sort((a, b) => b[1] - a[1]).map((p) => p[0]).slice(0, 3);
+    const rows = d.data.filter((r) => players.includes(r.jugador)).map((r) => ({ ...r, tt: bd.chile(r.t), b: +r.bananas }));
+    el.replaceChildren();
+    const W = el.clientWidth || 600, lane = 64, m = { t: 14, r: 16, b: 26, l: 112 }, H = m.t + m.b + players.length * lane;
+    const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img')
+      .attr('aria-label', 'Jugadas de cada rival detectadas por el rastreador; el tamaño indica las bananas.');
+    const x = d3.scaleUtc().domain(d3.extent(rows, (r) => r.tt)).nice().range([m.l, W - m.r]);
+    const y = d3.scaleBand().domain(players).range([m.t, H - m.b]).padding(0.1);
+    const rad = d3.scaleSqrt().domain([0, d3.max(rows, (r) => r.b)]).range([3, 22]);
+    svg.append('g').selectAll('line').data(players).join('line')
+      .attr('x1', m.l).attr('x2', W - m.r).attr('y1', (p) => y(p) + y.bandwidth() / 2).attr('y2', (p) => y(p) + y.bandwidth() / 2).style('stroke', 'rgba(242,255,0,.12)');
+    svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).ticks(Math.max(2, Math.floor(W / 120))).tickFormat(bd.when));
+    svg.append('g').selectAll('text').data(players).join('text').attr('x', m.l - 10).attr('y', (p) => y(p) + y.bandwidth() / 2 + 4).attr('text-anchor', 'end')
+      .text((p) => p).style('fill', bd.C.neon).style('font-size', '12px');
+    const tip = d3.select(el).append('div').attr('class', 'bd-tip').style('display', 'none');
+    svg.append('g').selectAll('circle').data(rows.sort((a, b) => b.b - a.b)).join('circle')
+      .attr('cx', (r) => x(r.tt)).attr('cy', (r) => y(r.jugador) + y.bandwidth() / 2).attr('r', (r) => rad(r.b))
+      .style('fill', (r) => (r.accion === 'compra' ? bd.C.neon : bd.C.mag)).style('fill-opacity', 0.55).style('stroke', (r) => (r.accion === 'compra' ? bd.C.neon : bd.C.mag))
+      .on('pointerenter', (ev, r) => {
+        tip.style('display', null).html('');
+        tip.append('strong').text(`${r.jugador} · ${bd.when(r.tt)}`);
+        tip.append('div').text(`${r.accion === 'compra' ? 'Compró' : 'Vendió'} ~${bd.int(r.b)} bananas`);
+        if (r.nombre_equipo) tip.append('div').text(`Probable: ${r.nombre_equipo} (${bd.int(+r.acciones)} acc.)`);
+        if (r.precio_antes) tip.append('div').text(`Precio ${r.precio_antes}% → ${r.precio_despues}%`);
+        bd.tipPos(el, tip, (x(r.tt) / W) * el.clientWidth);
+      })
+      .on('pointerleave', () => tip.style('display', 'none'));
+  });
+
+  dash.draw('rastreo-jugadores', (el) => {
+    const d = dash.data('rastreo_resumen');
+    el.replaceChildren();
+    if (d.status !== 'ok' || !d.data) { el.textContent = '—'; return; }
+    d.data.forEach((r, i) => {
+      const c = document.createElement('div'); c.className = 'bd-card on';
+      const k = document.createElement('span'); k.className = 'k'; k.textContent = 'Jugador seguido';
+      const t = document.createElement('span'); t.className = 't'; t.textContent = r.jugador;
+      const s = document.createElement('span'); s.className = 's';
+      const j = document.createElement('b'); j.textContent = bd.int(r.jugadas); j.dataset.source = 'rastreo_resumen'; j.dataset.field = 'jugadas'; j.dataset.row = String(i);
+      s.append(j, ` jugadas · compró ~${bd.int(r.compras)} · vendió ~${bd.int(r.ventas)}`);
+      c.append(k, t, s); el.append(c);
+    });
+  });
+
+  dash.draw('rastreo-feed', (el) => {
+    const d = dash.data('rastreador');
+    el.replaceChildren();
+    if (d.status !== 'ok') { el.textContent = '—'; return; }
+    const top3 = d3.rollups(d.data, (v) => v.length, (r) => r.jugador).sort((a, b) => b[1] - a[1]).map((p) => p[0]).slice(0, 3);
+    d.data.filter((r) => top3.includes(r.jugador)).sort((a, b) => +b.bananas - +a.bananas).slice(0, 8).forEach((r) => {
+      const row = document.createElement('div');
+      const a = document.createElement('span'); a.textContent = bd.when(bd.chile(r.t));
+      const b = document.createElement('span'); b.className = r.accion === 'compra' ? 'buy' : 'sell';
+      b.textContent = `${r.jugador} ${r.accion === 'compra' ? 'compró' : 'vendió'} ${r.nombre_equipo || 'equipo no identificado'}`;
+      const c = document.createElement('span'); c.textContent = `~${bd.int(+r.bananas)} 🍌`;
+      row.append(a, b, c); el.append(row);
+    });
+  });
+
+  // ganadores de track
+  dash.draw('tracks', (el) => {
+    const d = dash.data('duenos');
+    if (d.status !== 'ok' || !d.data.length) return bd.empty(el, d, 'los tracks');
+    el.replaceChildren();
+    d.data.filter((r) => r.resultado.startsWith('1°')).forEach((r) => {
+      const mine = r.cierre_dueno === 'JPLira2', win = r.equipo === 'team-17';
+      const c = document.createElement('div'); c.className = `bd-card${mine ? ' on' : ''}${win ? ' win' : ''}`;
+      const k = document.createElement('span'); k.className = 'k'; k.textContent = r.resultado.replace('1° ', '').replace(' · Ganador general', '');
+      const t = document.createElement('span'); t.className = 't'; t.textContent = r.nombre;
+      const s2 = document.createElement('span'); s2.className = 's'; s2.textContent = +r.cierre_jplira2 > 0 ? `${bd.int(+r.cierre_jplira2)} acc. de JPLira2 · ${bd.dec1(+r.cierre_pct)}%` : 'Sin acciones de JPLira2';
+      const p = document.createElement('span'); p.className = 'bd-pill';
+      p.textContent = win ? '★ Ganador general' : mine ? 'Escenario JPLira2' : `Escenario ${r.escenario || r.cierre_dueno}`;
+      c.append(k, t, s2, p); el.append(c);
+    });
+  });
+
+  // actividad por hora
+  dash.draw('actividad', (el) => {
+    const d = dash.data('actividad');
+    if (d.status !== 'ok' || !d.data || !d.data.length) return bd.empty(el, d, 'la actividad');
+    const rows = d.data.map((r) => ({ ...r, h: new Date(r.hora) }));
+    const keys = ['motor', 'vivo', 'guardian'], cols = [bd.C.neon, bd.C.mag, bd.C.green], names = { motor: 'Motor', vivo: 'En vivo', guardian: 'Guardián' };
+    el.replaceChildren();
+    const W = el.clientWidth || 600, H = 210, m = { t: 10, r: 8, b: 26, l: 36 };
+    const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', 'Operaciones por hora según quién las decidió.');
+    const x = d3.scaleBand().domain(rows.map((r) => r.hora)).range([m.l, W - m.r]).padding(0.15);
+    const y = d3.scaleLinear().domain([0, d3.max(rows, (r) => r.motor + r.vivo + r.guardian)]).nice().range([H - m.b, m.t]);
+    svg.append('g').attr('class', 'bd-grid').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickSize(-(W - m.l - m.r)).tickFormat(''));
+    svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4));
+    const every = Math.max(1, Math.ceil(rows.length / Math.max(2, Math.floor(W / 90))));
+    svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).tickValues(rows.filter((_, i) => i % every === 0).map((r) => r.hora)).tickFormat((k) => bd.when(new Date(k))));
+    d3.stack().keys(keys)(rows).forEach((s, i) => svg.append('g').selectAll('rect').data(s).join('rect')
+      .attr('x', (p) => x(p.data.hora)).attr('width', x.bandwidth()).attr('y', (p) => y(p[1])).attr('height', (p) => Math.max(0, y(p[0]) - y(p[1]))).style('fill', cols[i]));
+    const tip = d3.select(el).append('div').attr('class', 'bd-tip').style('display', 'none');
+    svg.append('g').selectAll('rect').data(rows).join('rect').attr('x', (r) => x(r.hora)).attr('width', x.bandwidth()).attr('y', m.t).attr('height', H - m.t - m.b).style('fill', 'transparent')
+      .on('pointermove', (ev, r) => {
+        tip.style('display', null).html(''); tip.append('strong').text(bd.when(r.h));
+        keys.forEach((k) => { if (r[k]) tip.append('div').text(`${names[k]}: ${bd.int(r[k])}`); });
+        bd.tipPos(el, tip, ((x(r.hora) + x.bandwidth()) / W) * el.clientWidth);
+      })
+      .on('pointerleave', () => tip.style('display', 'none'));
+  });
+
+  // ranking final
+  dash.draw('ranking-final', (el) => {
+    const d = dash.data('final');
+    if (d.status !== 'ok' || !d.data.length) return bd.empty(el, d, 'el ranking final');
+    const rows = d.data.map((r) => ({ p: +r.puesto, j: r.jugador, b: +r.bananas, v: +r.acciones_vigilia })).sort((a, b) => a.p - b.p);
+    el.replaceChildren();
+    const W = el.clientWidth || 600, bh = 24, m = { t: 4, r: 64, b: 4, l: 150 }, H = m.t + m.b + rows.length * bh;
+    const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', 'Bananas de los diez primeros al resolverse el mercado, separando acciones de Vigilia y efectivo.');
+    const x = d3.scaleLinear().domain([0, d3.max(rows, (r) => r.b)]).range([m.l, W - m.r]);
+    const y = d3.scaleBand().domain(rows.map((r) => r.p)).range([m.t, H - m.b]).padding(0.2);
+    const g = svg.selectAll('g').data(rows).join('g');
+    g.append('rect').attr('x', x(0)).attr('y', (r) => y(r.p)).attr('height', y.bandwidth()).attr('width', (r) => Math.max(1, x(r.b) - x(0))).style('fill', bd.C.olive);
+    g.append('rect').attr('x', x(0)).attr('y', (r) => y(r.p)).attr('height', y.bandwidth()).attr('width', (r) => x(r.v) - x(0)).style('fill', (r) => (r.p === 1 ? bd.C.neon : 'rgba(242,255,0,.55)'));
+    g.append('text').attr('x', m.l - 8).attr('y', (r) => y(r.p) + y.bandwidth() / 2 + 4).attr('text-anchor', 'end').text((r) => `${r.p}. ${r.j}`)
+      .style('fill', bd.C.neon).style('font-size', '12px').style('font-weight', (r) => (r.p === 1 ? 800 : 400));
+    g.append('text').attr('x', (r) => x(r.b) + 6).attr('y', (r) => y(r.p) + y.bandwidth() / 2 + 4).text((r) => bd.int(r.b)).style('fill', bd.C.soft).style('font-size', '11px');
+  });
+
+  // buscador
+  dash.draw('equipo-select', (sel) => {
+    const d = dash.data('duenos');
+    const rows = d.status === 'ok' ? [...d.data].sort((a, b) => a.nombre.localeCompare(b.nombre, 'es')) : [];
+    sel.replaceChildren(...rows.map((r) => new Option(`${r.nombre} · ${r.resultado}`, r.equipo)));
+    sel.value = bd.sel;
+    sel.onchange = () => { bd.sel = sel.value; dash.draw('dueno'); dash.draw('dueno-precio'); };
+  });
+
+  dash.draw('dueno', (el) => {
+    const d = dash.data('duenos');
+    if (d.status !== 'ok' || !d.data.length) return bd.empty(el, d, 'los dueños');
+    const r = d.data.find((x) => x.equipo === bd.sel) || d.data[0], v = bd.view;
+    el.replaceChildren();
+    const mk = (tag, cls, text, field) => {
+      const e = document.createElement(tag); if (cls) e.className = cls; e.textContent = text;
+      if (field) { e.dataset.source = 'duenos'; e.dataset.field = field; e.dataset.where = `equipo=${encodeURIComponent(r.equipo)}`; }
+      return e;
+    };
+    const bar = (pct, me) => { const b = document.createElement('div'); b.className = `bd-bar${me ? ' me' : ''}`; const i = document.createElement('i'); i.style.width = `${Math.min(100, pct)}%`; b.append(i); return b; };
+    el.append(mk('span', 'bd-kicker', `${r.nombre} · ${v === 'pre' ? 'antes del corte' : r.resultado}`));
+    el.append(mk('span', 'bd-kicker', 'Mayor dueño'));
+    el.append(mk('span', 'name', r[`${v}_dueno`], `${v}_dueno`));
+    if (+r[`${v}_dueno_acc`] > 0) {
+      const meta = mk('span', 'meta', '');
+      meta.append(mk('b', '', bd.int(+r[`${v}_dueno_acc`]), `${v}_dueno_acc`), ' acciones · ', mk('b', '', `${bd.dec1(+r[`${v}_dueno_pct`])}%`, `${v}_dueno_pct`),
+        ` del equipo · ${r[`${v}_dato`] === 'exacto' ? 'dato exacto' : 'estimado por el rastreador'}`);
+      el.append(meta, bar(+r[`${v}_dueno_pct`]));
+    }
+    if (r[`${v}_dueno`] !== 'JPLira2') {
+      const me = mk('span', 'meta', 'JPLira2: ');
+      me.append(mk('b', '', bd.int(+r[`${v}_jplira2`]), `${v}_jplira2`), ' acciones · ', mk('b', '', `${bd.dec1(+r[`${v}_pct`])}%`, `${v}_pct`));
+      el.append(me, bar(+r[`${v}_pct`], true));
+    }
+    const ot = r[`${v}_otros`];
+    if (ot) el.append(mk('span', 'meta', `También detectados: ${ot.replace(/ (\d+)/g, (_, q) => ` ${bd.int(+q)}`)}`));
+    if (v === 'pre' && r.finalista === 'no' && +r.recuperado_post > 0) {
+      const rc = mk('span', 'meta', 'Quedó fuera del corte. Recuperado al liquidar: '); rc.append(mk('b', '', `${bd.int(+r.recuperado_post)} 🍌`, 'recuperado_post')); el.append(rc);
+    }
+  });
+
+  // tablas
+  const tabla = (name, filter, sort, cells) => dash.draw(name, (tb) => {
+    const d = dash.data('duenos');
+    tb.replaceChildren();
+    if (d.status !== 'ok') return;
+    d.data.filter(filter).sort(sort).forEach((r) => {
+      const tr = document.createElement('tr'); tr.dataset.key = r.equipo;
+      cells(r).forEach((v) => { const td = document.createElement('td'); td.textContent = v; tr.append(td); });
+      tb.append(tr);
+    });
+  });
+  const acc = (v) => (+v ? bd.int(+v) : '—');
+  tabla('tabla-pre', () => true, (a, b) => +b.pre_jplira2 - +a.pre_jplira2 || a.nombre.localeCompare(b.nombre, 'es'),
+    (r) => [r.nombre, r.finalista, r.pre_dueno, acc(r.pre_dueno_acc), acc(r.pre_jplira2), `${bd.dec1(+r.pre_pct)}%`]);
+  tabla('tabla-fin', (r) => r.finalista === 'sí', (a, b) => +b.cierre_jplira2 - +a.cierre_jplira2 || a.nombre.localeCompare(b.nombre, 'es'),
+    (r) => [r.nombre, r.resultado, r.cierre_dueno, acc(r.cierre_dueno_acc), acc(r.cierre_jplira2), `${bd.dec1(+r.cierre_pct)}%`]);
+  tabla('tabla-fuera', (r) => r.finalista === 'no', (a, b) => +b.recuperado_post - +a.recuperado_post || +b.pre_jplira2 - +a.pre_jplira2,
+    (r) => [r.nombre, r.pre_dueno, acc(r.pre_jplira2), `${bd.dec1(+r.pre_pct)}%`, acc(r.recuperado_post)]);
+</script>
+</body>
+</html>
